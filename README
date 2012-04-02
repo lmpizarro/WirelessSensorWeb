@@ -2,6 +2,9 @@ Por ahora solo el comienzo de algunas ideas para
 un sistema de redes de sensores inalámbricos
 
 Sensores inalámbricos en campo basado en microcontroladores
+Cada sensor además del elemento de sensado, tiene un transceiver (transmisor/receptor) de
+rf, en la banda de 433 Mhz.
+
 
 Gateway de datos de sensores a redes TCP/IP en Arduino
 
@@ -9,4 +12,24 @@ Pase de mensajes con http
 
 El Arduino tiene una shield ethernet basado en ENC28J60
 El Arduino tiene un transceiver (transmisor/receptor de rf) en la banda de 433 Mhz 
+
+
+Antecedentes/Inspiraciones
+
+RemoteSensor - Wireless Data Acquisition
+http://www.obdev.at/products/vusb/remotesensor.html
+
+
+Arduino is an open-source electronics prototyping platform based on flexible, easy-to-use hardware and software.
+http://www.arduino.cc/
+
+
+Arduino Ethernet Shield V1.0 is dedicated for the Arduino boards. 
+It uses the Microchip's ENC28J60 SPI based stand-alone Ethernet controller
+http://www.nuelectronics.com/estore/index.php?main_page=project_eth
+
+
+AVR ethernet / web server
+http://tuxgraphics.org/electronics/
+
 
