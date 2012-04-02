@@ -1,2 +1,12 @@
 Por ahora solo el comienzo de algunas ideas para
 un sistema de redes de sensores inalámbricos
+
+Sensores inalámbricos en campo basado en microcontroladores
+
+Gateway de datos de sensores a redes TCP/IP en Arduino
+
+Pase de mensajes con http
+
+El Arduino tiene una shield ethernet basado en ENC28J60
+El Arduino tiene un transceiver (transmisor/receptor de rf) en la banda de 433 Mhz 
+
