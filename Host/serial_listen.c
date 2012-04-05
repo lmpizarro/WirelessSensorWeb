@@ -21,16 +21,13 @@ int main(int argc, char **argv)
 {
 	char buf[64];
 	int port,k;
-	long n, sum=0, dotcount=0;
+	int n, sum=0, mciclos = 0;
 	struct termios settings;
+        char countChars;
 
 	if (argc < 2) {
 		fprintf(stderr, "Usage:   serial_listen <port>\n");
-		#if #system(linux)
 		fprintf(stderr, "Example: serial_listen /dev/ttyACM0\n");
-		#else
-		fprintf(stderr, "Example: serial_listen /dev/cu.usbmodem12341\n");
-		#endif
 		return 1;
 	}
 
@@ -50,20 +47,40 @@ int main(int argc, char **argv)
 
 	// Read data until we get a see the end string or get an error
 	printf("Reading from %s\n", argv[1]);
+        countChars = 0;
 	while (1) {
                 sleep(2);
 		n = read(port, buf, 64);
-                if (n>0)
+                if (n>0){ // Hay datos en el buffer
                    printf ("<-- %d -->   ",n);
-                   for (k=0; k < n; k++)
+                   for (k=0; k < n; k++){
+                       if (buf[k] == ':'){
+                          countChars = 0;
+                          printf ("Comienzo\n");
+                       } else {
+                               // fin de mensaje 0x0A, anterior 0x0D
+                                if (buf[k]!= 0x0A){
+                                  countChars = countChars + 1;
+                                }else{
+                                     if (countChars != 20)
+                                        printf("Error mensaje \n");
+                                     else
+                                        printf ("fin %d \n", countChars);
+                                   countChars = 0;
+                                }
+                       }
+                                   
                        printf ("%c",buf[k]);
-                //   printf ("\n");
-                         
+                   }
+                }else { // no hay datos en el buffer
+                  mciclos = mciclos + 1;
+                  if (mciclos > 50)
+                    printf ("Bus sin actividad: \n");
+                }
 	}
 
 	close(port);
-	printf("Total bytes read: %ld\n", sum);
-	printf("Speed %.2f kbytes/sec\n", sum / 10000.0);
+	printf("Total bytes read: %d\n", sum);
 	return 0;
 }
 
