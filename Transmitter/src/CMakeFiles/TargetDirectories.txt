@@ -1,0 +1,5 @@
+/home/lpizarro/sketchbook/Transmitter/src/src/CMakeFiles/Transmitter.dir
+/home/lpizarro/sketchbook/Transmitter/src/src/CMakeFiles/Transmitter-upload.dir
+/home/lpizarro/sketchbook/Transmitter/src/src/CMakeFiles/uno_CORE.dir
+/home/lpizarro/sketchbook/Transmitter/src/src/CMakeFiles/uno_SoftwareSerial.dir
+/home/lpizarro/sketchbook/Transmitter/src/src/CMakeFiles/{FIRMWARE_NAME}_lib.dir

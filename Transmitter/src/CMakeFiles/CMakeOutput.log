@@ -1,0 +1,195 @@
+The target system is: Arduino -  - 
+The host system is: Linux - 3.2.0-2-486 - i686
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/avr-gcc 
+Build flags: -g;-Os;;;;;;;-ffunction-sections;-fdata-sections
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/lpizarro/sketchbook/Transmitter/src/CMakeFiles/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/avr-g++ 
+Build flags: -g;-Os;;;;;;;-ffunction-sections;-fdata-sections;-fno-exceptions
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/lpizarro/sketchbook/Transmitter/src/CMakeFiles/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/lpizarro/sketchbook/Transmitter/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/lpizarro/sketchbook/Transmitter/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/lpizarro/sketchbook/Transmitter/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/testCCompiler.c.obj
+/usr/bin/avr-gcc   -g -Os       -ffunction-sections -fdata-sections     -o CMakeFiles/cmTryCompileExec.dir/testCCompiler.c.obj   -c /home/lpizarro/sketchbook/Transmitter/src/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/usr/bin/avr-gcc   -g -Os       -ffunction-sections -fdata-sections    -Wl,--gc-sections CMakeFiles/cmTryCompileExec.dir/testCCompiler.c.obj  -o cmTryCompileExec  
+make[1]: Leaving directory `/home/lpizarro/sketchbook/Transmitter/src/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/lpizarro/sketchbook/Transmitter/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/lpizarro/sketchbook/Transmitter/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/lpizarro/sketchbook/Transmitter/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.obj
+/usr/bin/avr-gcc   -g -Os       -ffunction-sections -fdata-sections     -o CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.obj   -c /usr/share/cmake-2.8/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/usr/bin/avr-gcc   -g -Os       -ffunction-sections -fdata-sections    -v CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.obj  -o cmTryCompileExec   
+Using built-in specs.
+COLLECT_GCC=/usr/bin/avr-gcc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/avr/4.5.3/lto-wrapper
+Target: avr
+Configured with: ../src/configure -v --enable-languages=c,c++ --prefix=/usr/lib --infodir=/usr/share/info --mandir=/usr/share/man --bindir=/usr/bin --libexecdir=/usr/lib --libdir=/usr/lib --enable-shared --with-system-zlib --enable-long-long --enable-nls --without-included-gettext --disable-libssp --build=i486-linux-gnu --host=i486-linux-gnu --target=avr
+Thread model: single
+gcc version 4.5.3 (GCC) 
+COMPILER_PATH=/usr/lib/gcc/avr/4.5.3/:/usr/lib/gcc/avr/4.5.3/:/usr/lib/gcc/avr/:/usr/lib/gcc/avr/4.5.3/:/usr/lib/gcc/avr/:/usr/lib/gcc/avr/4.5.3/../../../avr/bin/
+LIBRARY_PATH=/usr/lib/gcc/avr/4.5.3/:/usr/lib/gcc/avr/4.5.3/../../../avr/lib/
+COLLECT_GCC_OPTIONS='-g' '-Os' '-ffunction-sections' '-fdata-sections' '-v' '-o' 'cmTryCompileExec'
+ /usr/lib/gcc/avr/4.5.3/collect2 -o cmTryCompileExec -L/usr/lib/gcc/avr/4.5.3 -L/usr/lib/gcc/avr/4.5.3/../../../avr/lib CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.obj -lgcc -lc -lgcc
+make[1]: Leaving directory `/home/lpizarro/sketchbook/Transmitter/src/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(avr-ld|ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/lpizarro/sketchbook/Transmitter/src/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build]
+  ignore line: [make[1]: Entering directory `/home/lpizarro/sketchbook/Transmitter/src/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/lpizarro/sketchbook/Transmitter/src/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [/usr/bin/avr-gcc   -g -Os       -ffunction-sections -fdata-sections     -o CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.obj   -c /usr/share/cmake-2.8/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/avr-gcc   -g -Os       -ffunction-sections -fdata-sections    -v CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.obj  -o cmTryCompileExec   ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/avr-gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/avr/4.5.3/lto-wrapper]
+  ignore line: [Target: avr]
+  ignore line: [Configured with: ../src/configure -v --enable-languages=c,c++ --prefix=/usr/lib --infodir=/usr/share/info --mandir=/usr/share/man --bindir=/usr/bin --libexecdir=/usr/lib --libdir=/usr/lib --enable-shared --with-system-zlib --enable-long-long --enable-nls --without-included-gettext --disable-libssp --build=i486-linux-gnu --host=i486-linux-gnu --target=avr]
+  ignore line: [Thread model: single]
+  ignore line: [gcc version 4.5.3 (GCC) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/avr/4.5.3/:/usr/lib/gcc/avr/4.5.3/:/usr/lib/gcc/avr/:/usr/lib/gcc/avr/4.5.3/:/usr/lib/gcc/avr/:/usr/lib/gcc/avr/4.5.3/../../../avr/bin/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/avr/4.5.3/:/usr/lib/gcc/avr/4.5.3/../../../avr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-g' '-Os' '-ffunction-sections' '-fdata-sections' '-v' '-o' 'cmTryCompileExec']
+  link line: [ /usr/lib/gcc/avr/4.5.3/collect2 -o cmTryCompileExec -L/usr/lib/gcc/avr/4.5.3 -L/usr/lib/gcc/avr/4.5.3/../../../avr/lib CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.obj -lgcc -lc -lgcc]
+    arg [/usr/lib/gcc/avr/4.5.3/collect2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec] ==> ignore
+    arg [-L/usr/lib/gcc/avr/4.5.3] ==> dir [/usr/lib/gcc/avr/4.5.3]
+    arg [-L/usr/lib/gcc/avr/4.5.3/../../../avr/lib] ==> dir [/usr/lib/gcc/avr/4.5.3/../../../avr/lib]
+    arg [CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.obj] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+  remove lib [gcc]
+  remove lib [gcc]
+  collapse dir [/usr/lib/gcc/avr/4.5.3] ==> [/usr/lib/gcc/avr/4.5.3]
+  collapse dir [/usr/lib/gcc/avr/4.5.3/../../../avr/lib] ==> [/usr/lib/avr/lib]
+  implicit libs: [c]
+  implicit dirs: [/usr/lib/gcc/avr/4.5.3;/usr/lib/avr/lib]
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/lpizarro/sketchbook/Transmitter/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/lpizarro/sketchbook/Transmitter/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/lpizarro/sketchbook/Transmitter/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec.dir/testCXXCompiler.cxx.obj
+/usr/bin/avr-g++    -g -Os       -ffunction-sections -fdata-sections -fno-exceptions     -o CMakeFiles/cmTryCompileExec.dir/testCXXCompiler.cxx.obj -c /home/lpizarro/sketchbook/Transmitter/src/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/usr/bin/avr-g++    -g -Os       -ffunction-sections -fdata-sections -fno-exceptions    -Wl,--gc-sections CMakeFiles/cmTryCompileExec.dir/testCXXCompiler.cxx.obj  -o cmTryCompileExec  
+make[1]: Leaving directory `/home/lpizarro/sketchbook/Transmitter/src/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/lpizarro/sketchbook/Transmitter/src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/lpizarro/sketchbook/Transmitter/src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/lpizarro/sketchbook/Transmitter/src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec.dir/CMakeCXXCompilerABI.cpp.obj
+/usr/bin/avr-g++    -g -Os       -ffunction-sections -fdata-sections -fno-exceptions     -o CMakeFiles/cmTryCompileExec.dir/CMakeCXXCompilerABI.cpp.obj -c /usr/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/usr/bin/avr-g++    -g -Os       -ffunction-sections -fdata-sections -fno-exceptions    -v CMakeFiles/cmTryCompileExec.dir/CMakeCXXCompilerABI.cpp.obj  -o cmTryCompileExec   
+Using built-in specs.
+COLLECT_GCC=/usr/bin/avr-g++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/avr/4.5.3/lto-wrapper
+Target: avr
+Configured with: ../src/configure -v --enable-languages=c,c++ --prefix=/usr/lib --infodir=/usr/share/info --mandir=/usr/share/man --bindir=/usr/bin --libexecdir=/usr/lib --libdir=/usr/lib --enable-shared --with-system-zlib --enable-long-long --enable-nls --without-included-gettext --disable-libssp --build=i486-linux-gnu --host=i486-linux-gnu --target=avr
+Thread model: single
+gcc version 4.5.3 (GCC) 
+COMPILER_PATH=/usr/lib/gcc/avr/4.5.3/:/usr/lib/gcc/avr/4.5.3/:/usr/lib/gcc/avr/:/usr/lib/gcc/avr/4.5.3/:/usr/lib/gcc/avr/:/usr/lib/gcc/avr/4.5.3/../../../avr/bin/
+LIBRARY_PATH=/usr/lib/gcc/avr/4.5.3/:/usr/lib/gcc/avr/4.5.3/../../../avr/lib/
+COLLECT_GCC_OPTIONS='-g' '-Os' '-ffunction-sections' '-fdata-sections' '-fno-exceptions' '-v' '-o' 'cmTryCompileExec'
+ /usr/lib/gcc/avr/4.5.3/collect2 -o cmTryCompileExec -L/usr/lib/gcc/avr/4.5.3 -L/usr/lib/gcc/avr/4.5.3/../../../avr/lib CMakeFiles/cmTryCompileExec.dir/CMakeCXXCompilerABI.cpp.obj -lgcc -lm -lgcc -lc -lgcc
+make[1]: Leaving directory `/home/lpizarro/sketchbook/Transmitter/src/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(avr-ld|ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/lpizarro/sketchbook/Transmitter/src/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build]
+  ignore line: [make[1]: Entering directory `/home/lpizarro/sketchbook/Transmitter/src/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/lpizarro/sketchbook/Transmitter/src/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [/usr/bin/avr-g++    -g -Os       -ffunction-sections -fdata-sections -fno-exceptions     -o CMakeFiles/cmTryCompileExec.dir/CMakeCXXCompilerABI.cpp.obj -c /usr/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTryCompileExec]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/avr-g++    -g -Os       -ffunction-sections -fdata-sections -fno-exceptions    -v CMakeFiles/cmTryCompileExec.dir/CMakeCXXCompilerABI.cpp.obj  -o cmTryCompileExec   ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/avr-g++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/avr/4.5.3/lto-wrapper]
+  ignore line: [Target: avr]
+  ignore line: [Configured with: ../src/configure -v --enable-languages=c,c++ --prefix=/usr/lib --infodir=/usr/share/info --mandir=/usr/share/man --bindir=/usr/bin --libexecdir=/usr/lib --libdir=/usr/lib --enable-shared --with-system-zlib --enable-long-long --enable-nls --without-included-gettext --disable-libssp --build=i486-linux-gnu --host=i486-linux-gnu --target=avr]
+  ignore line: [Thread model: single]
+  ignore line: [gcc version 4.5.3 (GCC) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/avr/4.5.3/:/usr/lib/gcc/avr/4.5.3/:/usr/lib/gcc/avr/:/usr/lib/gcc/avr/4.5.3/:/usr/lib/gcc/avr/:/usr/lib/gcc/avr/4.5.3/../../../avr/bin/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/avr/4.5.3/:/usr/lib/gcc/avr/4.5.3/../../../avr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-g' '-Os' '-ffunction-sections' '-fdata-sections' '-fno-exceptions' '-v' '-o' 'cmTryCompileExec']
+  link line: [ /usr/lib/gcc/avr/4.5.3/collect2 -o cmTryCompileExec -L/usr/lib/gcc/avr/4.5.3 -L/usr/lib/gcc/avr/4.5.3/../../../avr/lib CMakeFiles/cmTryCompileExec.dir/CMakeCXXCompilerABI.cpp.obj -lgcc -lm -lgcc -lc -lgcc]
+    arg [/usr/lib/gcc/avr/4.5.3/collect2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec] ==> ignore
+    arg [-L/usr/lib/gcc/avr/4.5.3] ==> dir [/usr/lib/gcc/avr/4.5.3]
+    arg [-L/usr/lib/gcc/avr/4.5.3/../../../avr/lib] ==> dir [/usr/lib/gcc/avr/4.5.3/../../../avr/lib]
+    arg [CMakeFiles/cmTryCompileExec.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+  remove lib [gcc]
+  remove lib [gcc]
+  remove lib [gcc]
+  collapse dir [/usr/lib/gcc/avr/4.5.3] ==> [/usr/lib/gcc/avr/4.5.3]
+  collapse dir [/usr/lib/gcc/avr/4.5.3/../../../avr/lib] ==> [/usr/lib/avr/lib]
+  implicit libs: [m;c]
+  implicit dirs: [/usr/lib/gcc/avr/4.5.3;/usr/lib/avr/lib]
+
+

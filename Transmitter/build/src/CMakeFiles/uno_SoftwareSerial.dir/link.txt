@@ -1,0 +1,2 @@
+/usr/bin/avr-ar cr libuno_SoftwareSerial.a  CMakeFiles/uno_SoftwareSerial.dir/usr/share/arduino/libraries/SoftwareSerial/SoftwareSerial.cpp.obj
+/usr/bin/avr-ranlib libuno_SoftwareSerial.a

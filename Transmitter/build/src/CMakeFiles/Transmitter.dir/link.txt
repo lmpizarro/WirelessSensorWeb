@@ -1,0 +1,1 @@
+/usr/bin/avr-g++   -g -Os       -ffunction-sections -fdata-sections -fno-exceptions  -Wl,--gc-sections    -mmcu=atmega328p CMakeFiles/Transmitter.dir/Transmitter.cpp.obj  -o Transmitter.elf  libuno_SoftwareSerial.a libuno_CORE.a 
