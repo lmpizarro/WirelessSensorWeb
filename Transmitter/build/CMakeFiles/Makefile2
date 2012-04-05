@@ -44,10 +44,10 @@ CMAKE_COMMAND = /usr/bin/cmake
 RM = /usr/bin/cmake -E remove -f
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lmpizarro/sketchbook/Transmitter
+CMAKE_SOURCE_DIR = /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lmpizarro/sketchbook/Transmitter/build
+CMAKE_BINARY_DIR = /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build
 
 #=============================================================================
 # Directory level rules for directory src
@@ -77,7 +77,7 @@ src/CMakeFiles/Transmitter.dir/all: src/CMakeFiles/uno_SoftwareSerial.dir/all
 src/CMakeFiles/Transmitter.dir/all: src/CMakeFiles/uno_CORE.dir/all
 	$(MAKE) -f src/CMakeFiles/Transmitter.dir/build.make src/CMakeFiles/Transmitter.dir/depend
 	$(MAKE) -f src/CMakeFiles/Transmitter.dir/build.make src/CMakeFiles/Transmitter.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/lmpizarro/sketchbook/Transmitter/build/CMakeFiles  1
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/CMakeFiles  1
 	@echo "Built target Transmitter"
 .PHONY : src/CMakeFiles/Transmitter.dir/all
 
@@ -87,9 +87,9 @@ all: src/CMakeFiles/Transmitter.dir/all
 
 # Build rule for subdir invocation for target.
 src/CMakeFiles/Transmitter.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lmpizarro/sketchbook/Transmitter/build/CMakeFiles 20
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/CMakeFiles 20
 	$(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/Transmitter.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lmpizarro/sketchbook/Transmitter/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/CMakeFiles 0
 .PHONY : src/CMakeFiles/Transmitter.dir/rule
 
 # Convenience name for target.
@@ -112,15 +112,15 @@ clean: src/CMakeFiles/Transmitter.dir/clean
 src/CMakeFiles/Transmitter-upload.dir/all: src/CMakeFiles/Transmitter.dir/all
 	$(MAKE) -f src/CMakeFiles/Transmitter-upload.dir/build.make src/CMakeFiles/Transmitter-upload.dir/depend
 	$(MAKE) -f src/CMakeFiles/Transmitter-upload.dir/build.make src/CMakeFiles/Transmitter-upload.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/lmpizarro/sketchbook/Transmitter/build/CMakeFiles 
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/CMakeFiles 
 	@echo "Built target Transmitter-upload"
 .PHONY : src/CMakeFiles/Transmitter-upload.dir/all
 
 # Build rule for subdir invocation for target.
 src/CMakeFiles/Transmitter-upload.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lmpizarro/sketchbook/Transmitter/build/CMakeFiles 20
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/CMakeFiles 20
 	$(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/Transmitter-upload.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lmpizarro/sketchbook/Transmitter/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/CMakeFiles 0
 .PHONY : src/CMakeFiles/Transmitter-upload.dir/rule
 
 # Convenience name for target.
@@ -143,7 +143,7 @@ clean: src/CMakeFiles/Transmitter-upload.dir/clean
 src/CMakeFiles/uno_CORE.dir/all:
 	$(MAKE) -f src/CMakeFiles/uno_CORE.dir/build.make src/CMakeFiles/uno_CORE.dir/depend
 	$(MAKE) -f src/CMakeFiles/uno_CORE.dir/build.make src/CMakeFiles/uno_CORE.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/lmpizarro/sketchbook/Transmitter/build/CMakeFiles  2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/CMakeFiles  2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19
 	@echo "Built target uno_CORE"
 .PHONY : src/CMakeFiles/uno_CORE.dir/all
 
@@ -153,9 +153,9 @@ all: src/CMakeFiles/uno_CORE.dir/all
 
 # Build rule for subdir invocation for target.
 src/CMakeFiles/uno_CORE.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lmpizarro/sketchbook/Transmitter/build/CMakeFiles 18
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/CMakeFiles 18
 	$(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/uno_CORE.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lmpizarro/sketchbook/Transmitter/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/CMakeFiles 0
 .PHONY : src/CMakeFiles/uno_CORE.dir/rule
 
 # Convenience name for target.
@@ -178,7 +178,7 @@ clean: src/CMakeFiles/uno_CORE.dir/clean
 src/CMakeFiles/uno_SoftwareSerial.dir/all: src/CMakeFiles/uno_CORE.dir/all
 	$(MAKE) -f src/CMakeFiles/uno_SoftwareSerial.dir/build.make src/CMakeFiles/uno_SoftwareSerial.dir/depend
 	$(MAKE) -f src/CMakeFiles/uno_SoftwareSerial.dir/build.make src/CMakeFiles/uno_SoftwareSerial.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/lmpizarro/sketchbook/Transmitter/build/CMakeFiles  20
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/CMakeFiles  20
 	@echo "Built target uno_SoftwareSerial"
 .PHONY : src/CMakeFiles/uno_SoftwareSerial.dir/all
 
@@ -188,9 +188,9 @@ all: src/CMakeFiles/uno_SoftwareSerial.dir/all
 
 # Build rule for subdir invocation for target.
 src/CMakeFiles/uno_SoftwareSerial.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lmpizarro/sketchbook/Transmitter/build/CMakeFiles 19
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/CMakeFiles 19
 	$(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/uno_SoftwareSerial.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lmpizarro/sketchbook/Transmitter/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/CMakeFiles 0
 .PHONY : src/CMakeFiles/uno_SoftwareSerial.dir/rule
 
 # Convenience name for target.

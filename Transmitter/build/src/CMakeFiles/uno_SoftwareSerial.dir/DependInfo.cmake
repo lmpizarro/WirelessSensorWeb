@@ -4,7 +4,7 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/usr/share/arduino/libraries/SoftwareSerial/SoftwareSerial.cpp" "/home/lmpizarro/sketchbook/Transmitter/build/src/CMakeFiles/uno_SoftwareSerial.dir/usr/share/arduino/libraries/SoftwareSerial/SoftwareSerial.cpp.obj"
+  "/usr/share/arduino/libraries/SoftwareSerial/SoftwareSerial.cpp" "/home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/src/CMakeFiles/uno_SoftwareSerial.dir/usr/share/arduino/libraries/SoftwareSerial/SoftwareSerial.cpp.obj"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -16,5 +16,5 @@ SET(CMAKE_TARGET_DEFINITIONS
 
 # Targets to which this target links.
 SET(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/lmpizarro/sketchbook/Transmitter/build/src/CMakeFiles/uno_CORE.dir/DependInfo.cmake"
+  "/home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/src/CMakeFiles/uno_CORE.dir/DependInfo.cmake"
   )

@@ -1,23 +1,18 @@
 #include <Arduino.h>
 #include <SoftwareSerial.h>
 
-#include "message.h"
-#include "message.cpp"
-
-
-#include "analogInput.h"
-#include "analogInput.cpp"
-
+#include "Message.cpp"
 
 #include "dht11.h"
 #include "dht11.cpp"
 
-
 #define analogPinSeed   0
+#define analogPin   1
 
 //SoftwareSerial mySerial(2, 3);
 
 dht11 DHT11;
+Message msg = Message ();
 
 #define DHT11PIN 4
 
@@ -38,16 +33,16 @@ void setup()
 
 void loop() // run over and over
 {
-   long randNumber;
+    long randNumber;
    
     int chk = DHT11.read(DHT11PIN);
 
    // Adquire el valor del registro
-   readAI ();
    // Arma el mensaje
-   buildTxMsg();
+   msg.buildTxMsg(254,analogRead(analogPin));
+   
   // Envia el mensaje
-   Serial.write(buffer,21);
+   Serial.write(msg.buffer,21);
 
 
    //

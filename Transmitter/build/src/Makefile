@@ -36,10 +36,10 @@ CMAKE_COMMAND = /usr/bin/cmake
 RM = /usr/bin/cmake -E remove -f
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lmpizarro/sketchbook/Transmitter
+CMAKE_SOURCE_DIR = /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lmpizarro/sketchbook/Transmitter/build
+CMAKE_BINARY_DIR = /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -66,14 +66,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/lmpizarro/sketchbook/Transmitter/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/lmpizarro/sketchbook/Transmitter/build/CMakeFiles /home/lmpizarro/sketchbook/Transmitter/build/src/CMakeFiles/progress.marks
-	cd /home/lmpizarro/sketchbook/Transmitter/build && $(MAKE) -f CMakeFiles/Makefile2 src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lmpizarro/sketchbook/Transmitter/build/CMakeFiles 0
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/CMakeFiles /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/src/CMakeFiles/progress.marks
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build && $(MAKE) -f CMakeFiles/Makefile2 src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/lmpizarro/sketchbook/Transmitter/build && $(MAKE) -f CMakeFiles/Makefile2 src/clean
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build && $(MAKE) -f CMakeFiles/Makefile2 src/clean
 .PHONY : clean
 
 # The main clean target
@@ -82,22 +82,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/lmpizarro/sketchbook/Transmitter/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/lmpizarro/sketchbook/Transmitter/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/lmpizarro/sketchbook/Transmitter/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/CMakeFiles/Transmitter.dir/rule:
-	cd /home/lmpizarro/sketchbook/Transmitter/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/Transmitter.dir/rule
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/Transmitter.dir/rule
 .PHONY : src/CMakeFiles/Transmitter.dir/rule
 
 # Convenience name for target.
@@ -106,12 +106,12 @@ Transmitter: src/CMakeFiles/Transmitter.dir/rule
 
 # fast build rule for target.
 Transmitter/fast:
-	cd /home/lmpizarro/sketchbook/Transmitter/build && $(MAKE) -f src/CMakeFiles/Transmitter.dir/build.make src/CMakeFiles/Transmitter.dir/build
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build && $(MAKE) -f src/CMakeFiles/Transmitter.dir/build.make src/CMakeFiles/Transmitter.dir/build
 .PHONY : Transmitter/fast
 
 # Convenience name for target.
 src/CMakeFiles/Transmitter-upload.dir/rule:
-	cd /home/lmpizarro/sketchbook/Transmitter/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/Transmitter-upload.dir/rule
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/Transmitter-upload.dir/rule
 .PHONY : src/CMakeFiles/Transmitter-upload.dir/rule
 
 # Convenience name for target.
@@ -120,12 +120,12 @@ Transmitter-upload: src/CMakeFiles/Transmitter-upload.dir/rule
 
 # fast build rule for target.
 Transmitter-upload/fast:
-	cd /home/lmpizarro/sketchbook/Transmitter/build && $(MAKE) -f src/CMakeFiles/Transmitter-upload.dir/build.make src/CMakeFiles/Transmitter-upload.dir/build
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build && $(MAKE) -f src/CMakeFiles/Transmitter-upload.dir/build.make src/CMakeFiles/Transmitter-upload.dir/build
 .PHONY : Transmitter-upload/fast
 
 # Convenience name for target.
 src/CMakeFiles/uno_CORE.dir/rule:
-	cd /home/lmpizarro/sketchbook/Transmitter/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/uno_CORE.dir/rule
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/uno_CORE.dir/rule
 .PHONY : src/CMakeFiles/uno_CORE.dir/rule
 
 # Convenience name for target.
@@ -134,12 +134,12 @@ uno_CORE: src/CMakeFiles/uno_CORE.dir/rule
 
 # fast build rule for target.
 uno_CORE/fast:
-	cd /home/lmpizarro/sketchbook/Transmitter/build && $(MAKE) -f src/CMakeFiles/uno_CORE.dir/build.make src/CMakeFiles/uno_CORE.dir/build
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build && $(MAKE) -f src/CMakeFiles/uno_CORE.dir/build.make src/CMakeFiles/uno_CORE.dir/build
 .PHONY : uno_CORE/fast
 
 # Convenience name for target.
 src/CMakeFiles/uno_SoftwareSerial.dir/rule:
-	cd /home/lmpizarro/sketchbook/Transmitter/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/uno_SoftwareSerial.dir/rule
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/uno_SoftwareSerial.dir/rule
 .PHONY : src/CMakeFiles/uno_SoftwareSerial.dir/rule
 
 # Convenience name for target.
@@ -148,7 +148,7 @@ uno_SoftwareSerial: src/CMakeFiles/uno_SoftwareSerial.dir/rule
 
 # fast build rule for target.
 uno_SoftwareSerial/fast:
-	cd /home/lmpizarro/sketchbook/Transmitter/build && $(MAKE) -f src/CMakeFiles/uno_SoftwareSerial.dir/build.make src/CMakeFiles/uno_SoftwareSerial.dir/build
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build && $(MAKE) -f src/CMakeFiles/uno_SoftwareSerial.dir/build.make src/CMakeFiles/uno_SoftwareSerial.dir/build
 .PHONY : uno_SoftwareSerial/fast
 
 Transmitter.obj: Transmitter.cpp.obj
@@ -156,7 +156,7 @@ Transmitter.obj: Transmitter.cpp.obj
 
 # target to build an object file
 Transmitter.cpp.obj:
-	cd /home/lmpizarro/sketchbook/Transmitter/build && $(MAKE) -f src/CMakeFiles/Transmitter.dir/build.make src/CMakeFiles/Transmitter.dir/Transmitter.cpp.obj
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build && $(MAKE) -f src/CMakeFiles/Transmitter.dir/build.make src/CMakeFiles/Transmitter.dir/Transmitter.cpp.obj
 .PHONY : Transmitter.cpp.obj
 
 Transmitter.i: Transmitter.cpp.i
@@ -164,7 +164,7 @@ Transmitter.i: Transmitter.cpp.i
 
 # target to preprocess a source file
 Transmitter.cpp.i:
-	cd /home/lmpizarro/sketchbook/Transmitter/build && $(MAKE) -f src/CMakeFiles/Transmitter.dir/build.make src/CMakeFiles/Transmitter.dir/Transmitter.cpp.i
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build && $(MAKE) -f src/CMakeFiles/Transmitter.dir/build.make src/CMakeFiles/Transmitter.dir/Transmitter.cpp.i
 .PHONY : Transmitter.cpp.i
 
 Transmitter.s: Transmitter.cpp.s
@@ -172,7 +172,7 @@ Transmitter.s: Transmitter.cpp.s
 
 # target to generate assembly for a file
 Transmitter.cpp.s:
-	cd /home/lmpizarro/sketchbook/Transmitter/build && $(MAKE) -f src/CMakeFiles/Transmitter.dir/build.make src/CMakeFiles/Transmitter.dir/Transmitter.cpp.s
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build && $(MAKE) -f src/CMakeFiles/Transmitter.dir/build.make src/CMakeFiles/Transmitter.dir/Transmitter.cpp.s
 .PHONY : Transmitter.cpp.s
 
 usr/share/arduino/hardware/arduino/cores/arduino/CDC.obj: usr/share/arduino/hardware/arduino/cores/arduino/CDC.cpp.obj
@@ -180,7 +180,7 @@ usr/share/arduino/hardware/arduino/cores/arduino/CDC.obj: usr/share/arduino/hard
 
 # target to build an object file
 usr/share/arduino/hardware/arduino/cores/arduino/CDC.cpp.obj:
-	cd /home/lmpizarro/sketchbook/Transmitter/build && $(MAKE) -f src/CMakeFiles/uno_CORE.dir/build.make src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/CDC.cpp.obj
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build && $(MAKE) -f src/CMakeFiles/uno_CORE.dir/build.make src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/CDC.cpp.obj
 .PHONY : usr/share/arduino/hardware/arduino/cores/arduino/CDC.cpp.obj
 
 usr/share/arduino/hardware/arduino/cores/arduino/CDC.i: usr/share/arduino/hardware/arduino/cores/arduino/CDC.cpp.i
@@ -188,7 +188,7 @@ usr/share/arduino/hardware/arduino/cores/arduino/CDC.i: usr/share/arduino/hardwa
 
 # target to preprocess a source file
 usr/share/arduino/hardware/arduino/cores/arduino/CDC.cpp.i:
-	cd /home/lmpizarro/sketchbook/Transmitter/build && $(MAKE) -f src/CMakeFiles/uno_CORE.dir/build.make src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/CDC.cpp.i
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build && $(MAKE) -f src/CMakeFiles/uno_CORE.dir/build.make src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/CDC.cpp.i
 .PHONY : usr/share/arduino/hardware/arduino/cores/arduino/CDC.cpp.i
 
 usr/share/arduino/hardware/arduino/cores/arduino/CDC.s: usr/share/arduino/hardware/arduino/cores/arduino/CDC.cpp.s
@@ -196,7 +196,7 @@ usr/share/arduino/hardware/arduino/cores/arduino/CDC.s: usr/share/arduino/hardwa
 
 # target to generate assembly for a file
 usr/share/arduino/hardware/arduino/cores/arduino/CDC.cpp.s:
-	cd /home/lmpizarro/sketchbook/Transmitter/build && $(MAKE) -f src/CMakeFiles/uno_CORE.dir/build.make src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/CDC.cpp.s
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build && $(MAKE) -f src/CMakeFiles/uno_CORE.dir/build.make src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/CDC.cpp.s
 .PHONY : usr/share/arduino/hardware/arduino/cores/arduino/CDC.cpp.s
 
 usr/share/arduino/hardware/arduino/cores/arduino/HID.obj: usr/share/arduino/hardware/arduino/cores/arduino/HID.cpp.obj
@@ -204,7 +204,7 @@ usr/share/arduino/hardware/arduino/cores/arduino/HID.obj: usr/share/arduino/hard
 
 # target to build an object file
 usr/share/arduino/hardware/arduino/cores/arduino/HID.cpp.obj:
-	cd /home/lmpizarro/sketchbook/Transmitter/build && $(MAKE) -f src/CMakeFiles/uno_CORE.dir/build.make src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/HID.cpp.obj
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build && $(MAKE) -f src/CMakeFiles/uno_CORE.dir/build.make src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/HID.cpp.obj
 .PHONY : usr/share/arduino/hardware/arduino/cores/arduino/HID.cpp.obj
 
 usr/share/arduino/hardware/arduino/cores/arduino/HID.i: usr/share/arduino/hardware/arduino/cores/arduino/HID.cpp.i
@@ -212,7 +212,7 @@ usr/share/arduino/hardware/arduino/cores/arduino/HID.i: usr/share/arduino/hardwa
 
 # target to preprocess a source file
 usr/share/arduino/hardware/arduino/cores/arduino/HID.cpp.i:
-	cd /home/lmpizarro/sketchbook/Transmitter/build && $(MAKE) -f src/CMakeFiles/uno_CORE.dir/build.make src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/HID.cpp.i
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build && $(MAKE) -f src/CMakeFiles/uno_CORE.dir/build.make src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/HID.cpp.i
 .PHONY : usr/share/arduino/hardware/arduino/cores/arduino/HID.cpp.i
 
 usr/share/arduino/hardware/arduino/cores/arduino/HID.s: usr/share/arduino/hardware/arduino/cores/arduino/HID.cpp.s
@@ -220,7 +220,7 @@ usr/share/arduino/hardware/arduino/cores/arduino/HID.s: usr/share/arduino/hardwa
 
 # target to generate assembly for a file
 usr/share/arduino/hardware/arduino/cores/arduino/HID.cpp.s:
-	cd /home/lmpizarro/sketchbook/Transmitter/build && $(MAKE) -f src/CMakeFiles/uno_CORE.dir/build.make src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/HID.cpp.s
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build && $(MAKE) -f src/CMakeFiles/uno_CORE.dir/build.make src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/HID.cpp.s
 .PHONY : usr/share/arduino/hardware/arduino/cores/arduino/HID.cpp.s
 
 usr/share/arduino/hardware/arduino/cores/arduino/HardwareSerial.obj: usr/share/arduino/hardware/arduino/cores/arduino/HardwareSerial.cpp.obj
@@ -228,7 +228,7 @@ usr/share/arduino/hardware/arduino/cores/arduino/HardwareSerial.obj: usr/share/a
 
 # target to build an object file
 usr/share/arduino/hardware/arduino/cores/arduino/HardwareSerial.cpp.obj:
-	cd /home/lmpizarro/sketchbook/Transmitter/build && $(MAKE) -f src/CMakeFiles/uno_CORE.dir/build.make src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/HardwareSerial.cpp.obj
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build && $(MAKE) -f src/CMakeFiles/uno_CORE.dir/build.make src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/HardwareSerial.cpp.obj
 .PHONY : usr/share/arduino/hardware/arduino/cores/arduino/HardwareSerial.cpp.obj
 
 usr/share/arduino/hardware/arduino/cores/arduino/HardwareSerial.i: usr/share/arduino/hardware/arduino/cores/arduino/HardwareSerial.cpp.i
@@ -236,7 +236,7 @@ usr/share/arduino/hardware/arduino/cores/arduino/HardwareSerial.i: usr/share/ard
 
 # target to preprocess a source file
 usr/share/arduino/hardware/arduino/cores/arduino/HardwareSerial.cpp.i:
-	cd /home/lmpizarro/sketchbook/Transmitter/build && $(MAKE) -f src/CMakeFiles/uno_CORE.dir/build.make src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/HardwareSerial.cpp.i
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build && $(MAKE) -f src/CMakeFiles/uno_CORE.dir/build.make src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/HardwareSerial.cpp.i
 .PHONY : usr/share/arduino/hardware/arduino/cores/arduino/HardwareSerial.cpp.i
 
 usr/share/arduino/hardware/arduino/cores/arduino/HardwareSerial.s: usr/share/arduino/hardware/arduino/cores/arduino/HardwareSerial.cpp.s
@@ -244,7 +244,7 @@ usr/share/arduino/hardware/arduino/cores/arduino/HardwareSerial.s: usr/share/ard
 
 # target to generate assembly for a file
 usr/share/arduino/hardware/arduino/cores/arduino/HardwareSerial.cpp.s:
-	cd /home/lmpizarro/sketchbook/Transmitter/build && $(MAKE) -f src/CMakeFiles/uno_CORE.dir/build.make src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/HardwareSerial.cpp.s
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build && $(MAKE) -f src/CMakeFiles/uno_CORE.dir/build.make src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/HardwareSerial.cpp.s
 .PHONY : usr/share/arduino/hardware/arduino/cores/arduino/HardwareSerial.cpp.s
 
 usr/share/arduino/hardware/arduino/cores/arduino/IPAddress.obj: usr/share/arduino/hardware/arduino/cores/arduino/IPAddress.cpp.obj
@@ -252,7 +252,7 @@ usr/share/arduino/hardware/arduino/cores/arduino/IPAddress.obj: usr/share/arduin
 
 # target to build an object file
 usr/share/arduino/hardware/arduino/cores/arduino/IPAddress.cpp.obj:
-	cd /home/lmpizarro/sketchbook/Transmitter/build && $(MAKE) -f src/CMakeFiles/uno_CORE.dir/build.make src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/IPAddress.cpp.obj
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build && $(MAKE) -f src/CMakeFiles/uno_CORE.dir/build.make src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/IPAddress.cpp.obj
 .PHONY : usr/share/arduino/hardware/arduino/cores/arduino/IPAddress.cpp.obj
 
 usr/share/arduino/hardware/arduino/cores/arduino/IPAddress.i: usr/share/arduino/hardware/arduino/cores/arduino/IPAddress.cpp.i
@@ -260,7 +260,7 @@ usr/share/arduino/hardware/arduino/cores/arduino/IPAddress.i: usr/share/arduino/
 
 # target to preprocess a source file
 usr/share/arduino/hardware/arduino/cores/arduino/IPAddress.cpp.i:
-	cd /home/lmpizarro/sketchbook/Transmitter/build && $(MAKE) -f src/CMakeFiles/uno_CORE.dir/build.make src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/IPAddress.cpp.i
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build && $(MAKE) -f src/CMakeFiles/uno_CORE.dir/build.make src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/IPAddress.cpp.i
 .PHONY : usr/share/arduino/hardware/arduino/cores/arduino/IPAddress.cpp.i
 
 usr/share/arduino/hardware/arduino/cores/arduino/IPAddress.s: usr/share/arduino/hardware/arduino/cores/arduino/IPAddress.cpp.s
@@ -268,7 +268,7 @@ usr/share/arduino/hardware/arduino/cores/arduino/IPAddress.s: usr/share/arduino/
 
 # target to generate assembly for a file
 usr/share/arduino/hardware/arduino/cores/arduino/IPAddress.cpp.s:
-	cd /home/lmpizarro/sketchbook/Transmitter/build && $(MAKE) -f src/CMakeFiles/uno_CORE.dir/build.make src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/IPAddress.cpp.s
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build && $(MAKE) -f src/CMakeFiles/uno_CORE.dir/build.make src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/IPAddress.cpp.s
 .PHONY : usr/share/arduino/hardware/arduino/cores/arduino/IPAddress.cpp.s
 
 usr/share/arduino/hardware/arduino/cores/arduino/Print.obj: usr/share/arduino/hardware/arduino/cores/arduino/Print.cpp.obj
@@ -276,7 +276,7 @@ usr/share/arduino/hardware/arduino/cores/arduino/Print.obj: usr/share/arduino/ha
 
 # target to build an object file
 usr/share/arduino/hardware/arduino/cores/arduino/Print.cpp.obj:
-	cd /home/lmpizarro/sketchbook/Transmitter/build && $(MAKE) -f src/CMakeFiles/uno_CORE.dir/build.make src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/Print.cpp.obj
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build && $(MAKE) -f src/CMakeFiles/uno_CORE.dir/build.make src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/Print.cpp.obj
 .PHONY : usr/share/arduino/hardware/arduino/cores/arduino/Print.cpp.obj
 
 usr/share/arduino/hardware/arduino/cores/arduino/Print.i: usr/share/arduino/hardware/arduino/cores/arduino/Print.cpp.i
@@ -284,7 +284,7 @@ usr/share/arduino/hardware/arduino/cores/arduino/Print.i: usr/share/arduino/hard
 
 # target to preprocess a source file
 usr/share/arduino/hardware/arduino/cores/arduino/Print.cpp.i:
-	cd /home/lmpizarro/sketchbook/Transmitter/build && $(MAKE) -f src/CMakeFiles/uno_CORE.dir/build.make src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/Print.cpp.i
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build && $(MAKE) -f src/CMakeFiles/uno_CORE.dir/build.make src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/Print.cpp.i
 .PHONY : usr/share/arduino/hardware/arduino/cores/arduino/Print.cpp.i
 
 usr/share/arduino/hardware/arduino/cores/arduino/Print.s: usr/share/arduino/hardware/arduino/cores/arduino/Print.cpp.s
@@ -292,7 +292,7 @@ usr/share/arduino/hardware/arduino/cores/arduino/Print.s: usr/share/arduino/hard
 
 # target to generate assembly for a file
 usr/share/arduino/hardware/arduino/cores/arduino/Print.cpp.s:
-	cd /home/lmpizarro/sketchbook/Transmitter/build && $(MAKE) -f src/CMakeFiles/uno_CORE.dir/build.make src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/Print.cpp.s
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build && $(MAKE) -f src/CMakeFiles/uno_CORE.dir/build.make src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/Print.cpp.s
 .PHONY : usr/share/arduino/hardware/arduino/cores/arduino/Print.cpp.s
 
 usr/share/arduino/hardware/arduino/cores/arduino/Stream.obj: usr/share/arduino/hardware/arduino/cores/arduino/Stream.cpp.obj
@@ -300,7 +300,7 @@ usr/share/arduino/hardware/arduino/cores/arduino/Stream.obj: usr/share/arduino/h
 
 # target to build an object file
 usr/share/arduino/hardware/arduino/cores/arduino/Stream.cpp.obj:
-	cd /home/lmpizarro/sketchbook/Transmitter/build && $(MAKE) -f src/CMakeFiles/uno_CORE.dir/build.make src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/Stream.cpp.obj
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build && $(MAKE) -f src/CMakeFiles/uno_CORE.dir/build.make src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/Stream.cpp.obj
 .PHONY : usr/share/arduino/hardware/arduino/cores/arduino/Stream.cpp.obj
 
 usr/share/arduino/hardware/arduino/cores/arduino/Stream.i: usr/share/arduino/hardware/arduino/cores/arduino/Stream.cpp.i
@@ -308,7 +308,7 @@ usr/share/arduino/hardware/arduino/cores/arduino/Stream.i: usr/share/arduino/har
 
 # target to preprocess a source file
 usr/share/arduino/hardware/arduino/cores/arduino/Stream.cpp.i:
-	cd /home/lmpizarro/sketchbook/Transmitter/build && $(MAKE) -f src/CMakeFiles/uno_CORE.dir/build.make src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/Stream.cpp.i
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build && $(MAKE) -f src/CMakeFiles/uno_CORE.dir/build.make src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/Stream.cpp.i
 .PHONY : usr/share/arduino/hardware/arduino/cores/arduino/Stream.cpp.i
 
 usr/share/arduino/hardware/arduino/cores/arduino/Stream.s: usr/share/arduino/hardware/arduino/cores/arduino/Stream.cpp.s
@@ -316,7 +316,7 @@ usr/share/arduino/hardware/arduino/cores/arduino/Stream.s: usr/share/arduino/har
 
 # target to generate assembly for a file
 usr/share/arduino/hardware/arduino/cores/arduino/Stream.cpp.s:
-	cd /home/lmpizarro/sketchbook/Transmitter/build && $(MAKE) -f src/CMakeFiles/uno_CORE.dir/build.make src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/Stream.cpp.s
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build && $(MAKE) -f src/CMakeFiles/uno_CORE.dir/build.make src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/Stream.cpp.s
 .PHONY : usr/share/arduino/hardware/arduino/cores/arduino/Stream.cpp.s
 
 usr/share/arduino/hardware/arduino/cores/arduino/Tone.obj: usr/share/arduino/hardware/arduino/cores/arduino/Tone.cpp.obj
@@ -324,7 +324,7 @@ usr/share/arduino/hardware/arduino/cores/arduino/Tone.obj: usr/share/arduino/har
 
 # target to build an object file
 usr/share/arduino/hardware/arduino/cores/arduino/Tone.cpp.obj:
-	cd /home/lmpizarro/sketchbook/Transmitter/build && $(MAKE) -f src/CMakeFiles/uno_CORE.dir/build.make src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/Tone.cpp.obj
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build && $(MAKE) -f src/CMakeFiles/uno_CORE.dir/build.make src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/Tone.cpp.obj
 .PHONY : usr/share/arduino/hardware/arduino/cores/arduino/Tone.cpp.obj
 
 usr/share/arduino/hardware/arduino/cores/arduino/Tone.i: usr/share/arduino/hardware/arduino/cores/arduino/Tone.cpp.i
@@ -332,7 +332,7 @@ usr/share/arduino/hardware/arduino/cores/arduino/Tone.i: usr/share/arduino/hardw
 
 # target to preprocess a source file
 usr/share/arduino/hardware/arduino/cores/arduino/Tone.cpp.i:
-	cd /home/lmpizarro/sketchbook/Transmitter/build && $(MAKE) -f src/CMakeFiles/uno_CORE.dir/build.make src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/Tone.cpp.i
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build && $(MAKE) -f src/CMakeFiles/uno_CORE.dir/build.make src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/Tone.cpp.i
 .PHONY : usr/share/arduino/hardware/arduino/cores/arduino/Tone.cpp.i
 
 usr/share/arduino/hardware/arduino/cores/arduino/Tone.s: usr/share/arduino/hardware/arduino/cores/arduino/Tone.cpp.s
@@ -340,7 +340,7 @@ usr/share/arduino/hardware/arduino/cores/arduino/Tone.s: usr/share/arduino/hardw
 
 # target to generate assembly for a file
 usr/share/arduino/hardware/arduino/cores/arduino/Tone.cpp.s:
-	cd /home/lmpizarro/sketchbook/Transmitter/build && $(MAKE) -f src/CMakeFiles/uno_CORE.dir/build.make src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/Tone.cpp.s
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build && $(MAKE) -f src/CMakeFiles/uno_CORE.dir/build.make src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/Tone.cpp.s
 .PHONY : usr/share/arduino/hardware/arduino/cores/arduino/Tone.cpp.s
 
 usr/share/arduino/hardware/arduino/cores/arduino/USBCore.obj: usr/share/arduino/hardware/arduino/cores/arduino/USBCore.cpp.obj
@@ -348,7 +348,7 @@ usr/share/arduino/hardware/arduino/cores/arduino/USBCore.obj: usr/share/arduino/
 
 # target to build an object file
 usr/share/arduino/hardware/arduino/cores/arduino/USBCore.cpp.obj:
-	cd /home/lmpizarro/sketchbook/Transmitter/build && $(MAKE) -f src/CMakeFiles/uno_CORE.dir/build.make src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/USBCore.cpp.obj
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build && $(MAKE) -f src/CMakeFiles/uno_CORE.dir/build.make src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/USBCore.cpp.obj
 .PHONY : usr/share/arduino/hardware/arduino/cores/arduino/USBCore.cpp.obj
 
 usr/share/arduino/hardware/arduino/cores/arduino/USBCore.i: usr/share/arduino/hardware/arduino/cores/arduino/USBCore.cpp.i
@@ -356,7 +356,7 @@ usr/share/arduino/hardware/arduino/cores/arduino/USBCore.i: usr/share/arduino/ha
 
 # target to preprocess a source file
 usr/share/arduino/hardware/arduino/cores/arduino/USBCore.cpp.i:
-	cd /home/lmpizarro/sketchbook/Transmitter/build && $(MAKE) -f src/CMakeFiles/uno_CORE.dir/build.make src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/USBCore.cpp.i
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build && $(MAKE) -f src/CMakeFiles/uno_CORE.dir/build.make src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/USBCore.cpp.i
 .PHONY : usr/share/arduino/hardware/arduino/cores/arduino/USBCore.cpp.i
 
 usr/share/arduino/hardware/arduino/cores/arduino/USBCore.s: usr/share/arduino/hardware/arduino/cores/arduino/USBCore.cpp.s
@@ -364,7 +364,7 @@ usr/share/arduino/hardware/arduino/cores/arduino/USBCore.s: usr/share/arduino/ha
 
 # target to generate assembly for a file
 usr/share/arduino/hardware/arduino/cores/arduino/USBCore.cpp.s:
-	cd /home/lmpizarro/sketchbook/Transmitter/build && $(MAKE) -f src/CMakeFiles/uno_CORE.dir/build.make src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/USBCore.cpp.s
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build && $(MAKE) -f src/CMakeFiles/uno_CORE.dir/build.make src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/USBCore.cpp.s
 .PHONY : usr/share/arduino/hardware/arduino/cores/arduino/USBCore.cpp.s
 
 usr/share/arduino/hardware/arduino/cores/arduino/WInterrupts.obj: usr/share/arduino/hardware/arduino/cores/arduino/WInterrupts.c.obj
@@ -372,7 +372,7 @@ usr/share/arduino/hardware/arduino/cores/arduino/WInterrupts.obj: usr/share/ardu
 
 # target to build an object file
 usr/share/arduino/hardware/arduino/cores/arduino/WInterrupts.c.obj:
-	cd /home/lmpizarro/sketchbook/Transmitter/build && $(MAKE) -f src/CMakeFiles/uno_CORE.dir/build.make src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/WInterrupts.c.obj
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build && $(MAKE) -f src/CMakeFiles/uno_CORE.dir/build.make src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/WInterrupts.c.obj
 .PHONY : usr/share/arduino/hardware/arduino/cores/arduino/WInterrupts.c.obj
 
 usr/share/arduino/hardware/arduino/cores/arduino/WInterrupts.i: usr/share/arduino/hardware/arduino/cores/arduino/WInterrupts.c.i
@@ -380,7 +380,7 @@ usr/share/arduino/hardware/arduino/cores/arduino/WInterrupts.i: usr/share/arduin
 
 # target to preprocess a source file
 usr/share/arduino/hardware/arduino/cores/arduino/WInterrupts.c.i:
-	cd /home/lmpizarro/sketchbook/Transmitter/build && $(MAKE) -f src/CMakeFiles/uno_CORE.dir/build.make src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/WInterrupts.c.i
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build && $(MAKE) -f src/CMakeFiles/uno_CORE.dir/build.make src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/WInterrupts.c.i
 .PHONY : usr/share/arduino/hardware/arduino/cores/arduino/WInterrupts.c.i
 
 usr/share/arduino/hardware/arduino/cores/arduino/WInterrupts.s: usr/share/arduino/hardware/arduino/cores/arduino/WInterrupts.c.s
@@ -388,7 +388,7 @@ usr/share/arduino/hardware/arduino/cores/arduino/WInterrupts.s: usr/share/arduin
 
 # target to generate assembly for a file
 usr/share/arduino/hardware/arduino/cores/arduino/WInterrupts.c.s:
-	cd /home/lmpizarro/sketchbook/Transmitter/build && $(MAKE) -f src/CMakeFiles/uno_CORE.dir/build.make src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/WInterrupts.c.s
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build && $(MAKE) -f src/CMakeFiles/uno_CORE.dir/build.make src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/WInterrupts.c.s
 .PHONY : usr/share/arduino/hardware/arduino/cores/arduino/WInterrupts.c.s
 
 usr/share/arduino/hardware/arduino/cores/arduino/WMath.obj: usr/share/arduino/hardware/arduino/cores/arduino/WMath.cpp.obj
@@ -396,7 +396,7 @@ usr/share/arduino/hardware/arduino/cores/arduino/WMath.obj: usr/share/arduino/ha
 
 # target to build an object file
 usr/share/arduino/hardware/arduino/cores/arduino/WMath.cpp.obj:
-	cd /home/lmpizarro/sketchbook/Transmitter/build && $(MAKE) -f src/CMakeFiles/uno_CORE.dir/build.make src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/WMath.cpp.obj
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build && $(MAKE) -f src/CMakeFiles/uno_CORE.dir/build.make src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/WMath.cpp.obj
 .PHONY : usr/share/arduino/hardware/arduino/cores/arduino/WMath.cpp.obj
 
 usr/share/arduino/hardware/arduino/cores/arduino/WMath.i: usr/share/arduino/hardware/arduino/cores/arduino/WMath.cpp.i
@@ -404,7 +404,7 @@ usr/share/arduino/hardware/arduino/cores/arduino/WMath.i: usr/share/arduino/hard
 
 # target to preprocess a source file
 usr/share/arduino/hardware/arduino/cores/arduino/WMath.cpp.i:
-	cd /home/lmpizarro/sketchbook/Transmitter/build && $(MAKE) -f src/CMakeFiles/uno_CORE.dir/build.make src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/WMath.cpp.i
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build && $(MAKE) -f src/CMakeFiles/uno_CORE.dir/build.make src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/WMath.cpp.i
 .PHONY : usr/share/arduino/hardware/arduino/cores/arduino/WMath.cpp.i
 
 usr/share/arduino/hardware/arduino/cores/arduino/WMath.s: usr/share/arduino/hardware/arduino/cores/arduino/WMath.cpp.s
@@ -412,7 +412,7 @@ usr/share/arduino/hardware/arduino/cores/arduino/WMath.s: usr/share/arduino/hard
 
 # target to generate assembly for a file
 usr/share/arduino/hardware/arduino/cores/arduino/WMath.cpp.s:
-	cd /home/lmpizarro/sketchbook/Transmitter/build && $(MAKE) -f src/CMakeFiles/uno_CORE.dir/build.make src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/WMath.cpp.s
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build && $(MAKE) -f src/CMakeFiles/uno_CORE.dir/build.make src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/WMath.cpp.s
 .PHONY : usr/share/arduino/hardware/arduino/cores/arduino/WMath.cpp.s
 
 usr/share/arduino/hardware/arduino/cores/arduino/WString.obj: usr/share/arduino/hardware/arduino/cores/arduino/WString.cpp.obj
@@ -420,7 +420,7 @@ usr/share/arduino/hardware/arduino/cores/arduino/WString.obj: usr/share/arduino/
 
 # target to build an object file
 usr/share/arduino/hardware/arduino/cores/arduino/WString.cpp.obj:
-	cd /home/lmpizarro/sketchbook/Transmitter/build && $(MAKE) -f src/CMakeFiles/uno_CORE.dir/build.make src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/WString.cpp.obj
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build && $(MAKE) -f src/CMakeFiles/uno_CORE.dir/build.make src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/WString.cpp.obj
 .PHONY : usr/share/arduino/hardware/arduino/cores/arduino/WString.cpp.obj
 
 usr/share/arduino/hardware/arduino/cores/arduino/WString.i: usr/share/arduino/hardware/arduino/cores/arduino/WString.cpp.i
@@ -428,7 +428,7 @@ usr/share/arduino/hardware/arduino/cores/arduino/WString.i: usr/share/arduino/ha
 
 # target to preprocess a source file
 usr/share/arduino/hardware/arduino/cores/arduino/WString.cpp.i:
-	cd /home/lmpizarro/sketchbook/Transmitter/build && $(MAKE) -f src/CMakeFiles/uno_CORE.dir/build.make src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/WString.cpp.i
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build && $(MAKE) -f src/CMakeFiles/uno_CORE.dir/build.make src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/WString.cpp.i
 .PHONY : usr/share/arduino/hardware/arduino/cores/arduino/WString.cpp.i
 
 usr/share/arduino/hardware/arduino/cores/arduino/WString.s: usr/share/arduino/hardware/arduino/cores/arduino/WString.cpp.s
@@ -436,7 +436,7 @@ usr/share/arduino/hardware/arduino/cores/arduino/WString.s: usr/share/arduino/ha
 
 # target to generate assembly for a file
 usr/share/arduino/hardware/arduino/cores/arduino/WString.cpp.s:
-	cd /home/lmpizarro/sketchbook/Transmitter/build && $(MAKE) -f src/CMakeFiles/uno_CORE.dir/build.make src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/WString.cpp.s
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build && $(MAKE) -f src/CMakeFiles/uno_CORE.dir/build.make src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/WString.cpp.s
 .PHONY : usr/share/arduino/hardware/arduino/cores/arduino/WString.cpp.s
 
 usr/share/arduino/hardware/arduino/cores/arduino/main.obj: usr/share/arduino/hardware/arduino/cores/arduino/main.cpp.obj
@@ -444,7 +444,7 @@ usr/share/arduino/hardware/arduino/cores/arduino/main.obj: usr/share/arduino/har
 
 # target to build an object file
 usr/share/arduino/hardware/arduino/cores/arduino/main.cpp.obj:
-	cd /home/lmpizarro/sketchbook/Transmitter/build && $(MAKE) -f src/CMakeFiles/uno_CORE.dir/build.make src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/main.cpp.obj
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build && $(MAKE) -f src/CMakeFiles/uno_CORE.dir/build.make src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/main.cpp.obj
 .PHONY : usr/share/arduino/hardware/arduino/cores/arduino/main.cpp.obj
 
 usr/share/arduino/hardware/arduino/cores/arduino/main.i: usr/share/arduino/hardware/arduino/cores/arduino/main.cpp.i
@@ -452,7 +452,7 @@ usr/share/arduino/hardware/arduino/cores/arduino/main.i: usr/share/arduino/hardw
 
 # target to preprocess a source file
 usr/share/arduino/hardware/arduino/cores/arduino/main.cpp.i:
-	cd /home/lmpizarro/sketchbook/Transmitter/build && $(MAKE) -f src/CMakeFiles/uno_CORE.dir/build.make src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/main.cpp.i
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build && $(MAKE) -f src/CMakeFiles/uno_CORE.dir/build.make src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/main.cpp.i
 .PHONY : usr/share/arduino/hardware/arduino/cores/arduino/main.cpp.i
 
 usr/share/arduino/hardware/arduino/cores/arduino/main.s: usr/share/arduino/hardware/arduino/cores/arduino/main.cpp.s
@@ -460,7 +460,7 @@ usr/share/arduino/hardware/arduino/cores/arduino/main.s: usr/share/arduino/hardw
 
 # target to generate assembly for a file
 usr/share/arduino/hardware/arduino/cores/arduino/main.cpp.s:
-	cd /home/lmpizarro/sketchbook/Transmitter/build && $(MAKE) -f src/CMakeFiles/uno_CORE.dir/build.make src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/main.cpp.s
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build && $(MAKE) -f src/CMakeFiles/uno_CORE.dir/build.make src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/main.cpp.s
 .PHONY : usr/share/arduino/hardware/arduino/cores/arduino/main.cpp.s
 
 usr/share/arduino/hardware/arduino/cores/arduino/new.obj: usr/share/arduino/hardware/arduino/cores/arduino/new.cpp.obj
@@ -468,7 +468,7 @@ usr/share/arduino/hardware/arduino/cores/arduino/new.obj: usr/share/arduino/hard
 
 # target to build an object file
 usr/share/arduino/hardware/arduino/cores/arduino/new.cpp.obj:
-	cd /home/lmpizarro/sketchbook/Transmitter/build && $(MAKE) -f src/CMakeFiles/uno_CORE.dir/build.make src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/new.cpp.obj
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build && $(MAKE) -f src/CMakeFiles/uno_CORE.dir/build.make src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/new.cpp.obj
 .PHONY : usr/share/arduino/hardware/arduino/cores/arduino/new.cpp.obj
 
 usr/share/arduino/hardware/arduino/cores/arduino/new.i: usr/share/arduino/hardware/arduino/cores/arduino/new.cpp.i
@@ -476,7 +476,7 @@ usr/share/arduino/hardware/arduino/cores/arduino/new.i: usr/share/arduino/hardwa
 
 # target to preprocess a source file
 usr/share/arduino/hardware/arduino/cores/arduino/new.cpp.i:
-	cd /home/lmpizarro/sketchbook/Transmitter/build && $(MAKE) -f src/CMakeFiles/uno_CORE.dir/build.make src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/new.cpp.i
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build && $(MAKE) -f src/CMakeFiles/uno_CORE.dir/build.make src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/new.cpp.i
 .PHONY : usr/share/arduino/hardware/arduino/cores/arduino/new.cpp.i
 
 usr/share/arduino/hardware/arduino/cores/arduino/new.s: usr/share/arduino/hardware/arduino/cores/arduino/new.cpp.s
@@ -484,7 +484,7 @@ usr/share/arduino/hardware/arduino/cores/arduino/new.s: usr/share/arduino/hardwa
 
 # target to generate assembly for a file
 usr/share/arduino/hardware/arduino/cores/arduino/new.cpp.s:
-	cd /home/lmpizarro/sketchbook/Transmitter/build && $(MAKE) -f src/CMakeFiles/uno_CORE.dir/build.make src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/new.cpp.s
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build && $(MAKE) -f src/CMakeFiles/uno_CORE.dir/build.make src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/new.cpp.s
 .PHONY : usr/share/arduino/hardware/arduino/cores/arduino/new.cpp.s
 
 usr/share/arduino/hardware/arduino/cores/arduino/wiring.obj: usr/share/arduino/hardware/arduino/cores/arduino/wiring.c.obj
@@ -492,7 +492,7 @@ usr/share/arduino/hardware/arduino/cores/arduino/wiring.obj: usr/share/arduino/h
 
 # target to build an object file
 usr/share/arduino/hardware/arduino/cores/arduino/wiring.c.obj:
-	cd /home/lmpizarro/sketchbook/Transmitter/build && $(MAKE) -f src/CMakeFiles/uno_CORE.dir/build.make src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/wiring.c.obj
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build && $(MAKE) -f src/CMakeFiles/uno_CORE.dir/build.make src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/wiring.c.obj
 .PHONY : usr/share/arduino/hardware/arduino/cores/arduino/wiring.c.obj
 
 usr/share/arduino/hardware/arduino/cores/arduino/wiring.i: usr/share/arduino/hardware/arduino/cores/arduino/wiring.c.i
@@ -500,7 +500,7 @@ usr/share/arduino/hardware/arduino/cores/arduino/wiring.i: usr/share/arduino/har
 
 # target to preprocess a source file
 usr/share/arduino/hardware/arduino/cores/arduino/wiring.c.i:
-	cd /home/lmpizarro/sketchbook/Transmitter/build && $(MAKE) -f src/CMakeFiles/uno_CORE.dir/build.make src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/wiring.c.i
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build && $(MAKE) -f src/CMakeFiles/uno_CORE.dir/build.make src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/wiring.c.i
 .PHONY : usr/share/arduino/hardware/arduino/cores/arduino/wiring.c.i
 
 usr/share/arduino/hardware/arduino/cores/arduino/wiring.s: usr/share/arduino/hardware/arduino/cores/arduino/wiring.c.s
@@ -508,7 +508,7 @@ usr/share/arduino/hardware/arduino/cores/arduino/wiring.s: usr/share/arduino/har
 
 # target to generate assembly for a file
 usr/share/arduino/hardware/arduino/cores/arduino/wiring.c.s:
-	cd /home/lmpizarro/sketchbook/Transmitter/build && $(MAKE) -f src/CMakeFiles/uno_CORE.dir/build.make src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/wiring.c.s
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build && $(MAKE) -f src/CMakeFiles/uno_CORE.dir/build.make src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/wiring.c.s
 .PHONY : usr/share/arduino/hardware/arduino/cores/arduino/wiring.c.s
 
 usr/share/arduino/hardware/arduino/cores/arduino/wiring_analog.obj: usr/share/arduino/hardware/arduino/cores/arduino/wiring_analog.c.obj
@@ -516,7 +516,7 @@ usr/share/arduino/hardware/arduino/cores/arduino/wiring_analog.obj: usr/share/ar
 
 # target to build an object file
 usr/share/arduino/hardware/arduino/cores/arduino/wiring_analog.c.obj:
-	cd /home/lmpizarro/sketchbook/Transmitter/build && $(MAKE) -f src/CMakeFiles/uno_CORE.dir/build.make src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/wiring_analog.c.obj
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build && $(MAKE) -f src/CMakeFiles/uno_CORE.dir/build.make src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/wiring_analog.c.obj
 .PHONY : usr/share/arduino/hardware/arduino/cores/arduino/wiring_analog.c.obj
 
 usr/share/arduino/hardware/arduino/cores/arduino/wiring_analog.i: usr/share/arduino/hardware/arduino/cores/arduino/wiring_analog.c.i
@@ -524,7 +524,7 @@ usr/share/arduino/hardware/arduino/cores/arduino/wiring_analog.i: usr/share/ardu
 
 # target to preprocess a source file
 usr/share/arduino/hardware/arduino/cores/arduino/wiring_analog.c.i:
-	cd /home/lmpizarro/sketchbook/Transmitter/build && $(MAKE) -f src/CMakeFiles/uno_CORE.dir/build.make src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/wiring_analog.c.i
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build && $(MAKE) -f src/CMakeFiles/uno_CORE.dir/build.make src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/wiring_analog.c.i
 .PHONY : usr/share/arduino/hardware/arduino/cores/arduino/wiring_analog.c.i
 
 usr/share/arduino/hardware/arduino/cores/arduino/wiring_analog.s: usr/share/arduino/hardware/arduino/cores/arduino/wiring_analog.c.s
@@ -532,7 +532,7 @@ usr/share/arduino/hardware/arduino/cores/arduino/wiring_analog.s: usr/share/ardu
 
 # target to generate assembly for a file
 usr/share/arduino/hardware/arduino/cores/arduino/wiring_analog.c.s:
-	cd /home/lmpizarro/sketchbook/Transmitter/build && $(MAKE) -f src/CMakeFiles/uno_CORE.dir/build.make src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/wiring_analog.c.s
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build && $(MAKE) -f src/CMakeFiles/uno_CORE.dir/build.make src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/wiring_analog.c.s
 .PHONY : usr/share/arduino/hardware/arduino/cores/arduino/wiring_analog.c.s
 
 usr/share/arduino/hardware/arduino/cores/arduino/wiring_digital.obj: usr/share/arduino/hardware/arduino/cores/arduino/wiring_digital.c.obj
@@ -540,7 +540,7 @@ usr/share/arduino/hardware/arduino/cores/arduino/wiring_digital.obj: usr/share/a
 
 # target to build an object file
 usr/share/arduino/hardware/arduino/cores/arduino/wiring_digital.c.obj:
-	cd /home/lmpizarro/sketchbook/Transmitter/build && $(MAKE) -f src/CMakeFiles/uno_CORE.dir/build.make src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/wiring_digital.c.obj
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build && $(MAKE) -f src/CMakeFiles/uno_CORE.dir/build.make src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/wiring_digital.c.obj
 .PHONY : usr/share/arduino/hardware/arduino/cores/arduino/wiring_digital.c.obj
 
 usr/share/arduino/hardware/arduino/cores/arduino/wiring_digital.i: usr/share/arduino/hardware/arduino/cores/arduino/wiring_digital.c.i
@@ -548,7 +548,7 @@ usr/share/arduino/hardware/arduino/cores/arduino/wiring_digital.i: usr/share/ard
 
 # target to preprocess a source file
 usr/share/arduino/hardware/arduino/cores/arduino/wiring_digital.c.i:
-	cd /home/lmpizarro/sketchbook/Transmitter/build && $(MAKE) -f src/CMakeFiles/uno_CORE.dir/build.make src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/wiring_digital.c.i
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build && $(MAKE) -f src/CMakeFiles/uno_CORE.dir/build.make src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/wiring_digital.c.i
 .PHONY : usr/share/arduino/hardware/arduino/cores/arduino/wiring_digital.c.i
 
 usr/share/arduino/hardware/arduino/cores/arduino/wiring_digital.s: usr/share/arduino/hardware/arduino/cores/arduino/wiring_digital.c.s
@@ -556,7 +556,7 @@ usr/share/arduino/hardware/arduino/cores/arduino/wiring_digital.s: usr/share/ard
 
 # target to generate assembly for a file
 usr/share/arduino/hardware/arduino/cores/arduino/wiring_digital.c.s:
-	cd /home/lmpizarro/sketchbook/Transmitter/build && $(MAKE) -f src/CMakeFiles/uno_CORE.dir/build.make src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/wiring_digital.c.s
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build && $(MAKE) -f src/CMakeFiles/uno_CORE.dir/build.make src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/wiring_digital.c.s
 .PHONY : usr/share/arduino/hardware/arduino/cores/arduino/wiring_digital.c.s
 
 usr/share/arduino/hardware/arduino/cores/arduino/wiring_pulse.obj: usr/share/arduino/hardware/arduino/cores/arduino/wiring_pulse.c.obj
@@ -564,7 +564,7 @@ usr/share/arduino/hardware/arduino/cores/arduino/wiring_pulse.obj: usr/share/ard
 
 # target to build an object file
 usr/share/arduino/hardware/arduino/cores/arduino/wiring_pulse.c.obj:
-	cd /home/lmpizarro/sketchbook/Transmitter/build && $(MAKE) -f src/CMakeFiles/uno_CORE.dir/build.make src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/wiring_pulse.c.obj
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build && $(MAKE) -f src/CMakeFiles/uno_CORE.dir/build.make src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/wiring_pulse.c.obj
 .PHONY : usr/share/arduino/hardware/arduino/cores/arduino/wiring_pulse.c.obj
 
 usr/share/arduino/hardware/arduino/cores/arduino/wiring_pulse.i: usr/share/arduino/hardware/arduino/cores/arduino/wiring_pulse.c.i
@@ -572,7 +572,7 @@ usr/share/arduino/hardware/arduino/cores/arduino/wiring_pulse.i: usr/share/ardui
 
 # target to preprocess a source file
 usr/share/arduino/hardware/arduino/cores/arduino/wiring_pulse.c.i:
-	cd /home/lmpizarro/sketchbook/Transmitter/build && $(MAKE) -f src/CMakeFiles/uno_CORE.dir/build.make src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/wiring_pulse.c.i
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build && $(MAKE) -f src/CMakeFiles/uno_CORE.dir/build.make src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/wiring_pulse.c.i
 .PHONY : usr/share/arduino/hardware/arduino/cores/arduino/wiring_pulse.c.i
 
 usr/share/arduino/hardware/arduino/cores/arduino/wiring_pulse.s: usr/share/arduino/hardware/arduino/cores/arduino/wiring_pulse.c.s
@@ -580,7 +580,7 @@ usr/share/arduino/hardware/arduino/cores/arduino/wiring_pulse.s: usr/share/ardui
 
 # target to generate assembly for a file
 usr/share/arduino/hardware/arduino/cores/arduino/wiring_pulse.c.s:
-	cd /home/lmpizarro/sketchbook/Transmitter/build && $(MAKE) -f src/CMakeFiles/uno_CORE.dir/build.make src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/wiring_pulse.c.s
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build && $(MAKE) -f src/CMakeFiles/uno_CORE.dir/build.make src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/wiring_pulse.c.s
 .PHONY : usr/share/arduino/hardware/arduino/cores/arduino/wiring_pulse.c.s
 
 usr/share/arduino/hardware/arduino/cores/arduino/wiring_shift.obj: usr/share/arduino/hardware/arduino/cores/arduino/wiring_shift.c.obj
@@ -588,7 +588,7 @@ usr/share/arduino/hardware/arduino/cores/arduino/wiring_shift.obj: usr/share/ard
 
 # target to build an object file
 usr/share/arduino/hardware/arduino/cores/arduino/wiring_shift.c.obj:
-	cd /home/lmpizarro/sketchbook/Transmitter/build && $(MAKE) -f src/CMakeFiles/uno_CORE.dir/build.make src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/wiring_shift.c.obj
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build && $(MAKE) -f src/CMakeFiles/uno_CORE.dir/build.make src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/wiring_shift.c.obj
 .PHONY : usr/share/arduino/hardware/arduino/cores/arduino/wiring_shift.c.obj
 
 usr/share/arduino/hardware/arduino/cores/arduino/wiring_shift.i: usr/share/arduino/hardware/arduino/cores/arduino/wiring_shift.c.i
@@ -596,7 +596,7 @@ usr/share/arduino/hardware/arduino/cores/arduino/wiring_shift.i: usr/share/ardui
 
 # target to preprocess a source file
 usr/share/arduino/hardware/arduino/cores/arduino/wiring_shift.c.i:
-	cd /home/lmpizarro/sketchbook/Transmitter/build && $(MAKE) -f src/CMakeFiles/uno_CORE.dir/build.make src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/wiring_shift.c.i
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build && $(MAKE) -f src/CMakeFiles/uno_CORE.dir/build.make src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/wiring_shift.c.i
 .PHONY : usr/share/arduino/hardware/arduino/cores/arduino/wiring_shift.c.i
 
 usr/share/arduino/hardware/arduino/cores/arduino/wiring_shift.s: usr/share/arduino/hardware/arduino/cores/arduino/wiring_shift.c.s
@@ -604,7 +604,7 @@ usr/share/arduino/hardware/arduino/cores/arduino/wiring_shift.s: usr/share/ardui
 
 # target to generate assembly for a file
 usr/share/arduino/hardware/arduino/cores/arduino/wiring_shift.c.s:
-	cd /home/lmpizarro/sketchbook/Transmitter/build && $(MAKE) -f src/CMakeFiles/uno_CORE.dir/build.make src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/wiring_shift.c.s
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build && $(MAKE) -f src/CMakeFiles/uno_CORE.dir/build.make src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/wiring_shift.c.s
 .PHONY : usr/share/arduino/hardware/arduino/cores/arduino/wiring_shift.c.s
 
 usr/share/arduino/libraries/SoftwareSerial/SoftwareSerial.obj: usr/share/arduino/libraries/SoftwareSerial/SoftwareSerial.cpp.obj
@@ -612,7 +612,7 @@ usr/share/arduino/libraries/SoftwareSerial/SoftwareSerial.obj: usr/share/arduino
 
 # target to build an object file
 usr/share/arduino/libraries/SoftwareSerial/SoftwareSerial.cpp.obj:
-	cd /home/lmpizarro/sketchbook/Transmitter/build && $(MAKE) -f src/CMakeFiles/uno_SoftwareSerial.dir/build.make src/CMakeFiles/uno_SoftwareSerial.dir/usr/share/arduino/libraries/SoftwareSerial/SoftwareSerial.cpp.obj
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build && $(MAKE) -f src/CMakeFiles/uno_SoftwareSerial.dir/build.make src/CMakeFiles/uno_SoftwareSerial.dir/usr/share/arduino/libraries/SoftwareSerial/SoftwareSerial.cpp.obj
 .PHONY : usr/share/arduino/libraries/SoftwareSerial/SoftwareSerial.cpp.obj
 
 usr/share/arduino/libraries/SoftwareSerial/SoftwareSerial.i: usr/share/arduino/libraries/SoftwareSerial/SoftwareSerial.cpp.i
@@ -620,7 +620,7 @@ usr/share/arduino/libraries/SoftwareSerial/SoftwareSerial.i: usr/share/arduino/l
 
 # target to preprocess a source file
 usr/share/arduino/libraries/SoftwareSerial/SoftwareSerial.cpp.i:
-	cd /home/lmpizarro/sketchbook/Transmitter/build && $(MAKE) -f src/CMakeFiles/uno_SoftwareSerial.dir/build.make src/CMakeFiles/uno_SoftwareSerial.dir/usr/share/arduino/libraries/SoftwareSerial/SoftwareSerial.cpp.i
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build && $(MAKE) -f src/CMakeFiles/uno_SoftwareSerial.dir/build.make src/CMakeFiles/uno_SoftwareSerial.dir/usr/share/arduino/libraries/SoftwareSerial/SoftwareSerial.cpp.i
 .PHONY : usr/share/arduino/libraries/SoftwareSerial/SoftwareSerial.cpp.i
 
 usr/share/arduino/libraries/SoftwareSerial/SoftwareSerial.s: usr/share/arduino/libraries/SoftwareSerial/SoftwareSerial.cpp.s
@@ -628,7 +628,7 @@ usr/share/arduino/libraries/SoftwareSerial/SoftwareSerial.s: usr/share/arduino/l
 
 # target to generate assembly for a file
 usr/share/arduino/libraries/SoftwareSerial/SoftwareSerial.cpp.s:
-	cd /home/lmpizarro/sketchbook/Transmitter/build && $(MAKE) -f src/CMakeFiles/uno_SoftwareSerial.dir/build.make src/CMakeFiles/uno_SoftwareSerial.dir/usr/share/arduino/libraries/SoftwareSerial/SoftwareSerial.cpp.s
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build && $(MAKE) -f src/CMakeFiles/uno_SoftwareSerial.dir/build.make src/CMakeFiles/uno_SoftwareSerial.dir/usr/share/arduino/libraries/SoftwareSerial/SoftwareSerial.cpp.s
 .PHONY : usr/share/arduino/libraries/SoftwareSerial/SoftwareSerial.cpp.s
 
 # Help Target
@@ -714,6 +714,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/lmpizarro/sketchbook/Transmitter/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

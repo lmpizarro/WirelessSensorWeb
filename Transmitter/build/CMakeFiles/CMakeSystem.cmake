@@ -1,4 +1,4 @@
-INCLUDE("/home/lmpizarro/sketchbook/Transmitter/cmake/toolchains/Arduino.cmake")
+INCLUDE("/home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/cmake/toolchains/Arduino.cmake")
 
 SET(CMAKE_SYSTEM "Arduino")
 SET(CMAKE_SYSTEM_NAME "Arduino")

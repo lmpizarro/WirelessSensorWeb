@@ -32,10 +32,10 @@ CMAKE_COMMAND = /usr/bin/cmake
 RM = /usr/bin/cmake -E remove -f
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lmpizarro/sketchbook/Transmitter
+CMAKE_SOURCE_DIR = /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lmpizarro/sketchbook/Transmitter/build
+CMAKE_BINARY_DIR = /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build
 
 # Utility rule file for Transmitter-upload.
 
@@ -43,7 +43,7 @@ CMAKE_BINARY_DIR = /home/lmpizarro/sketchbook/Transmitter/build
 include src/CMakeFiles/Transmitter-upload.dir/progress.make
 
 src/CMakeFiles/Transmitter-upload: src/Transmitter.elf
-	cd /home/lmpizarro/sketchbook/Transmitter/build/src && /usr/bin/avrdude -C/usr/share/arduino/hardware/tools/avrdude.conf -patmega328p -carduino -b115200 -P/dev/ttyACM0 -D -V -Uflash:w:Transmitter.hex
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/src && /usr/bin/avrdude -C/usr/share/arduino/hardware/tools/avrdude.conf -patmega328p -carduino -b115200 -P/dev/ttyACM0 -D -V -Uflash:w:Transmitter.hex
 
 Transmitter-upload: src/CMakeFiles/Transmitter-upload
 Transmitter-upload: src/CMakeFiles/Transmitter-upload.dir/build.make
@@ -54,10 +54,10 @@ src/CMakeFiles/Transmitter-upload.dir/build: Transmitter-upload
 .PHONY : src/CMakeFiles/Transmitter-upload.dir/build
 
 src/CMakeFiles/Transmitter-upload.dir/clean:
-	cd /home/lmpizarro/sketchbook/Transmitter/build/src && $(CMAKE_COMMAND) -P CMakeFiles/Transmitter-upload.dir/cmake_clean.cmake
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/src && $(CMAKE_COMMAND) -P CMakeFiles/Transmitter-upload.dir/cmake_clean.cmake
 .PHONY : src/CMakeFiles/Transmitter-upload.dir/clean
 
 src/CMakeFiles/Transmitter-upload.dir/depend:
-	cd /home/lmpizarro/sketchbook/Transmitter/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lmpizarro/sketchbook/Transmitter /home/lmpizarro/sketchbook/Transmitter/src /home/lmpizarro/sketchbook/Transmitter/build /home/lmpizarro/sketchbook/Transmitter/build/src /home/lmpizarro/sketchbook/Transmitter/build/src/CMakeFiles/Transmitter-upload.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/src /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/src /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/src/CMakeFiles/Transmitter-upload.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/CMakeFiles/Transmitter-upload.dir/depend
 

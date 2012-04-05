@@ -1,4 +1,4 @@
-# Install script for directory: /home/lmpizarro/sketchbook/Transmitter/src
+# Install script for directory: /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/src
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)

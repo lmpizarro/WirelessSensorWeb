@@ -2,8 +2,6 @@
 
 void readAI(){
    int aR;
-
-   
    aR = analogRead(analogPin); 
    
    

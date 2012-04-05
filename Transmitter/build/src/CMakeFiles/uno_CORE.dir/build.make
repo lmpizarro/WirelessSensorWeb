@@ -32,10 +32,10 @@ CMAKE_COMMAND = /usr/bin/cmake
 RM = /usr/bin/cmake -E remove -f
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lmpizarro/sketchbook/Transmitter
+CMAKE_SOURCE_DIR = /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lmpizarro/sketchbook/Transmitter/build
+CMAKE_BINARY_DIR = /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build
 
 # Include any dependencies generated for this target.
 include src/CMakeFiles/uno_CORE.dir/depend.make
@@ -48,17 +48,17 @@ include src/CMakeFiles/uno_CORE.dir/flags.make
 
 src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/Tone.cpp.obj: src/CMakeFiles/uno_CORE.dir/flags.make
 src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/Tone.cpp.obj: /usr/share/arduino/hardware/arduino/cores/arduino/Tone.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/lmpizarro/sketchbook/Transmitter/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/Tone.cpp.obj"
-	cd /home/lmpizarro/sketchbook/Transmitter/build/src && /usr/bin/avr-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/Tone.cpp.obj -c /usr/share/arduino/hardware/arduino/cores/arduino/Tone.cpp
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/src && /usr/bin/avr-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/Tone.cpp.obj -c /usr/share/arduino/hardware/arduino/cores/arduino/Tone.cpp
 
 src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/Tone.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/Tone.cpp.i"
-	cd /home/lmpizarro/sketchbook/Transmitter/build/src && /usr/bin/avr-g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /usr/share/arduino/hardware/arduino/cores/arduino/Tone.cpp > CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/Tone.cpp.i
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/src && /usr/bin/avr-g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /usr/share/arduino/hardware/arduino/cores/arduino/Tone.cpp > CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/Tone.cpp.i
 
 src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/Tone.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/Tone.cpp.s"
-	cd /home/lmpizarro/sketchbook/Transmitter/build/src && /usr/bin/avr-g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /usr/share/arduino/hardware/arduino/cores/arduino/Tone.cpp -o CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/Tone.cpp.s
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/src && /usr/bin/avr-g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /usr/share/arduino/hardware/arduino/cores/arduino/Tone.cpp -o CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/Tone.cpp.s
 
 src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/Tone.cpp.obj.requires:
 .PHONY : src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/Tone.cpp.obj.requires
@@ -71,17 +71,17 @@ src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/Ton
 
 src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/WMath.cpp.obj: src/CMakeFiles/uno_CORE.dir/flags.make
 src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/WMath.cpp.obj: /usr/share/arduino/hardware/arduino/cores/arduino/WMath.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/lmpizarro/sketchbook/Transmitter/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/WMath.cpp.obj"
-	cd /home/lmpizarro/sketchbook/Transmitter/build/src && /usr/bin/avr-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/WMath.cpp.obj -c /usr/share/arduino/hardware/arduino/cores/arduino/WMath.cpp
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/src && /usr/bin/avr-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/WMath.cpp.obj -c /usr/share/arduino/hardware/arduino/cores/arduino/WMath.cpp
 
 src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/WMath.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/WMath.cpp.i"
-	cd /home/lmpizarro/sketchbook/Transmitter/build/src && /usr/bin/avr-g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /usr/share/arduino/hardware/arduino/cores/arduino/WMath.cpp > CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/WMath.cpp.i
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/src && /usr/bin/avr-g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /usr/share/arduino/hardware/arduino/cores/arduino/WMath.cpp > CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/WMath.cpp.i
 
 src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/WMath.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/WMath.cpp.s"
-	cd /home/lmpizarro/sketchbook/Transmitter/build/src && /usr/bin/avr-g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /usr/share/arduino/hardware/arduino/cores/arduino/WMath.cpp -o CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/WMath.cpp.s
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/src && /usr/bin/avr-g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /usr/share/arduino/hardware/arduino/cores/arduino/WMath.cpp -o CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/WMath.cpp.s
 
 src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/WMath.cpp.obj.requires:
 .PHONY : src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/WMath.cpp.obj.requires
@@ -94,17 +94,17 @@ src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/WMa
 
 src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/new.cpp.obj: src/CMakeFiles/uno_CORE.dir/flags.make
 src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/new.cpp.obj: /usr/share/arduino/hardware/arduino/cores/arduino/new.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/lmpizarro/sketchbook/Transmitter/build/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/new.cpp.obj"
-	cd /home/lmpizarro/sketchbook/Transmitter/build/src && /usr/bin/avr-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/new.cpp.obj -c /usr/share/arduino/hardware/arduino/cores/arduino/new.cpp
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/src && /usr/bin/avr-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/new.cpp.obj -c /usr/share/arduino/hardware/arduino/cores/arduino/new.cpp
 
 src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/new.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/new.cpp.i"
-	cd /home/lmpizarro/sketchbook/Transmitter/build/src && /usr/bin/avr-g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /usr/share/arduino/hardware/arduino/cores/arduino/new.cpp > CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/new.cpp.i
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/src && /usr/bin/avr-g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /usr/share/arduino/hardware/arduino/cores/arduino/new.cpp > CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/new.cpp.i
 
 src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/new.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/new.cpp.s"
-	cd /home/lmpizarro/sketchbook/Transmitter/build/src && /usr/bin/avr-g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /usr/share/arduino/hardware/arduino/cores/arduino/new.cpp -o CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/new.cpp.s
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/src && /usr/bin/avr-g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /usr/share/arduino/hardware/arduino/cores/arduino/new.cpp -o CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/new.cpp.s
 
 src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/new.cpp.obj.requires:
 .PHONY : src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/new.cpp.obj.requires
@@ -117,17 +117,17 @@ src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/new
 
 src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/IPAddress.cpp.obj: src/CMakeFiles/uno_CORE.dir/flags.make
 src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/IPAddress.cpp.obj: /usr/share/arduino/hardware/arduino/cores/arduino/IPAddress.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/lmpizarro/sketchbook/Transmitter/build/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/IPAddress.cpp.obj"
-	cd /home/lmpizarro/sketchbook/Transmitter/build/src && /usr/bin/avr-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/IPAddress.cpp.obj -c /usr/share/arduino/hardware/arduino/cores/arduino/IPAddress.cpp
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/src && /usr/bin/avr-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/IPAddress.cpp.obj -c /usr/share/arduino/hardware/arduino/cores/arduino/IPAddress.cpp
 
 src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/IPAddress.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/IPAddress.cpp.i"
-	cd /home/lmpizarro/sketchbook/Transmitter/build/src && /usr/bin/avr-g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /usr/share/arduino/hardware/arduino/cores/arduino/IPAddress.cpp > CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/IPAddress.cpp.i
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/src && /usr/bin/avr-g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /usr/share/arduino/hardware/arduino/cores/arduino/IPAddress.cpp > CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/IPAddress.cpp.i
 
 src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/IPAddress.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/IPAddress.cpp.s"
-	cd /home/lmpizarro/sketchbook/Transmitter/build/src && /usr/bin/avr-g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /usr/share/arduino/hardware/arduino/cores/arduino/IPAddress.cpp -o CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/IPAddress.cpp.s
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/src && /usr/bin/avr-g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /usr/share/arduino/hardware/arduino/cores/arduino/IPAddress.cpp -o CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/IPAddress.cpp.s
 
 src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/IPAddress.cpp.obj.requires:
 .PHONY : src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/IPAddress.cpp.obj.requires
@@ -140,17 +140,17 @@ src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/IPA
 
 src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/HID.cpp.obj: src/CMakeFiles/uno_CORE.dir/flags.make
 src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/HID.cpp.obj: /usr/share/arduino/hardware/arduino/cores/arduino/HID.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/lmpizarro/sketchbook/Transmitter/build/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/HID.cpp.obj"
-	cd /home/lmpizarro/sketchbook/Transmitter/build/src && /usr/bin/avr-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/HID.cpp.obj -c /usr/share/arduino/hardware/arduino/cores/arduino/HID.cpp
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/src && /usr/bin/avr-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/HID.cpp.obj -c /usr/share/arduino/hardware/arduino/cores/arduino/HID.cpp
 
 src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/HID.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/HID.cpp.i"
-	cd /home/lmpizarro/sketchbook/Transmitter/build/src && /usr/bin/avr-g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /usr/share/arduino/hardware/arduino/cores/arduino/HID.cpp > CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/HID.cpp.i
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/src && /usr/bin/avr-g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /usr/share/arduino/hardware/arduino/cores/arduino/HID.cpp > CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/HID.cpp.i
 
 src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/HID.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/HID.cpp.s"
-	cd /home/lmpizarro/sketchbook/Transmitter/build/src && /usr/bin/avr-g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /usr/share/arduino/hardware/arduino/cores/arduino/HID.cpp -o CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/HID.cpp.s
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/src && /usr/bin/avr-g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /usr/share/arduino/hardware/arduino/cores/arduino/HID.cpp -o CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/HID.cpp.s
 
 src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/HID.cpp.obj.requires:
 .PHONY : src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/HID.cpp.obj.requires
@@ -163,17 +163,17 @@ src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/HID
 
 src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/WString.cpp.obj: src/CMakeFiles/uno_CORE.dir/flags.make
 src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/WString.cpp.obj: /usr/share/arduino/hardware/arduino/cores/arduino/WString.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/lmpizarro/sketchbook/Transmitter/build/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/WString.cpp.obj"
-	cd /home/lmpizarro/sketchbook/Transmitter/build/src && /usr/bin/avr-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/WString.cpp.obj -c /usr/share/arduino/hardware/arduino/cores/arduino/WString.cpp
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/src && /usr/bin/avr-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/WString.cpp.obj -c /usr/share/arduino/hardware/arduino/cores/arduino/WString.cpp
 
 src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/WString.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/WString.cpp.i"
-	cd /home/lmpizarro/sketchbook/Transmitter/build/src && /usr/bin/avr-g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /usr/share/arduino/hardware/arduino/cores/arduino/WString.cpp > CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/WString.cpp.i
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/src && /usr/bin/avr-g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /usr/share/arduino/hardware/arduino/cores/arduino/WString.cpp > CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/WString.cpp.i
 
 src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/WString.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/WString.cpp.s"
-	cd /home/lmpizarro/sketchbook/Transmitter/build/src && /usr/bin/avr-g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /usr/share/arduino/hardware/arduino/cores/arduino/WString.cpp -o CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/WString.cpp.s
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/src && /usr/bin/avr-g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /usr/share/arduino/hardware/arduino/cores/arduino/WString.cpp -o CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/WString.cpp.s
 
 src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/WString.cpp.obj.requires:
 .PHONY : src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/WString.cpp.obj.requires
@@ -186,17 +186,17 @@ src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/WSt
 
 src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/Print.cpp.obj: src/CMakeFiles/uno_CORE.dir/flags.make
 src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/Print.cpp.obj: /usr/share/arduino/hardware/arduino/cores/arduino/Print.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/lmpizarro/sketchbook/Transmitter/build/CMakeFiles $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/Print.cpp.obj"
-	cd /home/lmpizarro/sketchbook/Transmitter/build/src && /usr/bin/avr-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/Print.cpp.obj -c /usr/share/arduino/hardware/arduino/cores/arduino/Print.cpp
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/src && /usr/bin/avr-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/Print.cpp.obj -c /usr/share/arduino/hardware/arduino/cores/arduino/Print.cpp
 
 src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/Print.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/Print.cpp.i"
-	cd /home/lmpizarro/sketchbook/Transmitter/build/src && /usr/bin/avr-g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /usr/share/arduino/hardware/arduino/cores/arduino/Print.cpp > CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/Print.cpp.i
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/src && /usr/bin/avr-g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /usr/share/arduino/hardware/arduino/cores/arduino/Print.cpp > CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/Print.cpp.i
 
 src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/Print.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/Print.cpp.s"
-	cd /home/lmpizarro/sketchbook/Transmitter/build/src && /usr/bin/avr-g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /usr/share/arduino/hardware/arduino/cores/arduino/Print.cpp -o CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/Print.cpp.s
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/src && /usr/bin/avr-g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /usr/share/arduino/hardware/arduino/cores/arduino/Print.cpp -o CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/Print.cpp.s
 
 src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/Print.cpp.obj.requires:
 .PHONY : src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/Print.cpp.obj.requires
@@ -209,17 +209,17 @@ src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/Pri
 
 src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/Stream.cpp.obj: src/CMakeFiles/uno_CORE.dir/flags.make
 src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/Stream.cpp.obj: /usr/share/arduino/hardware/arduino/cores/arduino/Stream.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/lmpizarro/sketchbook/Transmitter/build/CMakeFiles $(CMAKE_PROGRESS_8)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/Stream.cpp.obj"
-	cd /home/lmpizarro/sketchbook/Transmitter/build/src && /usr/bin/avr-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/Stream.cpp.obj -c /usr/share/arduino/hardware/arduino/cores/arduino/Stream.cpp
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/src && /usr/bin/avr-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/Stream.cpp.obj -c /usr/share/arduino/hardware/arduino/cores/arduino/Stream.cpp
 
 src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/Stream.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/Stream.cpp.i"
-	cd /home/lmpizarro/sketchbook/Transmitter/build/src && /usr/bin/avr-g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /usr/share/arduino/hardware/arduino/cores/arduino/Stream.cpp > CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/Stream.cpp.i
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/src && /usr/bin/avr-g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /usr/share/arduino/hardware/arduino/cores/arduino/Stream.cpp > CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/Stream.cpp.i
 
 src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/Stream.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/Stream.cpp.s"
-	cd /home/lmpizarro/sketchbook/Transmitter/build/src && /usr/bin/avr-g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /usr/share/arduino/hardware/arduino/cores/arduino/Stream.cpp -o CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/Stream.cpp.s
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/src && /usr/bin/avr-g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /usr/share/arduino/hardware/arduino/cores/arduino/Stream.cpp -o CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/Stream.cpp.s
 
 src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/Stream.cpp.obj.requires:
 .PHONY : src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/Stream.cpp.obj.requires
@@ -232,17 +232,17 @@ src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/Str
 
 src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/main.cpp.obj: src/CMakeFiles/uno_CORE.dir/flags.make
 src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/main.cpp.obj: /usr/share/arduino/hardware/arduino/cores/arduino/main.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/lmpizarro/sketchbook/Transmitter/build/CMakeFiles $(CMAKE_PROGRESS_9)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/main.cpp.obj"
-	cd /home/lmpizarro/sketchbook/Transmitter/build/src && /usr/bin/avr-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/main.cpp.obj -c /usr/share/arduino/hardware/arduino/cores/arduino/main.cpp
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/src && /usr/bin/avr-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/main.cpp.obj -c /usr/share/arduino/hardware/arduino/cores/arduino/main.cpp
 
 src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/main.cpp.i"
-	cd /home/lmpizarro/sketchbook/Transmitter/build/src && /usr/bin/avr-g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /usr/share/arduino/hardware/arduino/cores/arduino/main.cpp > CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/main.cpp.i
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/src && /usr/bin/avr-g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /usr/share/arduino/hardware/arduino/cores/arduino/main.cpp > CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/main.cpp.i
 
 src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/main.cpp.s"
-	cd /home/lmpizarro/sketchbook/Transmitter/build/src && /usr/bin/avr-g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /usr/share/arduino/hardware/arduino/cores/arduino/main.cpp -o CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/main.cpp.s
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/src && /usr/bin/avr-g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /usr/share/arduino/hardware/arduino/cores/arduino/main.cpp -o CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/main.cpp.s
 
 src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/main.cpp.obj.requires:
 .PHONY : src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/main.cpp.obj.requires
@@ -255,17 +255,17 @@ src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/mai
 
 src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/USBCore.cpp.obj: src/CMakeFiles/uno_CORE.dir/flags.make
 src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/USBCore.cpp.obj: /usr/share/arduino/hardware/arduino/cores/arduino/USBCore.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/lmpizarro/sketchbook/Transmitter/build/CMakeFiles $(CMAKE_PROGRESS_10)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/CMakeFiles $(CMAKE_PROGRESS_10)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/USBCore.cpp.obj"
-	cd /home/lmpizarro/sketchbook/Transmitter/build/src && /usr/bin/avr-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/USBCore.cpp.obj -c /usr/share/arduino/hardware/arduino/cores/arduino/USBCore.cpp
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/src && /usr/bin/avr-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/USBCore.cpp.obj -c /usr/share/arduino/hardware/arduino/cores/arduino/USBCore.cpp
 
 src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/USBCore.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/USBCore.cpp.i"
-	cd /home/lmpizarro/sketchbook/Transmitter/build/src && /usr/bin/avr-g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /usr/share/arduino/hardware/arduino/cores/arduino/USBCore.cpp > CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/USBCore.cpp.i
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/src && /usr/bin/avr-g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /usr/share/arduino/hardware/arduino/cores/arduino/USBCore.cpp > CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/USBCore.cpp.i
 
 src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/USBCore.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/USBCore.cpp.s"
-	cd /home/lmpizarro/sketchbook/Transmitter/build/src && /usr/bin/avr-g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /usr/share/arduino/hardware/arduino/cores/arduino/USBCore.cpp -o CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/USBCore.cpp.s
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/src && /usr/bin/avr-g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /usr/share/arduino/hardware/arduino/cores/arduino/USBCore.cpp -o CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/USBCore.cpp.s
 
 src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/USBCore.cpp.obj.requires:
 .PHONY : src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/USBCore.cpp.obj.requires
@@ -278,17 +278,17 @@ src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/USB
 
 src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/CDC.cpp.obj: src/CMakeFiles/uno_CORE.dir/flags.make
 src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/CDC.cpp.obj: /usr/share/arduino/hardware/arduino/cores/arduino/CDC.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/lmpizarro/sketchbook/Transmitter/build/CMakeFiles $(CMAKE_PROGRESS_11)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/CMakeFiles $(CMAKE_PROGRESS_11)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/CDC.cpp.obj"
-	cd /home/lmpizarro/sketchbook/Transmitter/build/src && /usr/bin/avr-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/CDC.cpp.obj -c /usr/share/arduino/hardware/arduino/cores/arduino/CDC.cpp
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/src && /usr/bin/avr-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/CDC.cpp.obj -c /usr/share/arduino/hardware/arduino/cores/arduino/CDC.cpp
 
 src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/CDC.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/CDC.cpp.i"
-	cd /home/lmpizarro/sketchbook/Transmitter/build/src && /usr/bin/avr-g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /usr/share/arduino/hardware/arduino/cores/arduino/CDC.cpp > CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/CDC.cpp.i
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/src && /usr/bin/avr-g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /usr/share/arduino/hardware/arduino/cores/arduino/CDC.cpp > CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/CDC.cpp.i
 
 src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/CDC.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/CDC.cpp.s"
-	cd /home/lmpizarro/sketchbook/Transmitter/build/src && /usr/bin/avr-g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /usr/share/arduino/hardware/arduino/cores/arduino/CDC.cpp -o CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/CDC.cpp.s
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/src && /usr/bin/avr-g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /usr/share/arduino/hardware/arduino/cores/arduino/CDC.cpp -o CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/CDC.cpp.s
 
 src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/CDC.cpp.obj.requires:
 .PHONY : src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/CDC.cpp.obj.requires
@@ -301,17 +301,17 @@ src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/CDC
 
 src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/HardwareSerial.cpp.obj: src/CMakeFiles/uno_CORE.dir/flags.make
 src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/HardwareSerial.cpp.obj: /usr/share/arduino/hardware/arduino/cores/arduino/HardwareSerial.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/lmpizarro/sketchbook/Transmitter/build/CMakeFiles $(CMAKE_PROGRESS_12)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/CMakeFiles $(CMAKE_PROGRESS_12)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/HardwareSerial.cpp.obj"
-	cd /home/lmpizarro/sketchbook/Transmitter/build/src && /usr/bin/avr-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/HardwareSerial.cpp.obj -c /usr/share/arduino/hardware/arduino/cores/arduino/HardwareSerial.cpp
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/src && /usr/bin/avr-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/HardwareSerial.cpp.obj -c /usr/share/arduino/hardware/arduino/cores/arduino/HardwareSerial.cpp
 
 src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/HardwareSerial.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/HardwareSerial.cpp.i"
-	cd /home/lmpizarro/sketchbook/Transmitter/build/src && /usr/bin/avr-g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /usr/share/arduino/hardware/arduino/cores/arduino/HardwareSerial.cpp > CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/HardwareSerial.cpp.i
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/src && /usr/bin/avr-g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /usr/share/arduino/hardware/arduino/cores/arduino/HardwareSerial.cpp > CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/HardwareSerial.cpp.i
 
 src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/HardwareSerial.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/HardwareSerial.cpp.s"
-	cd /home/lmpizarro/sketchbook/Transmitter/build/src && /usr/bin/avr-g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /usr/share/arduino/hardware/arduino/cores/arduino/HardwareSerial.cpp -o CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/HardwareSerial.cpp.s
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/src && /usr/bin/avr-g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /usr/share/arduino/hardware/arduino/cores/arduino/HardwareSerial.cpp -o CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/HardwareSerial.cpp.s
 
 src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/HardwareSerial.cpp.obj.requires:
 .PHONY : src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/HardwareSerial.cpp.obj.requires
@@ -324,17 +324,17 @@ src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/Har
 
 src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/wiring_shift.c.obj: src/CMakeFiles/uno_CORE.dir/flags.make
 src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/wiring_shift.c.obj: /usr/share/arduino/hardware/arduino/cores/arduino/wiring_shift.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/lmpizarro/sketchbook/Transmitter/build/CMakeFiles $(CMAKE_PROGRESS_13)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/CMakeFiles $(CMAKE_PROGRESS_13)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/wiring_shift.c.obj"
-	cd /home/lmpizarro/sketchbook/Transmitter/build/src && /usr/bin/avr-gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/wiring_shift.c.obj   -c /usr/share/arduino/hardware/arduino/cores/arduino/wiring_shift.c
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/src && /usr/bin/avr-gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/wiring_shift.c.obj   -c /usr/share/arduino/hardware/arduino/cores/arduino/wiring_shift.c
 
 src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/wiring_shift.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/wiring_shift.c.i"
-	cd /home/lmpizarro/sketchbook/Transmitter/build/src && /usr/bin/avr-gcc  $(C_DEFINES) $(C_FLAGS) -E /usr/share/arduino/hardware/arduino/cores/arduino/wiring_shift.c > CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/wiring_shift.c.i
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/src && /usr/bin/avr-gcc  $(C_DEFINES) $(C_FLAGS) -E /usr/share/arduino/hardware/arduino/cores/arduino/wiring_shift.c > CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/wiring_shift.c.i
 
 src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/wiring_shift.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/wiring_shift.c.s"
-	cd /home/lmpizarro/sketchbook/Transmitter/build/src && /usr/bin/avr-gcc  $(C_DEFINES) $(C_FLAGS) -S /usr/share/arduino/hardware/arduino/cores/arduino/wiring_shift.c -o CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/wiring_shift.c.s
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/src && /usr/bin/avr-gcc  $(C_DEFINES) $(C_FLAGS) -S /usr/share/arduino/hardware/arduino/cores/arduino/wiring_shift.c -o CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/wiring_shift.c.s
 
 src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/wiring_shift.c.obj.requires:
 .PHONY : src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/wiring_shift.c.obj.requires
@@ -347,17 +347,17 @@ src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/wir
 
 src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/wiring_digital.c.obj: src/CMakeFiles/uno_CORE.dir/flags.make
 src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/wiring_digital.c.obj: /usr/share/arduino/hardware/arduino/cores/arduino/wiring_digital.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/lmpizarro/sketchbook/Transmitter/build/CMakeFiles $(CMAKE_PROGRESS_14)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/CMakeFiles $(CMAKE_PROGRESS_14)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/wiring_digital.c.obj"
-	cd /home/lmpizarro/sketchbook/Transmitter/build/src && /usr/bin/avr-gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/wiring_digital.c.obj   -c /usr/share/arduino/hardware/arduino/cores/arduino/wiring_digital.c
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/src && /usr/bin/avr-gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/wiring_digital.c.obj   -c /usr/share/arduino/hardware/arduino/cores/arduino/wiring_digital.c
 
 src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/wiring_digital.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/wiring_digital.c.i"
-	cd /home/lmpizarro/sketchbook/Transmitter/build/src && /usr/bin/avr-gcc  $(C_DEFINES) $(C_FLAGS) -E /usr/share/arduino/hardware/arduino/cores/arduino/wiring_digital.c > CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/wiring_digital.c.i
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/src && /usr/bin/avr-gcc  $(C_DEFINES) $(C_FLAGS) -E /usr/share/arduino/hardware/arduino/cores/arduino/wiring_digital.c > CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/wiring_digital.c.i
 
 src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/wiring_digital.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/wiring_digital.c.s"
-	cd /home/lmpizarro/sketchbook/Transmitter/build/src && /usr/bin/avr-gcc  $(C_DEFINES) $(C_FLAGS) -S /usr/share/arduino/hardware/arduino/cores/arduino/wiring_digital.c -o CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/wiring_digital.c.s
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/src && /usr/bin/avr-gcc  $(C_DEFINES) $(C_FLAGS) -S /usr/share/arduino/hardware/arduino/cores/arduino/wiring_digital.c -o CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/wiring_digital.c.s
 
 src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/wiring_digital.c.obj.requires:
 .PHONY : src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/wiring_digital.c.obj.requires
@@ -370,17 +370,17 @@ src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/wir
 
 src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/wiring.c.obj: src/CMakeFiles/uno_CORE.dir/flags.make
 src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/wiring.c.obj: /usr/share/arduino/hardware/arduino/cores/arduino/wiring.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/lmpizarro/sketchbook/Transmitter/build/CMakeFiles $(CMAKE_PROGRESS_15)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/CMakeFiles $(CMAKE_PROGRESS_15)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/wiring.c.obj"
-	cd /home/lmpizarro/sketchbook/Transmitter/build/src && /usr/bin/avr-gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/wiring.c.obj   -c /usr/share/arduino/hardware/arduino/cores/arduino/wiring.c
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/src && /usr/bin/avr-gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/wiring.c.obj   -c /usr/share/arduino/hardware/arduino/cores/arduino/wiring.c
 
 src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/wiring.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/wiring.c.i"
-	cd /home/lmpizarro/sketchbook/Transmitter/build/src && /usr/bin/avr-gcc  $(C_DEFINES) $(C_FLAGS) -E /usr/share/arduino/hardware/arduino/cores/arduino/wiring.c > CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/wiring.c.i
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/src && /usr/bin/avr-gcc  $(C_DEFINES) $(C_FLAGS) -E /usr/share/arduino/hardware/arduino/cores/arduino/wiring.c > CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/wiring.c.i
 
 src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/wiring.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/wiring.c.s"
-	cd /home/lmpizarro/sketchbook/Transmitter/build/src && /usr/bin/avr-gcc  $(C_DEFINES) $(C_FLAGS) -S /usr/share/arduino/hardware/arduino/cores/arduino/wiring.c -o CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/wiring.c.s
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/src && /usr/bin/avr-gcc  $(C_DEFINES) $(C_FLAGS) -S /usr/share/arduino/hardware/arduino/cores/arduino/wiring.c -o CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/wiring.c.s
 
 src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/wiring.c.obj.requires:
 .PHONY : src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/wiring.c.obj.requires
@@ -393,17 +393,17 @@ src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/wir
 
 src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/wiring_analog.c.obj: src/CMakeFiles/uno_CORE.dir/flags.make
 src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/wiring_analog.c.obj: /usr/share/arduino/hardware/arduino/cores/arduino/wiring_analog.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/lmpizarro/sketchbook/Transmitter/build/CMakeFiles $(CMAKE_PROGRESS_16)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/CMakeFiles $(CMAKE_PROGRESS_16)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/wiring_analog.c.obj"
-	cd /home/lmpizarro/sketchbook/Transmitter/build/src && /usr/bin/avr-gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/wiring_analog.c.obj   -c /usr/share/arduino/hardware/arduino/cores/arduino/wiring_analog.c
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/src && /usr/bin/avr-gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/wiring_analog.c.obj   -c /usr/share/arduino/hardware/arduino/cores/arduino/wiring_analog.c
 
 src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/wiring_analog.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/wiring_analog.c.i"
-	cd /home/lmpizarro/sketchbook/Transmitter/build/src && /usr/bin/avr-gcc  $(C_DEFINES) $(C_FLAGS) -E /usr/share/arduino/hardware/arduino/cores/arduino/wiring_analog.c > CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/wiring_analog.c.i
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/src && /usr/bin/avr-gcc  $(C_DEFINES) $(C_FLAGS) -E /usr/share/arduino/hardware/arduino/cores/arduino/wiring_analog.c > CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/wiring_analog.c.i
 
 src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/wiring_analog.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/wiring_analog.c.s"
-	cd /home/lmpizarro/sketchbook/Transmitter/build/src && /usr/bin/avr-gcc  $(C_DEFINES) $(C_FLAGS) -S /usr/share/arduino/hardware/arduino/cores/arduino/wiring_analog.c -o CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/wiring_analog.c.s
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/src && /usr/bin/avr-gcc  $(C_DEFINES) $(C_FLAGS) -S /usr/share/arduino/hardware/arduino/cores/arduino/wiring_analog.c -o CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/wiring_analog.c.s
 
 src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/wiring_analog.c.obj.requires:
 .PHONY : src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/wiring_analog.c.obj.requires
@@ -416,17 +416,17 @@ src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/wir
 
 src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/WInterrupts.c.obj: src/CMakeFiles/uno_CORE.dir/flags.make
 src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/WInterrupts.c.obj: /usr/share/arduino/hardware/arduino/cores/arduino/WInterrupts.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/lmpizarro/sketchbook/Transmitter/build/CMakeFiles $(CMAKE_PROGRESS_17)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/CMakeFiles $(CMAKE_PROGRESS_17)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/WInterrupts.c.obj"
-	cd /home/lmpizarro/sketchbook/Transmitter/build/src && /usr/bin/avr-gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/WInterrupts.c.obj   -c /usr/share/arduino/hardware/arduino/cores/arduino/WInterrupts.c
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/src && /usr/bin/avr-gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/WInterrupts.c.obj   -c /usr/share/arduino/hardware/arduino/cores/arduino/WInterrupts.c
 
 src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/WInterrupts.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/WInterrupts.c.i"
-	cd /home/lmpizarro/sketchbook/Transmitter/build/src && /usr/bin/avr-gcc  $(C_DEFINES) $(C_FLAGS) -E /usr/share/arduino/hardware/arduino/cores/arduino/WInterrupts.c > CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/WInterrupts.c.i
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/src && /usr/bin/avr-gcc  $(C_DEFINES) $(C_FLAGS) -E /usr/share/arduino/hardware/arduino/cores/arduino/WInterrupts.c > CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/WInterrupts.c.i
 
 src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/WInterrupts.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/WInterrupts.c.s"
-	cd /home/lmpizarro/sketchbook/Transmitter/build/src && /usr/bin/avr-gcc  $(C_DEFINES) $(C_FLAGS) -S /usr/share/arduino/hardware/arduino/cores/arduino/WInterrupts.c -o CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/WInterrupts.c.s
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/src && /usr/bin/avr-gcc  $(C_DEFINES) $(C_FLAGS) -S /usr/share/arduino/hardware/arduino/cores/arduino/WInterrupts.c -o CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/WInterrupts.c.s
 
 src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/WInterrupts.c.obj.requires:
 .PHONY : src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/WInterrupts.c.obj.requires
@@ -439,17 +439,17 @@ src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/WIn
 
 src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/wiring_pulse.c.obj: src/CMakeFiles/uno_CORE.dir/flags.make
 src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/wiring_pulse.c.obj: /usr/share/arduino/hardware/arduino/cores/arduino/wiring_pulse.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/lmpizarro/sketchbook/Transmitter/build/CMakeFiles $(CMAKE_PROGRESS_18)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/CMakeFiles $(CMAKE_PROGRESS_18)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/wiring_pulse.c.obj"
-	cd /home/lmpizarro/sketchbook/Transmitter/build/src && /usr/bin/avr-gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/wiring_pulse.c.obj   -c /usr/share/arduino/hardware/arduino/cores/arduino/wiring_pulse.c
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/src && /usr/bin/avr-gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/wiring_pulse.c.obj   -c /usr/share/arduino/hardware/arduino/cores/arduino/wiring_pulse.c
 
 src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/wiring_pulse.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/wiring_pulse.c.i"
-	cd /home/lmpizarro/sketchbook/Transmitter/build/src && /usr/bin/avr-gcc  $(C_DEFINES) $(C_FLAGS) -E /usr/share/arduino/hardware/arduino/cores/arduino/wiring_pulse.c > CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/wiring_pulse.c.i
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/src && /usr/bin/avr-gcc  $(C_DEFINES) $(C_FLAGS) -E /usr/share/arduino/hardware/arduino/cores/arduino/wiring_pulse.c > CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/wiring_pulse.c.i
 
 src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/wiring_pulse.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/wiring_pulse.c.s"
-	cd /home/lmpizarro/sketchbook/Transmitter/build/src && /usr/bin/avr-gcc  $(C_DEFINES) $(C_FLAGS) -S /usr/share/arduino/hardware/arduino/cores/arduino/wiring_pulse.c -o CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/wiring_pulse.c.s
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/src && /usr/bin/avr-gcc  $(C_DEFINES) $(C_FLAGS) -S /usr/share/arduino/hardware/arduino/cores/arduino/wiring_pulse.c -o CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/wiring_pulse.c.s
 
 src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/wiring_pulse.c.obj.requires:
 .PHONY : src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduino/cores/arduino/wiring_pulse.c.obj.requires
@@ -505,8 +505,8 @@ src/libuno_CORE.a: src/CMakeFiles/uno_CORE.dir/usr/share/arduino/hardware/arduin
 src/libuno_CORE.a: src/CMakeFiles/uno_CORE.dir/build.make
 src/libuno_CORE.a: src/CMakeFiles/uno_CORE.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX static library libuno_CORE.a"
-	cd /home/lmpizarro/sketchbook/Transmitter/build/src && $(CMAKE_COMMAND) -P CMakeFiles/uno_CORE.dir/cmake_clean_target.cmake
-	cd /home/lmpizarro/sketchbook/Transmitter/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/uno_CORE.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/src && $(CMAKE_COMMAND) -P CMakeFiles/uno_CORE.dir/cmake_clean_target.cmake
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/uno_CORE.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/CMakeFiles/uno_CORE.dir/build: src/libuno_CORE.a
@@ -533,10 +533,10 @@ src/CMakeFiles/uno_CORE.dir/requires: src/CMakeFiles/uno_CORE.dir/usr/share/ardu
 .PHONY : src/CMakeFiles/uno_CORE.dir/requires
 
 src/CMakeFiles/uno_CORE.dir/clean:
-	cd /home/lmpizarro/sketchbook/Transmitter/build/src && $(CMAKE_COMMAND) -P CMakeFiles/uno_CORE.dir/cmake_clean.cmake
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/src && $(CMAKE_COMMAND) -P CMakeFiles/uno_CORE.dir/cmake_clean.cmake
 .PHONY : src/CMakeFiles/uno_CORE.dir/clean
 
 src/CMakeFiles/uno_CORE.dir/depend:
-	cd /home/lmpizarro/sketchbook/Transmitter/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lmpizarro/sketchbook/Transmitter /home/lmpizarro/sketchbook/Transmitter/src /home/lmpizarro/sketchbook/Transmitter/build /home/lmpizarro/sketchbook/Transmitter/build/src /home/lmpizarro/sketchbook/Transmitter/build/src/CMakeFiles/uno_CORE.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/src /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/src /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/src/CMakeFiles/uno_CORE.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/CMakeFiles/uno_CORE.dir/depend
 

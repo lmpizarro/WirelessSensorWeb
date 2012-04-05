@@ -4,7 +4,7 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/lmpizarro/sketchbook/Transmitter/src/Transmitter.cpp" "/home/lmpizarro/sketchbook/Transmitter/build/src/CMakeFiles/Transmitter.dir/Transmitter.cpp.obj"
+  "/home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/src/Transmitter.cpp" "/home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/src/CMakeFiles/Transmitter.dir/Transmitter.cpp.obj"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -16,6 +16,6 @@ SET(CMAKE_TARGET_DEFINITIONS
 
 # Targets to which this target links.
 SET(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/lmpizarro/sketchbook/Transmitter/build/src/CMakeFiles/uno_SoftwareSerial.dir/DependInfo.cmake"
-  "/home/lmpizarro/sketchbook/Transmitter/build/src/CMakeFiles/uno_CORE.dir/DependInfo.cmake"
+  "/home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/src/CMakeFiles/uno_SoftwareSerial.dir/DependInfo.cmake"
+  "/home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/src/CMakeFiles/uno_CORE.dir/DependInfo.cmake"
   )

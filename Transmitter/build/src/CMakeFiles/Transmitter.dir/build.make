@@ -32,10 +32,10 @@ CMAKE_COMMAND = /usr/bin/cmake
 RM = /usr/bin/cmake -E remove -f
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lmpizarro/sketchbook/Transmitter
+CMAKE_SOURCE_DIR = /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lmpizarro/sketchbook/Transmitter/build
+CMAKE_BINARY_DIR = /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build
 
 # Include any dependencies generated for this target.
 include src/CMakeFiles/Transmitter.dir/depend.make
@@ -48,17 +48,17 @@ include src/CMakeFiles/Transmitter.dir/flags.make
 
 src/CMakeFiles/Transmitter.dir/Transmitter.cpp.obj: src/CMakeFiles/Transmitter.dir/flags.make
 src/CMakeFiles/Transmitter.dir/Transmitter.cpp.obj: ../src/Transmitter.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/lmpizarro/sketchbook/Transmitter/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/Transmitter.dir/Transmitter.cpp.obj"
-	cd /home/lmpizarro/sketchbook/Transmitter/build/src && /usr/bin/avr-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Transmitter.dir/Transmitter.cpp.obj -c /home/lmpizarro/sketchbook/Transmitter/src/Transmitter.cpp
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/src && /usr/bin/avr-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Transmitter.dir/Transmitter.cpp.obj -c /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/src/Transmitter.cpp
 
 src/CMakeFiles/Transmitter.dir/Transmitter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Transmitter.dir/Transmitter.cpp.i"
-	cd /home/lmpizarro/sketchbook/Transmitter/build/src && /usr/bin/avr-g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lmpizarro/sketchbook/Transmitter/src/Transmitter.cpp > CMakeFiles/Transmitter.dir/Transmitter.cpp.i
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/src && /usr/bin/avr-g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/src/Transmitter.cpp > CMakeFiles/Transmitter.dir/Transmitter.cpp.i
 
 src/CMakeFiles/Transmitter.dir/Transmitter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Transmitter.dir/Transmitter.cpp.s"
-	cd /home/lmpizarro/sketchbook/Transmitter/build/src && /usr/bin/avr-g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lmpizarro/sketchbook/Transmitter/src/Transmitter.cpp -o CMakeFiles/Transmitter.dir/Transmitter.cpp.s
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/src && /usr/bin/avr-g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/src/Transmitter.cpp -o CMakeFiles/Transmitter.dir/Transmitter.cpp.s
 
 src/CMakeFiles/Transmitter.dir/Transmitter.cpp.obj.requires:
 .PHONY : src/CMakeFiles/Transmitter.dir/Transmitter.cpp.obj.requires
@@ -82,9 +82,9 @@ src/Transmitter.elf: src/libuno_CORE.a
 src/Transmitter.elf: src/CMakeFiles/Transmitter.dir/build.make
 src/Transmitter.elf: src/CMakeFiles/Transmitter.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable Transmitter.elf"
-	cd /home/lmpizarro/sketchbook/Transmitter/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Transmitter.dir/link.txt --verbose=$(VERBOSE)
-	cd /home/lmpizarro/sketchbook/Transmitter/build/src && /usr/bin/avr-objcopy -O ihex -j .eeprom --set-section-flags=.eeprom=alloc,load --no-change-warnings --change-section-lma .eeprom=0 /home/lmpizarro/sketchbook/Transmitter/build/src/Transmitter.elf /home/lmpizarro/sketchbook/Transmitter/build/src/Transmitter.eep
-	cd /home/lmpizarro/sketchbook/Transmitter/build/src && /usr/bin/avr-objcopy -O ihex -R .eeprom /home/lmpizarro/sketchbook/Transmitter/build/src/Transmitter.elf /home/lmpizarro/sketchbook/Transmitter/build/src/Transmitter.hex
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Transmitter.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/src && /usr/bin/avr-objcopy -O ihex -j .eeprom --set-section-flags=.eeprom=alloc,load --no-change-warnings --change-section-lma .eeprom=0 /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/src/Transmitter.elf /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/src/Transmitter.eep
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/src && /usr/bin/avr-objcopy -O ihex -R .eeprom /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/src/Transmitter.elf /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/src/Transmitter.hex
 
 # Rule to build all files generated by this target.
 src/CMakeFiles/Transmitter.dir/build: src/Transmitter.elf
@@ -94,10 +94,10 @@ src/CMakeFiles/Transmitter.dir/requires: src/CMakeFiles/Transmitter.dir/Transmit
 .PHONY : src/CMakeFiles/Transmitter.dir/requires
 
 src/CMakeFiles/Transmitter.dir/clean:
-	cd /home/lmpizarro/sketchbook/Transmitter/build/src && $(CMAKE_COMMAND) -P CMakeFiles/Transmitter.dir/cmake_clean.cmake
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/src && $(CMAKE_COMMAND) -P CMakeFiles/Transmitter.dir/cmake_clean.cmake
 .PHONY : src/CMakeFiles/Transmitter.dir/clean
 
 src/CMakeFiles/Transmitter.dir/depend:
-	cd /home/lmpizarro/sketchbook/Transmitter/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lmpizarro/sketchbook/Transmitter /home/lmpizarro/sketchbook/Transmitter/src /home/lmpizarro/sketchbook/Transmitter/build /home/lmpizarro/sketchbook/Transmitter/build/src /home/lmpizarro/sketchbook/Transmitter/build/src/CMakeFiles/Transmitter.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/src /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/src /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/src/CMakeFiles/Transmitter.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/CMakeFiles/Transmitter.dir/depend
 

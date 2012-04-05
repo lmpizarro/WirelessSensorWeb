@@ -11,7 +11,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/home/lmpizarro/sketchbook/Transmitter/build/CMakeFiles/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/CMakeFiles/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /usr/bin/avr-g++ 
@@ -24,30 +24,30 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/home/lmpizarro/sketchbook/Transmitter/build/CMakeFiles/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/CMakeFiles/CompilerIdCXX/a.out"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /home/lmpizarro/sketchbook/Transmitter/build/CMakeFiles/CMakeTmp
+Change Dir: /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/CMakeFiles/CMakeTmp
 
 Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
 /usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
-make[1]: Entering directory `/home/lmpizarro/sketchbook/Transmitter/build/CMakeFiles/CMakeTmp'
-/usr/bin/cmake -E cmake_progress_report /home/lmpizarro/sketchbook/Transmitter/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+make[1]: Entering directory `/home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/CMakeFiles/CMakeTmp/CMakeFiles 1
 Building C object CMakeFiles/cmTryCompileExec.dir/testCCompiler.c.obj
-/usr/bin/avr-gcc   -g -Os       -ffunction-sections -fdata-sections     -o CMakeFiles/cmTryCompileExec.dir/testCCompiler.c.obj   -c /home/lmpizarro/sketchbook/Transmitter/build/CMakeFiles/CMakeTmp/testCCompiler.c
+/usr/bin/avr-gcc   -g -Os       -ffunction-sections -fdata-sections     -o CMakeFiles/cmTryCompileExec.dir/testCCompiler.c.obj   -c /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/CMakeFiles/CMakeTmp/testCCompiler.c
 Linking C executable cmTryCompileExec
 /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
 /usr/bin/avr-gcc   -g -Os       -ffunction-sections -fdata-sections    -Wl,--gc-sections CMakeFiles/cmTryCompileExec.dir/testCCompiler.c.obj  -o cmTryCompileExec  
-make[1]: Leaving directory `/home/lmpizarro/sketchbook/Transmitter/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory `/home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/lmpizarro/sketchbook/Transmitter/build/CMakeFiles/CMakeTmp
+Change Dir: /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/CMakeFiles/CMakeTmp
 
 Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
 /usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
-make[1]: Entering directory `/home/lmpizarro/sketchbook/Transmitter/build/CMakeFiles/CMakeTmp'
-/usr/bin/cmake -E cmake_progress_report /home/lmpizarro/sketchbook/Transmitter/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+make[1]: Entering directory `/home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/CMakeFiles/CMakeTmp/CMakeFiles 1
 Building C object CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.obj
 /usr/bin/avr-gcc   -g -Os       -ffunction-sections -fdata-sections     -o CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.obj   -c /usr/share/cmake-2.8/Modules/CMakeCCompilerABI.c
 Linking C executable cmTryCompileExec
@@ -64,17 +64,17 @@ COMPILER_PATH=/usr/lib/gcc/avr/4.5.3/:/usr/lib/gcc/avr/4.5.3/:/usr/lib/gcc/avr/:
 LIBRARY_PATH=/usr/lib/gcc/avr/4.5.3/:/usr/lib/gcc/avr/4.5.3/../../../avr/lib/
 COLLECT_GCC_OPTIONS='-g' '-Os' '-ffunction-sections' '-fdata-sections' '-v' '-o' 'cmTryCompileExec'
  /usr/lib/gcc/avr/4.5.3/collect2 -o cmTryCompileExec -L/usr/lib/gcc/avr/4.5.3 -L/usr/lib/gcc/avr/4.5.3/../../../avr/lib CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.obj -lgcc -lc -lgcc
-make[1]: Leaving directory `/home/lmpizarro/sketchbook/Transmitter/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory `/home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/CMakeFiles/CMakeTmp'
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(avr-ld|ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/lmpizarro/sketchbook/Transmitter/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/CMakeFiles/CMakeTmp]
   ignore line: []
   ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec/fast"]
   ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build]
-  ignore line: [make[1]: Entering directory `/home/lmpizarro/sketchbook/Transmitter/build/CMakeFiles/CMakeTmp']
-  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/lmpizarro/sketchbook/Transmitter/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [make[1]: Entering directory `/home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
   ignore line: [Building C object CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.obj]
   ignore line: [/usr/bin/avr-gcc   -g -Os       -ffunction-sections -fdata-sections     -o CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.obj   -c /usr/share/cmake-2.8/Modules/CMakeCCompilerABI.c]
   ignore line: [Linking C executable cmTryCompileExec]
@@ -109,27 +109,27 @@ Parsed C implicit link information from above output:
 
 
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /home/lmpizarro/sketchbook/Transmitter/build/CMakeFiles/CMakeTmp
+Change Dir: /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/CMakeFiles/CMakeTmp
 
 Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
 /usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
-make[1]: Entering directory `/home/lmpizarro/sketchbook/Transmitter/build/CMakeFiles/CMakeTmp'
-/usr/bin/cmake -E cmake_progress_report /home/lmpizarro/sketchbook/Transmitter/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+make[1]: Entering directory `/home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/CMakeFiles/CMakeTmp/CMakeFiles 1
 Building CXX object CMakeFiles/cmTryCompileExec.dir/testCXXCompiler.cxx.obj
-/usr/bin/avr-g++    -g -Os       -ffunction-sections -fdata-sections -fno-exceptions     -o CMakeFiles/cmTryCompileExec.dir/testCXXCompiler.cxx.obj -c /home/lmpizarro/sketchbook/Transmitter/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+/usr/bin/avr-g++    -g -Os       -ffunction-sections -fdata-sections -fno-exceptions     -o CMakeFiles/cmTryCompileExec.dir/testCXXCompiler.cxx.obj -c /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
 Linking CXX executable cmTryCompileExec
 /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
 /usr/bin/avr-g++    -g -Os       -ffunction-sections -fdata-sections -fno-exceptions    -Wl,--gc-sections CMakeFiles/cmTryCompileExec.dir/testCXXCompiler.cxx.obj  -o cmTryCompileExec  
-make[1]: Leaving directory `/home/lmpizarro/sketchbook/Transmitter/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory `/home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /home/lmpizarro/sketchbook/Transmitter/build/CMakeFiles/CMakeTmp
+Change Dir: /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/CMakeFiles/CMakeTmp
 
 Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
 /usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
-make[1]: Entering directory `/home/lmpizarro/sketchbook/Transmitter/build/CMakeFiles/CMakeTmp'
-/usr/bin/cmake -E cmake_progress_report /home/lmpizarro/sketchbook/Transmitter/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+make[1]: Entering directory `/home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/CMakeFiles/CMakeTmp/CMakeFiles 1
 Building CXX object CMakeFiles/cmTryCompileExec.dir/CMakeCXXCompilerABI.cpp.obj
 /usr/bin/avr-g++    -g -Os       -ffunction-sections -fdata-sections -fno-exceptions     -o CMakeFiles/cmTryCompileExec.dir/CMakeCXXCompilerABI.cpp.obj -c /usr/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp
 Linking CXX executable cmTryCompileExec
@@ -146,17 +146,17 @@ COMPILER_PATH=/usr/lib/gcc/avr/4.5.3/:/usr/lib/gcc/avr/4.5.3/:/usr/lib/gcc/avr/:
 LIBRARY_PATH=/usr/lib/gcc/avr/4.5.3/:/usr/lib/gcc/avr/4.5.3/../../../avr/lib/
 COLLECT_GCC_OPTIONS='-g' '-Os' '-ffunction-sections' '-fdata-sections' '-fno-exceptions' '-v' '-o' 'cmTryCompileExec'
  /usr/lib/gcc/avr/4.5.3/collect2 -o cmTryCompileExec -L/usr/lib/gcc/avr/4.5.3 -L/usr/lib/gcc/avr/4.5.3/../../../avr/lib CMakeFiles/cmTryCompileExec.dir/CMakeCXXCompilerABI.cpp.obj -lgcc -lm -lgcc -lc -lgcc
-make[1]: Leaving directory `/home/lmpizarro/sketchbook/Transmitter/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory `/home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/CMakeFiles/CMakeTmp'
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(avr-ld|ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/lmpizarro/sketchbook/Transmitter/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/CMakeFiles/CMakeTmp]
   ignore line: []
   ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec/fast"]
   ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build]
-  ignore line: [make[1]: Entering directory `/home/lmpizarro/sketchbook/Transmitter/build/CMakeFiles/CMakeTmp']
-  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/lmpizarro/sketchbook/Transmitter/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [make[1]: Entering directory `/home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/lmpizarro/sketchbook/WirelessSensorWeb/Transmitter/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
   ignore line: [Building CXX object CMakeFiles/cmTryCompileExec.dir/CMakeCXXCompilerABI.cpp.obj]
   ignore line: [/usr/bin/avr-g++    -g -Os       -ffunction-sections -fdata-sections -fno-exceptions     -o CMakeFiles/cmTryCompileExec.dir/CMakeCXXCompilerABI.cpp.obj -c /usr/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp]
   ignore line: [Linking CXX executable cmTryCompileExec]
