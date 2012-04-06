@@ -124,7 +124,7 @@ int main(int argc, char **argv)
                   if (mciclos > 50)
                     printf ("Bus sin actividad: \n");
                 }
-	}
+	} // fin del while (1)
 
 	close(port);
 	printf("Total bytes read: %d\n", sum);
