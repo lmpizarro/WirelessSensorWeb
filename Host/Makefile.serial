@@ -1,0 +1,19 @@
+#gcc -O3 -Wall -o serial_listen serial_listen.c -I/usr/include/python2.7/
+
+CC=gcc
+CFLAGS=-c -Wall
+LDFLAGS=
+SOURCES=serial_listen.c
+OBJECTS=$(SOURCES:.c=.o)
+EXECUTABLE=serial_listen
+
+all: $(SOURCES) $(EXECUTABLE)
+	
+$(EXECUTABLE): $(OBJECTS) 
+	$(CC) $(LDFLAGS) $(OBJECTS) -o $@
+
+.cpp.o:
+	$(CC) $(CFLAGS) $< -o $@
+
+clean:
+	rm -rf $(OBJECTS) $(EXECUTABLE) 

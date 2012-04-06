@@ -11,23 +11,6 @@
 #include <unistd.h>
 #include <termios.h>
 #include <time.h>
-#include <mosquitto.h>
-
-       void my_message_callback(void *obj, struct mosquitto_message *message)
-       {
-            if(message->payloadlen){
-                 printf("%s %s\n", message->topic, message->payload);
-            }else{
-                 printf("%s (null)\n", message->topic);
-            }
-            fflush(stdout);
-       }
-
-
-
-
-
-
 
 
 #define BAUDRATE B9600
@@ -130,5 +113,3 @@ int main(int argc, char **argv)
 	printf("Total bytes read: %d\n", sum);
 	return 0;
 }
-
-
