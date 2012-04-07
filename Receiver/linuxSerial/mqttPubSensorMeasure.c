@@ -31,10 +31,10 @@ void setTimeTag (char *rawMessage){
     time(&ltime);
     /* Convert it to the structure tm */
     newtime = localtime(&ltime);
-    asctime_r(newtime, rawMessage);
-    rawMessage[24] ='-';
-/*
-   printf("%d/%d/%d-%d:%d:%d-%s\n",
+    //asctime_r(newtime, rawMessage);
+    //rawMessage[24] ='-';
+    strftime(rawMessage, TIME_TAG_LEN, "%Y/%m/%d %H:%M:%S-", newtime);
+/*   printf("%d/%d/%d-%d:%d:%d-%s\n",
                                    newtime->tm_year+1900, 
                                    newtime->tm_mon+1, 
                                    newtime->tm_mday, 
