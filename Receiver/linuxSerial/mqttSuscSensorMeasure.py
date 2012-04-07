@@ -34,7 +34,7 @@ client.connect("127.0.0.1", port=1883, keepalive=60)
 #client.loop(timeout=-1)
 
 #client.subscribe(topic, qos)
-client.subscribe("hello/+", 0)
+client.subscribe("hola/+", 0)
 
 while client.loop()==0:
   pass
