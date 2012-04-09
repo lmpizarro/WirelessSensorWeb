@@ -1,0 +1,838 @@
+
+mainADC.elf:     file format elf32-msp430
+
+SYMBOL TABLE:
+0000f800 l    d  .text	00000000 .text
+00000200 l    d  .data	00000000 .data
+00000210 l    d  .bss	00000000 .bss
+0000ffe0 l    d  .vectors	00000000 .vectors
+00000000 l    d  .debug_aranges	00000000 .debug_aranges
+00000000 l    d  .debug_pubnames	00000000 .debug_pubnames
+00000000 l    d  .debug_info	00000000 .debug_info
+00000000 l    d  .debug_abbrev	00000000 .debug_abbrev
+00000000 l    d  .debug_line	00000000 .debug_line
+00000000 l    d  .debug_frame	00000000 .debug_frame
+00000000 l    d  .debug_str	00000000 .debug_str
+00000000 l    d  .debug_loc	00000000 .debug_loc
+00000000 l    d  .debug_ranges	00000000 .debug_ranges
+00000000 l    df *ABS*	00000000 mainADC.c
+0000fad6 l     F .text	00000012 ADC10_ISR
+0000fae8 l     F .text	00000034 Port_1
+0000fb1c l     F .text	000000dc Timer_A
+0000f89e l       .text	00000000 __br_unexpected_
+0000007c g       *ABS*	00000000 __USISR
+00000057 g       *ABS*	00000000 __BCSCTL1
+00000174 g       *ABS*	00000000 __TACCR1
+00000010 g       *ABS*	00000000 __data_size
+0000f89e  w      .text	00000000 __isr_14
+0000007a g       *ABS*	00000000 __USICKCTL
+00000128 g       *ABS*	00000000 __FCTL1
+00000024 g       *ABS*	00000000 __P1IES
+0000f89e  w      .text	00000000 __isr_4
+00000002 g       *ABS*	00000000 __IFG1
+0000f9b4 g     F .text	00000122 TransmitADCValue
+0000012e g       *ABS*	00000000 __TAIV
+00000000 g       .vectors	00000000 _efartext
+0000002b g       *ABS*	00000000 __P2IFG
+0000fbfa g       *ABS*	00000000 _etext
+0000002f g       *ABS*	00000000 __bss_size
+00000078 g       *ABS*	00000000 __USICTL
+0000f898  w      .text	00000000 __stop_progExec__
+0000002d g       *ABS*	00000000 __P2IE
+0000f89e  w      .text	00000000 __isr_11
+00000025 g       *ABS*	00000000 __P1IE
+00000049 g       *ABS*	00000000 __ADC10DTC1
+0000f8a2 g     F .text	0000001c Single_Measure
+0000fad6 g       .text	00000000 __isr_5
+0000fbfa g       *ABS*	00000000 __data_load_start
+0000f89e g       .text	00000000 __dtors_end
+00000053 g       *ABS*	00000000 __BCSCTL3
+000001bc g       *ABS*	00000000 __ADC10SA
+0000007a g       *ABS*	00000000 __USICCTL
+0000f926 g     F .text	0000008e Receive
+0000fae8 g       .text	00000000 __isr_2
+0000f8e4 g     F .text	00000042 Transmit
+00000160 g       *ABS*	00000000 __TACTL
+0000012c g       *ABS*	00000000 __FCTL3
+0000f89e  w      .text	00000000 __isr_10
+0000002e g       *ABS*	00000000 __P2SEL
+00000023 g       *ABS*	00000000 __P1IFG
+0000004a g       *ABS*	00000000 __ADC10AE0
+00000172 g       *ABS*	00000000 __TACCR0
+00000056 g       *ABS*	00000000 __DCOCTL
+0000f89e  w      .text	00000000 __isr_7
+0000ffe0 g     O .vectors	00000020 __ivtbl_16
+00000210 g     O .bss	00000001 hasReceived
+00000028 g       *ABS*	00000000 __P2IN
+000001b4 g       *ABS*	00000000 __ADC10MEM
+0000f89e  w      .text	00000000 __isr_0
+00000212 g     O .bss	00000002 i
+00000029 g       *ABS*	00000000 __P2OUT
+0000012a g       *ABS*	00000000 __FCTL2
+0000f824  w      .text	00000000 __do_clear_bss
+00000021 g       *ABS*	00000000 __P1OUT
+0000002c g       *ABS*	00000000 __P2IES
+00000026 g       *ABS*	00000000 __P1SEL
+00000214 g     O .bss	00000001 ADCDone
+00000079 g       *ABS*	00000000 __USICTL1
+0000f8be g     F .text	00000026 Single_Measure_REF
+00000027 g       *ABS*	00000000 __P1REN
+0000fbf8  w      .text	00000000 _unexpected_
+0000f89e  w      .text	00000000 __isr_8
+0000f89e  w      .text	00000000 __isr_3
+00000216 g     O .bss	00000002 RXByte
+0000f800  w      .text	00000000 _reset_vector__
+0000f89e g       .text	00000000 __ctors_start
+0000f89e  w      .text	00000000 __isr_12
+0000f80e  w      .text	00000000 __do_copy_data
+00000210 g       .bss	00000000 __bss_start
+00000218 g     O .bss	00000001 BitCnt
+0000f838 g     F .text	00000060 main
+0000021a g     O .bss	00000002 TXByte
+0000f89e  w      .text	00000000 __isr_13
+00000170 g       *ABS*	00000000 __TAR
+00000162 g       *ABS*	00000000 __TACCTL0
+00010000 g       .vectors	00000000 _vectors_end
+0000002a g       *ABS*	00000000 __P2DIR
+0000002f g       *ABS*	00000000 __P2REN
+0000007d g       *ABS*	00000000 __USISRH
+0000021c g     O .bss	00000002 ADCValue
+000001b0 g       *ABS*	00000000 __ADC10CTL0
+0000fb1c g       .text	00000000 __isr_9
+000010fe g       *ABS*	00000000 __CALDCO_1MHZ
+0000f800  w      .text	00000000 __init_stack
+0000f89e g       .text	00000000 __dtors_start
+0000f89e  w      .text	00000000 __isr_6
+0000f89e g       .text	00000000 __ctors_end
+00000200 g     O .data	00000010 asciiCode
+00000280 g       *ABS*	00000000 __stack
+0000f89e  w      .text	00000000 __isr_1
+00000210 g       .data	00000000 _edata
+0000023f g       .bss	00000000 _end
+0000007b g       *ABS*	00000000 __USICNT
+00000048 g       *ABS*	00000000 __ADC10DTC0
+0000021e g     O .bss	00000020 bufferTX
+000001b2 g       *ABS*	00000000 __ADC10CTL1
+00000058 g       *ABS*	00000000 __BCSCTL2
+0000f898  w      .text	00000000 _endless_loop__
+00000022 g       *ABS*	00000000 __P1DIR
+00000164 g       *ABS*	00000000 __TACCTL1
+000010ff g       *ABS*	00000000 __CALBC1_1MHZ
+0000f804  w      .text	00000000 __low_level_init
+00000200 g       .data	00000000 __data_start
+00000120 g       *ABS*	00000000 __WDTCTL
+00000000 g       *ABS*	00000000 __IE1
+0000023e g     O .bss	00000001 isReceiving
+00000078 g       *ABS*	00000000 __USICTL0
+00000020 g       *ABS*	00000000 __P1IN
+0000007c g       *ABS*	00000000 __USISRL
+
+
+
+Disassembly of section .text:
+
+0000f800 <__init_stack>:
+    f800:	31 40 80 02 	mov	#640,	r1	;#0x0280
+
+0000f804 <__low_level_init>:
+    f804:	15 42 20 01 	mov	&0x0120,r5	
+    f808:	75 f3       	and.b	#-1,	r5	;r3 As==11
+    f80a:	35 d0 08 5a 	bis	#23048,	r5	;#0x5a08
+
+0000f80e <__do_copy_data>:
+    f80e:	3f 40 10 00 	mov	#16,	r15	;#0x0010
+    f812:	0f 93       	tst	r15		
+    f814:	07 24       	jz	$+16     	;abs 0xf824
+    f816:	82 45 20 01 	mov	r5,	&0x0120	
+    f81a:	2f 83       	decd	r15		
+    f81c:	9f 4f fa fb 	mov	-1030(r15),512(r15);0xfbfa(r15), 0x0200(r15)
+    f820:	00 02 
+    f822:	f9 23       	jnz	$-12     	;abs 0xf816
+
+0000f824 <__do_clear_bss>:
+    f824:	3f 40 2f 00 	mov	#47,	r15	;#0x002f
+    f828:	0f 93       	tst	r15		
+    f82a:	06 24       	jz	$+14     	;abs 0xf838
+    f82c:	82 45 20 01 	mov	r5,	&0x0120	
+    f830:	1f 83       	dec	r15		
+    f832:	cf 43 10 02 	mov.b	#0,	528(r15);r3 As==00, 0x0210(r15)
+    f836:	fa 23       	jnz	$-10     	;abs 0xf82c
+
+0000f838 <main>:
+#include "transmitADCValue.c"
+
+
+void main(void)
+{
+	WDTCTL = WDTPW + WDTHOLD;	// Stop WDT
+    f838:	b2 40 80 5a 	mov	#23168,	&0x0120	;#0x5a80
+    f83c:	20 01 
+	  
+	BCSCTL1 = CALBC1_1MHZ;		// Set range
+    f83e:	d2 42 ff 10 	mov.b	&0x10ff,&0x0057	
+    f842:	57 00 
+	DCOCTL = CALDCO_1MHZ;		// SMCLK = DCO = 1MHz  
+    f844:	d2 42 fe 10 	mov.b	&0x10fe,&0x0056	
+    f848:	56 00 
+
+	P1SEL |= TXD;				// Connected TXD to timer pin
+    f84a:	e2 d3 26 00 	bis.b	#2,	&0x0026	;r3 As==10
+	P1DIR |= TXD;
+    f84e:	e2 d3 22 00 	bis.b	#2,	&0x0022	;r3 As==10
+
+	P1IES |= RXD;				// RXD Hi/lo edge interrupt
+    f852:	e2 d2 24 00 	bis.b	#4,	&0x0024	;r2 As==10
+	P1IFG &= ~RXD;				// Clear RXD (flag) before enabling interrupt
+    f856:	f2 f0 fb ff 	and.b	#-5,	&0x0023	;#0xfffb
+    f85a:	23 00 
+	P1IE |= RXD;				// Enable RXD interrupt
+    f85c:	e2 d2 25 00 	bis.b	#4,	&0x0025	;r2 As==10
+	P1DIR |= BIT0;
+    f860:	d2 d3 22 00 	bis.b	#1,	&0x0022	;r3 As==01
+	P1OUT &= ~BIT0;				// Turn off LED at P1.0
+    f864:	f2 f0 fe ff 	and.b	#-2,	&0x0021	;#0xfffe
+    f868:	21 00 
+	  
+	isReceiving = false; // Set initial values
+    f86a:	c2 43 3e 02 	mov.b	#0,	&0x023e	;r3 As==00
+	hasReceived = false;
+    f86e:	c2 43 10 02 	mov.b	#0,	&0x0210	;r3 As==00
+	ADCDone = false;
+    f872:	c2 43 14 02 	mov.b	#0,	&0x0214	;r3 As==00
+	__bis_SR_register(GIE); // interrupts enabled\
+    f876:	32 d2       	eint			
+    f878:	02 3c       	jmp	$+6      	;abs 0xf87e
+		{
+			ADCDone = false;				// Clear flag
+                        TransmitADCValue();
+		}
+		if (~(hasReceived && ADCDone))			// Loop again if either flag is set
+			 __bis_SR_register(CPUOFF + GIE);	// LPM0, the ADC interrupt will wake the processor up.
+    f87a:	32 d0 18 00 	bis	#24,	r2	;#0x0018
+	ADCDone = false;
+	__bis_SR_register(GIE); // interrupts enabled\
+	  
+	while(1)
+	{
+		if (hasReceived)		// If the device has recieved a value
+    f87e:	c2 93 10 02 	tst.b	&0x0210	
+    f882:	02 24       	jz	$+6      	;abs 0xf888
+		{
+			Receive();
+    f884:	b0 12 26 f9 	call	#0xf926	
+		}
+		if(ADCDone)				// If the ADC is done with a measurement
+    f888:	c2 93 14 02 	tst.b	&0x0214	
+    f88c:	f6 27       	jz	$-18     	;abs 0xf87a
+		{
+			ADCDone = false;				// Clear flag
+    f88e:	c2 43 14 02 	mov.b	#0,	&0x0214	;r3 As==00
+                        TransmitADCValue();
+    f892:	b0 12 b4 f9 	call	#0xf9b4	
+    f896:	f1 3f       	jmp	$-28     	;abs 0xf87a
+
+0000f898 <__stop_progExec__>:
+    f898:	32 d0 f0 00 	bis	#240,	r2	;#0x00f0
+    f89c:	fd 3f       	jmp	$-4      	;abs 0xf898
+
+0000f89e <__ctors_end>:
+    f89e:	30 40 f8 fb 	br	#0xfbf8	
+
+0000f8a2 <Single_Measure>:
+/**
+* Reads ADC 'chan' once using AVCC as the reference.
+**/
+void Single_Measure(unsigned int chan)
+{
+	ADC10CTL0 &= ~ENC;				// Disable ADC
+    f8a2:	b2 f0 fd ff 	and	#-3,	&0x01b0	;#0xfffd
+    f8a6:	b0 01 
+	ADC10CTL0 = ADC10SHT_3 + ADC10ON + ADC10IE;	// 16 clock ticks, ADC On, enable ADC interrupt
+    f8a8:	b2 40 18 18 	mov	#6168,	&0x01b0	;#0x1818
+    f8ac:	b0 01 
+	ADC10CTL1 = ADC10SSEL_3 + chan;				// Set 'chan', SMCLK
+    f8ae:	3f 50 18 00 	add	#24,	r15	;#0x0018
+    f8b2:	82 4f b2 01 	mov	r15,	&0x01b2	
+	ADC10CTL0 |= ENC + ADC10SC;             	// Enable and start conversion
+    f8b6:	b2 d0 03 00 	bis	#3,	&0x01b0	;#0x0003
+    f8ba:	b0 01 
+}
+    f8bc:	30 41       	ret			
+
+0000f8be <Single_Measure_REF>:
+* Reads ADC 'chan' once using an internal reference, 'ref' determines if the
+*   2.5V or 1.5V reference is used.
+**/
+void Single_Measure_REF(unsigned int chan, unsigned int ref)
+{
+	ADC10CTL0 &= ~ENC;							// Disable ADC
+    f8be:	b2 f0 fd ff 	and	#-3,	&0x01b0	;#0xfffd
+    f8c2:	b0 01 
+	ADC10CTL0 = SREF_1 + ADC10SHT_3 + REFON + ADC10ON + ref + ADC10IE;	// Use reference,
+    f8c4:	3e 50 38 38 	add	#14392,	r14	;#0x3838
+    f8c8:	82 4e b0 01 	mov	r14,	&0x01b0	
+								    	//   16 clock ticks, internal reference on
+									//   ADC On, enable ADC interrupt, Internal  = 'ref'
+	ADC10CTL1 = ADC10SSEL_3 + chan;				// Set 'chan', SMCLK
+    f8cc:	3f 50 18 00 	add	#24,	r15	;#0x0018
+    f8d0:	82 4f b2 01 	mov	r15,	&0x01b2	
+	__delay_cycles (128);					// Delay to allow Ref to settle
+    f8d4:	3f 40 2a 00 	mov	#42,	r15	;#0x002a
+    f8d8:	1f 83       	dec	r15		
+    f8da:	fe 23       	jnz	$-2      	;abs 0xf8d8
+	ADC10CTL0 |= ENC + ADC10SC; 				// Enable and start conversion
+    f8dc:	b2 d0 03 00 	bis	#3,	&0x01b0	;#0x0003
+    f8e0:	b0 01 
+}
+    f8e2:	30 41       	ret			
+
+0000f8e4 <Transmit>:
+* Transmits the value currently in TXByte. The function waits till it is
+*   finished transmiting before it returns.
+**/ 
+void Transmit()
+{ 
+	while(isReceiving);			// Wait for RX completion
+    f8e4:	c2 93 3e 02 	tst.b	&0x023e	
+    f8e8:	1d 20       	jnz	$+60     	;abs 0xf924
+	TXByte |= 0x100;			// Add stop bit to TXByte (which is logical 1)
+	TXByte = TXByte << 1;			// Add start bit (which is logical 0)
+    f8ea:	1f 42 1a 02 	mov	&0x021a,r15	
+    f8ee:	3f d0 00 01 	bis	#256,	r15	;#0x0100
+    f8f2:	0f 5f       	rla	r15		
+    f8f4:	82 4f 1a 02 	mov	r15,	&0x021a	
+	BitCnt = 0xA;				// Load Bit counter, 8 bits + ST/SP
+    f8f8:	f2 40 0a 00 	mov.b	#10,	&0x0218	;#0x000a
+    f8fc:	18 02 
+
+	CCTL0 = OUT;				// TXD Idle as Mark
+    f8fe:	a2 42 62 01 	mov	#4,	&0x0162	;r2 As==10
+	TACTL = TASSEL_2 + MC_2;		// SMCLK, continuous mode
+    f902:	b2 40 20 02 	mov	#544,	&0x0160	;#0x0220
+    f906:	60 01 
+	CCR0 = TAR;				// Initialize compare register  
+    f908:	92 42 70 01 	mov	&0x0170,&0x0172	
+    f90c:	72 01 
+	CCR0 += Bit_time;			// Set time till first bit  
+    f90e:	b2 50 68 00 	add	#104,	&0x0172	;#0x0068
+    f912:	72 01 
+	CCTL0 =  CCIS0 + OUTMOD0 + CCIE; 	// Set signal, intial value, enable interrupts
+    f914:	b2 40 30 10 	mov	#4144,	&0x0162	;#0x1030
+    f918:	62 01 
+	while ( CCTL0 & CCIE ); 		// Wait for previous TX completion
+    f91a:	b2 b0 10 00 	bit	#16,	&0x0162	;#0x0010
+    f91e:	62 01 
+    f920:	fc 23       	jnz	$-6      	;abs 0xf91a
+    f922:	30 41       	ret			
+    f924:	ff 3f       	jmp	$+0      	;abs 0xf924
+
+0000f926 <Receive>:
+/**
+* Handles the received byte and calls the needed functions.\
+**/
+void Receive()
+{
+	hasReceived = false;				// Clear the flag
+    f926:	c2 43 10 02 	mov.b	#0,	&0x0210	;r3 As==00
+	switch(RXByte)					// Switch depending on command value received
+    f92a:	1f 42 16 02 	mov	&0x0216,r15	
+    f92e:	3f 90 32 00 	cmp	#50,	r15	;#0x0032
+    f932:	2d 24       	jz	$+92     	;abs 0xf98e
+    f934:	3f 90 33 00 	cmp	#51,	r15	;#0x0033
+    f938:	07 28       	jnc	$+16     	;abs 0xf948
+    f93a:	3f 90 35 00 	cmp	#53,	r15	;#0x0035
+    f93e:	34 24       	jz	$+106    	;abs 0xf9a8
+    f940:	3f 90 36 00 	cmp	#54,	r15	;#0x0036
+    f944:	1d 24       	jz	$+60     	;abs 0xf980
+    f946:	30 41       	ret			
+    f948:	3f 90 31 00 	cmp	#49,	r15	;#0x0031
+    f94c:	fc 23       	jnz	$-6      	;abs 0xf946
+	{
+	case TEST_SPEED:
+		P1OUT |= BIT0;				// Turn on LED while testing
+    f94e:	d2 d3 21 00 	bis.b	#1,	&0x0021	;r3 As==01
+		for (i = 0; i != 0x100; i++)	// Loop 256 times
+    f952:	82 43 12 02 	mov	#0,	&0x0212	;r3 As==00
+    f956:	0f 43       	clr	r15		
+		{
+			TXByte = i;			// Sends the counter as if it were a 16 bit value
+    f958:	82 4f 1a 02 	mov	r15,	&0x021a	
+			Transmit();
+    f95c:	b0 12 e4 f8 	call	#0xf8e4	
+			TXByte = 0;
+    f960:	82 43 1a 02 	mov	#0,	&0x021a	;r3 As==00
+			Transmit();
+    f964:	b0 12 e4 f8 	call	#0xf8e4	
+	hasReceived = false;				// Clear the flag
+	switch(RXByte)					// Switch depending on command value received
+	{
+	case TEST_SPEED:
+		P1OUT |= BIT0;				// Turn on LED while testing
+		for (i = 0; i != 0x100; i++)	// Loop 256 times
+    f968:	1f 42 12 02 	mov	&0x0212,r15	
+    f96c:	1f 53       	inc	r15		
+    f96e:	82 4f 12 02 	mov	r15,	&0x0212	
+    f972:	3f 90 00 01 	cmp	#256,	r15	;#0x0100
+    f976:	f0 23       	jnz	$-30     	;abs 0xf958
+			TXByte = i;			// Sends the counter as if it were a 16 bit value
+			Transmit();
+			TXByte = 0;
+			Transmit();
+		}
+		P1OUT &= ~BIT0;			// Turn off the LED
+    f978:	f2 f0 fe ff 	and.b	#-2,	&0x0021	;#0xfffe
+    f97c:	21 00 
+		break;
+    f97e:	30 41       	ret			
+		
+	case M_TEMP:
+		Single_Measure_REF(INCH_10, 0);		// Reads the temperature sensor once
+		break;
+	case M_VCC:
+		Single_Measure_REF(INCH_11, REF2_5V);	// Reads VCC once (VCC/2 internally)
+    f980:	3e 40 40 00 	mov	#64,	r14	;#0x0040
+    f984:	3f 40 00 b0 	mov	#-20480,r15	;#0xb000
+    f988:	b0 12 be f8 	call	#0xf8be	
+    f98c:	30 41       	ret			
+/**
+* Reads ADC 'chan' once using AVCC as the reference.
+**/
+void Single_Measure(unsigned int chan)
+{
+	ADC10CTL0 &= ~ENC;				// Disable ADC
+    f98e:	b2 f0 fd ff 	and	#-3,	&0x01b0	;#0xfffd
+    f992:	b0 01 
+	ADC10CTL0 = ADC10SHT_3 + ADC10ON + ADC10IE;	// 16 clock ticks, ADC On, enable ADC interrupt
+    f994:	b2 40 18 18 	mov	#6168,	&0x01b0	;#0x1818
+    f998:	b0 01 
+	ADC10CTL1 = ADC10SSEL_3 + chan;				// Set 'chan', SMCLK
+    f99a:	b2 40 18 30 	mov	#12312,	&0x01b2	;#0x3018
+    f99e:	b2 01 
+	ADC10CTL0 |= ENC + ADC10SC;             	// Enable and start conversion
+    f9a0:	b2 d0 03 00 	bis	#3,	&0x01b0	;#0x0003
+    f9a4:	b0 01 
+		P1OUT &= ~BIT0;			// Turn off the LED
+		break;
+		
+	case M_A3:
+		Single_Measure(INCH_3);			// Reads A3 only once
+		break;
+    f9a6:	30 41       	ret			
+		
+	case M_TEMP:
+		Single_Measure_REF(INCH_10, 0);		// Reads the temperature sensor once
+    f9a8:	0e 43       	clr	r14		
+    f9aa:	3f 40 00 a0 	mov	#-24576,r15	;#0xa000
+    f9ae:	b0 12 be f8 	call	#0xf8be	
+		break;
+    f9b2:	30 41       	ret			
+
+0000f9b4 <TransmitADCValue>:
+
+#define SensorId     12
+#define codFunc       3
+
+
+void TransmitADCValue (){
+    f9b4:	0b 12       	push	r11		
+    f9b6:	0a 12       	push	r10		
+    f9b8:	09 12       	push	r9		
+  unsigned char cksum = 0;
+
+  /*************************************************************/  
+ // Transmitir Comienzo  de Mensaje '!'
+  /*************************************************************/  
+   TXByte = ':';
+    f9ba:	b2 40 3a 00 	mov	#58,	&0x021a	;#0x003a
+    f9be:	1a 02 
+   Transmit();
+    f9c0:	b0 12 e4 f8 	call	#0xf8e4	
+   cksum = cksum + TXByte;
+    f9c4:	5b 42 1a 02 	mov.b	&0x021a,r11	
+  /*************************************************************/  
+  //  Transmitir el SensorId
+  /*************************************************************/  
+
+  TXByte = (SensorId >> 4) & 0x000F;
+  TXByte  = asciiCode[TXByte];
+    f9c8:	39 40 00 02 	mov	#512,	r9	;#0x0200
+    f9cc:	3a 40 1a 02 	mov	#538,	r10	;#0x021a
+    f9d0:	ea 49 00 00 	mov.b	@r9,	0(r10)	;0x0000(r10)
+    f9d4:	92 11 1a 02 	sxt	&0x021a	
+  Transmit();                                           // Send
+    f9d8:	b0 12 e4 f8 	call	#0xf8e4	
+  cksum = cksum + TXByte;
+    f9dc:	5b 52 1a 02 	add.b	&0x021a,r11	
+
+
+  TXByte = SensorId & 0x000F;
+  TXByte  = asciiCode[TXByte];
+    f9e0:	da 49 0c 00 	mov.b	12(r9),	0(r10)	;0x000c(r9), 0x0000(r10)
+    f9e4:	00 00 
+    f9e6:	92 11 1a 02 	sxt	&0x021a	
+  Transmit();                                           // Send
+    f9ea:	b0 12 e4 f8 	call	#0xf8e4	
+  cksum = cksum + TXByte;
+    f9ee:	5b 52 1a 02 	add.b	&0x021a,r11	
+
+  /*************************************************************/  
+  // Transmitir el codFunc 
+  /*************************************************************/  
+  TXByte = (codFunc >> 4) & 0x000F;
+  TXByte  = asciiCode[TXByte];
+    f9f2:	ea 49 00 00 	mov.b	@r9,	0(r10)	;0x0000(r10)
+    f9f6:	92 11 1a 02 	sxt	&0x021a	
+  Transmit();                                           // Send
+    f9fa:	b0 12 e4 f8 	call	#0xf8e4	
+  cksum = cksum + TXByte;
+    f9fe:	5b 52 1a 02 	add.b	&0x021a,r11	
+
+
+  TXByte = codFunc & 0x000F;
+  TXByte  = asciiCode[TXByte];
+    fa02:	da 49 03 00 	mov.b	3(r9),	0(r10)	;0x0003(r9), 0x0000(r10)
+    fa06:	00 00 
+    fa08:	92 11 1a 02 	sxt	&0x021a	
+  Transmit();                                           // Send
+    fa0c:	b0 12 e4 f8 	call	#0xf8e4	
+  cksum = cksum + TXByte;
+    fa10:	5b 52 1a 02 	add.b	&0x021a,r11	
+
+
+  /*************************************************************/  
+  // Transmitir el valor del ADC
+  /*************************************************************/
+  TXByte = (ADCValue>>12) & 0x000F;
+    fa14:	1f 42 1c 02 	mov	&0x021c,r15	
+    fa18:	8f 10       	swpb	r15		
+    fa1a:	3f f0 ff 00 	and	#255,	r15	;#0x00ff
+    fa1e:	12 c3       	clrc			
+    fa20:	0f 10       	rrc	r15		
+    fa22:	0f 11       	rra	r15		
+    fa24:	0f 11       	rra	r15		
+    fa26:	0f 11       	rra	r15		
+  TXByte  = asciiCode[TXByte];
+    fa28:	da 4f 00 02 	mov.b	512(r15),0(r10)	;0x0200(r15), 0x0000(r10)
+    fa2c:	00 00 
+    fa2e:	92 11 1a 02 	sxt	&0x021a	
+  Transmit();                                           // Send
+    fa32:	b0 12 e4 f8 	call	#0xf8e4	
+  cksum = cksum + TXByte;
+    fa36:	5b 52 1a 02 	add.b	&0x021a,r11	
+
+  TXByte = (ADCValue>>8) & 0x000F;
+    fa3a:	1f 42 1c 02 	mov	&0x021c,r15	
+    fa3e:	8f 10       	swpb	r15		
+    fa40:	3f f0 0f 00 	and	#15,	r15	;#0x000f
+  TXByte  = asciiCode[TXByte];
+    fa44:	da 4f 00 02 	mov.b	512(r15),0(r10)	;0x0200(r15), 0x0000(r10)
+    fa48:	00 00 
+    fa4a:	92 11 1a 02 	sxt	&0x021a	
+  Transmit();                                           // Send
+    fa4e:	b0 12 e4 f8 	call	#0xf8e4	
+  cksum = cksum + TXByte;
+    fa52:	5b 52 1a 02 	add.b	&0x021a,r11	
+
+  TXByte = (ADCValue >> 4) & 0x000F;
+    fa56:	1f 42 1c 02 	mov	&0x021c,r15	
+    fa5a:	12 c3       	clrc			
+    fa5c:	0f 10       	rrc	r15		
+    fa5e:	0f 11       	rra	r15		
+    fa60:	0f 11       	rra	r15		
+    fa62:	0f 11       	rra	r15		
+    fa64:	3f f0 0f 00 	and	#15,	r15	;#0x000f
+  TXByte  = asciiCode[TXByte];
+    fa68:	da 4f 00 02 	mov.b	512(r15),0(r10)	;0x0200(r15), 0x0000(r10)
+    fa6c:	00 00 
+    fa6e:	92 11 1a 02 	sxt	&0x021a	
+  Transmit();                                           // Send
+    fa72:	b0 12 e4 f8 	call	#0xf8e4	
+  cksum = cksum + TXByte;
+    fa76:	5b 52 1a 02 	add.b	&0x021a,r11	
+
+  TXByte = ADCValue & 0x000F;
+    fa7a:	1f 42 1c 02 	mov	&0x021c,r15	
+    fa7e:	3f f0 0f 00 	and	#15,	r15	;#0x000f
+  TXByte  = asciiCode[TXByte];
+    fa82:	da 4f 00 02 	mov.b	512(r15),0(r10)	;0x0200(r15), 0x0000(r10)
+    fa86:	00 00 
+    fa88:	92 11 1a 02 	sxt	&0x021a	
+  Transmit();                                           // Send
+    fa8c:	b0 12 e4 f8 	call	#0xf8e4	
+  cksum = cksum + TXByte;
+    fa90:	5b 52 1a 02 	add.b	&0x021a,r11	
+
+  /*************************************************************/  
+  // Transmitir el cksum
+  /*************************************************************/  
+
+  TXByte = (cksum >> 4) & 0x000F;
+    fa94:	4f 4b       	mov.b	r11,	r15	
+    fa96:	12 c3       	clrc			
+    fa98:	4f 10       	rrc.b	r15		
+    fa9a:	4f 11       	rra.b	r15		
+    fa9c:	4f 11       	rra.b	r15		
+    fa9e:	4f 11       	rra.b	r15		
+    faa0:	3f f0 0f 00 	and	#15,	r15	;#0x000f
+  TXByte  = asciiCode[TXByte];
+    faa4:	da 4f 00 02 	mov.b	512(r15),0(r10)	;0x0200(r15), 0x0000(r10)
+    faa8:	00 00 
+    faaa:	92 11 1a 02 	sxt	&0x021a	
+  Transmit();                                           // Send
+    faae:	b0 12 e4 f8 	call	#0xf8e4	
+
+  TXByte = cksum & 0x000F;
+    fab2:	3b f0 0f 00 	and	#15,	r11	;#0x000f
+  TXByte  = asciiCode[TXByte];
+    fab6:	da 4b 00 02 	mov.b	512(r11),0(r10)	;0x0200(r11), 0x0000(r10)
+    faba:	00 00 
+    fabc:	92 11 1a 02 	sxt	&0x021a	
+  Transmit();                                           // Send
+    fac0:	b0 12 e4 f8 	call	#0xf8e4	
+
+  /*************************************************************/  
+   // Transmitir Fin de Mensaje '!'
+  /*************************************************************/  
+   TXByte = '!';
+    fac4:	b2 40 21 00 	mov	#33,	&0x021a	;#0x0021
+    fac8:	1a 02 
+   Transmit();
+    faca:	b0 12 e4 f8 	call	#0xf8e4	
+}
+    face:	39 41       	pop	r9		
+    fad0:	3a 41       	pop	r10		
+    fad2:	3b 41       	pop	r11		
+    fad4:	30 41       	ret			
+
+0000fad6 <ADC10_ISR>:
+
+static void
+__attribute__((__interrupt__(ADC10_VECTOR)))
+ADC10_ISR (void)
+{
+	ADCValue = ADC10MEM;			// Saves measured value.
+    fad6:	92 42 b4 01 	mov	&0x01b4,&0x021c	
+    fada:	1c 02 
+	ADCDone = true;  			// Sets flag for main loop.
+    fadc:	d2 43 14 02 	mov.b	#1,	&0x0214	;r3 As==01
+	__bic_SR_register_on_exit(CPUOFF);	// Enable CPU so the main while loop continues
+    fae0:	b1 c0 10 00 	bic	#16,	0(r1)	;#0x0010, 0x0000(r1)
+    fae4:	00 00 
+}
+    fae6:	00 13       	reti			
+
+0000fae8 <Port_1>:
+//__interrupt 
+static void 
+__attribute__((__interrupt__(PORT1_VECTOR)))
+Port_1(void)
+{  
+	isReceiving = true;
+    fae8:	d2 43 3e 02 	mov.b	#1,	&0x023e	;r3 As==01
+	P1IE &= ~RXD;			// Disable RXD interrupt
+    faec:	f2 f0 fb ff 	and.b	#-5,	&0x0025	;#0xfffb
+    faf0:	25 00 
+	P1IFG &= ~RXD;			// Clear RXD IFG (interrupt flag)
+    faf2:	f2 f0 fb ff 	and.b	#-5,	&0x0023	;#0xfffb
+    faf6:	23 00 
+	TACTL = TASSEL_2 + MC_2;	// SMCLK, continuous mode
+    faf8:	b2 40 20 02 	mov	#544,	&0x0160	;#0x0220
+    fafc:	60 01 
+	CCR0 = TAR;			// Initialize compare register
+    fafe:	92 42 70 01 	mov	&0x0170,&0x0172	
+    fb02:	72 01 
+	CCR0 += Bit_time_5;		// Set time till first bit
+    fb04:	b2 50 34 00 	add	#52,	&0x0172	;#0x0034
+    fb08:	72 01 
+	CCTL0 = OUTMOD1 + CCIE;		// Dissable TX and enable interrupts
+    fb0a:	b2 40 50 00 	mov	#80,	&0x0162	;#0x0050
+    fb0e:	62 01 
+	RXByte = 0;			// Initialize RXByte
+    fb10:	82 43 16 02 	mov	#0,	&0x0216	;r3 As==00
+	BitCnt = 0x9;			// Load Bit counter, 8 bits + ST
+    fb14:	f2 40 09 00 	mov.b	#9,	&0x0218	;#0x0009
+    fb18:	18 02 
+}
+    fb1a:	00 13       	reti			
+
+0000fb1c <Timer_A>:
+//#pragma vector=TIMERA0_VECTOR
+//__interrupt 
+static 
+__attribute__((__interrupt__(TIMERA0_VECTOR)))
+void Timer_A (void)
+{
+    fb1c:	0f 12       	push	r15		
+    fb1e:	0e 12       	push	r14		
+    fb20:	0d 12       	push	r13		
+	if(!isReceiving)
+    fb22:	c2 93 3e 02 	tst.b	&0x023e	
+    fb26:	1c 20       	jnz	$+58     	;abs 0xfb60
+	{
+		CCR0 += Bit_time;			// Add Offset to CCR0  
+    fb28:	b2 50 68 00 	add	#104,	&0x0172	;#0x0068
+    fb2c:	72 01 
+		if ( BitCnt == 0)			// If all bits TXed
+    fb2e:	5f 42 18 02 	mov.b	&0x0218,r15	
+    fb32:	4f 93       	tst.b	r15		
+    fb34:	4b 24       	jz	$+152    	;abs 0xfbcc
+			TACTL = TASSEL_2;		// SMCLK, timer off (for power consumption)
+			CCTL0 &= ~ CCIE ;		// Disable interrupt
+		}
+		else
+		{
+			CCTL0 |=  OUTMOD2;		// Set TX bit to 0
+    fb36:	b2 d0 80 00 	bis	#128,	&0x0162	;#0x0080
+    fb3a:	62 01 
+			if (TXByte & 0x01)
+    fb3c:	1e 42 1a 02 	mov	&0x021a,r14	
+    fb40:	1e b3       	bit	#1,	r14	;r3 As==01
+    fb42:	03 24       	jz	$+8      	;abs 0xfb4a
+			CCTL0 &= ~ OUTMOD2;		// If it should be 1, set it to 1
+    fb44:	b2 f0 7f ff 	and	#-129,	&0x0162	;#0xff7f
+    fb48:	62 01 
+			TXByte = TXByte >> 1;
+    fb4a:	12 c3       	clrc			
+    fb4c:	0e 10       	rrc	r14		
+    fb4e:	82 4e 1a 02 	mov	r14,	&0x021a	
+			BitCnt --;
+    fb52:	7f 53       	add.b	#-1,	r15	;r3 As==11
+    fb54:	c2 4f 18 02 	mov.b	r15,	&0x0218	
+			RXByte |= 0x400;		// Set the value in the RXByte 
+			RXByte = RXByte >> 1;		// Shift the bits down
+			BitCnt --;
+		}
+	}
+}
+    fb58:	3d 41       	pop	r13		
+    fb5a:	3e 41       	pop	r14		
+    fb5c:	3f 41       	pop	r15		
+    fb5e:	00 13       	reti			
+			BitCnt --;
+		}
+	}
+	else
+	{
+		CCR0 += Bit_time;			// Add Offset to CCR0  
+    fb60:	b2 50 68 00 	add	#104,	&0x0172	;#0x0068
+    fb64:	72 01 
+		if ( BitCnt == 0)
+    fb66:	5f 42 18 02 	mov.b	&0x0218,r15	
+    fb6a:	4f 93       	tst.b	r15		
+    fb6c:	1c 20       	jnz	$+58     	;abs 0xfba6
+		{
+			TACTL = TASSEL_2;		// SMCLK, timer off (for power consumption)
+    fb6e:	b2 40 00 02 	mov	#512,	&0x0160	;#0x0200
+    fb72:	60 01 
+			CCTL0 &= ~ CCIE ;		// Disable interrupt
+    fb74:	b2 f0 ef ff 	and	#-17,	&0x0162	;#0xffef
+    fb78:	62 01 
+			isReceiving = false;
+    fb7a:	c2 4f 3e 02 	mov.b	r15,	&0x023e	
+			P1IFG &= ~RXD;			// clear RXD IFG (interrupt flag)
+    fb7e:	f2 f0 fb ff 	and.b	#-5,	&0x0023	;#0xfffb
+    fb82:	23 00 
+			P1IE |= RXD;			// enabled RXD interrupt
+    fb84:	e2 d2 25 00 	bis.b	#4,	&0x0025	;r2 As==10
+			if ( (RXByte & 0x201) == 0x200) // Validate the start and stop bits are correct
+    fb88:	1f 42 16 02 	mov	&0x0216,r15	
+    fb8c:	0e 4f       	mov	r15,	r14	
+    fb8e:	3e f0 01 02 	and	#513,	r14	;#0x0201
+    fb92:	3e 90 00 02 	cmp	#512,	r14	;#0x0200
+    fb96:	27 24       	jz	$+80     	;abs 0xfbe6
+			{
+				RXByte = RXByte >> 1;	// Remove start bit
+				RXByte &= 0xFF;		// Remove stop bit
+				hasReceived = true;
+			}
+			__bic_SR_register_on_exit(CPUOFF);	// Enable CPU so the main while loop continues
+    fb98:	b1 c0 10 00 	bic	#16,	6(r1)	;#0x0010, 0x0006(r1)
+    fb9c:	06 00 
+			RXByte |= 0x400;		// Set the value in the RXByte 
+			RXByte = RXByte >> 1;		// Shift the bits down
+			BitCnt --;
+		}
+	}
+}
+    fb9e:	3d 41       	pop	r13		
+    fba0:	3e 41       	pop	r14		
+    fba2:	3f 41       	pop	r15		
+    fba4:	00 13       	reti			
+			}
+			__bic_SR_register_on_exit(CPUOFF);	// Enable CPU so the main while loop continues
+		}
+		else
+		{
+			if ( (P1IN & RXD) == RXD)	// If bit is set?
+    fba6:	5e 42 20 00 	mov.b	&0x0020,r14	
+    fbaa:	2e f2       	and	#4,	r14	;r2 As==10
+    fbac:	19 24       	jz	$+52     	;abs 0xfbe0
+			RXByte |= 0x400;		// Set the value in the RXByte 
+    fbae:	1e 42 16 02 	mov	&0x0216,r14	
+    fbb2:	3e d0 00 04 	bis	#1024,	r14	;#0x0400
+			RXByte = RXByte >> 1;		// Shift the bits down
+    fbb6:	12 c3       	clrc			
+    fbb8:	0e 10       	rrc	r14		
+    fbba:	82 4e 16 02 	mov	r14,	&0x0216	
+			BitCnt --;
+    fbbe:	7f 53       	add.b	#-1,	r15	;r3 As==11
+    fbc0:	c2 4f 18 02 	mov.b	r15,	&0x0218	
+		}
+	}
+}
+    fbc4:	3d 41       	pop	r13		
+    fbc6:	3e 41       	pop	r14		
+    fbc8:	3f 41       	pop	r15		
+    fbca:	00 13       	reti			
+	if(!isReceiving)
+	{
+		CCR0 += Bit_time;			// Add Offset to CCR0  
+		if ( BitCnt == 0)			// If all bits TXed
+		{
+			TACTL = TASSEL_2;		// SMCLK, timer off (for power consumption)
+    fbcc:	b2 40 00 02 	mov	#512,	&0x0160	;#0x0200
+    fbd0:	60 01 
+			CCTL0 &= ~ CCIE ;		// Disable interrupt
+    fbd2:	b2 f0 ef ff 	and	#-17,	&0x0162	;#0xffef
+    fbd6:	62 01 
+			RXByte |= 0x400;		// Set the value in the RXByte 
+			RXByte = RXByte >> 1;		// Shift the bits down
+			BitCnt --;
+		}
+	}
+}
+    fbd8:	3d 41       	pop	r13		
+    fbda:	3e 41       	pop	r14		
+    fbdc:	3f 41       	pop	r15		
+    fbde:	00 13       	reti			
+			}
+			__bic_SR_register_on_exit(CPUOFF);	// Enable CPU so the main while loop continues
+		}
+		else
+		{
+			if ( (P1IN & RXD) == RXD)	// If bit is set?
+    fbe0:	1e 42 16 02 	mov	&0x0216,r14	
+    fbe4:	e8 3f       	jmp	$-46     	;abs 0xfbb6
+			isReceiving = false;
+			P1IFG &= ~RXD;			// clear RXD IFG (interrupt flag)
+			P1IE |= RXD;			// enabled RXD interrupt
+			if ( (RXByte & 0x201) == 0x200) // Validate the start and stop bits are correct
+			{
+				RXByte = RXByte >> 1;	// Remove start bit
+    fbe6:	12 c3       	clrc			
+    fbe8:	0f 10       	rrc	r15		
+				RXByte &= 0xFF;		// Remove stop bit
+    fbea:	3f f0 ff 00 	and	#255,	r15	;#0x00ff
+    fbee:	82 4f 16 02 	mov	r15,	&0x0216	
+				hasReceived = true;
+    fbf2:	d2 43 10 02 	mov.b	#1,	&0x0210	;r3 As==01
+    fbf6:	d0 3f       	jmp	$-94     	;abs 0xfb98
+
+0000fbf8 <_unexpected_>:
+    fbf8:	00 13       	reti			
+
+Disassembly of section .vectors:
+
+0000ffe0 <__ivtbl_16>:
+    ffe0:	9e f8 9e f8 e8 fa 9e f8 9e f8 d6 fa 9e f8 9e f8     ................
+    fff0:	9e f8 1c fb 9e f8 9e f8 9e f8 9e f8 9e f8 00 f8     ................

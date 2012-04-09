@@ -52,6 +52,9 @@ void Single_Measure_REF(unsigned int, unsigned int);
 //void Start_Stream(unsigned int);
 //void Stop_Stream(void);
 
+#include "transmitADCValue.c"
+
+
 void main(void)
 {
 	WDTCTL = WDTPW + WDTHOLD;	// Stop WDT
@@ -82,11 +85,7 @@ void main(void)
 		if(ADCDone)				// If the ADC is done with a measurement
 		{
 			ADCDone = false;				// Clear flag
-			TXByte = ADCValue & 0x00FF;		// Set TXByte
-			Transmit();						// Send
-			TXByte = (ADCValue >> 8);		// Set TXByte to the upper 8 bits
-			TXByte = TXByte & 0x00FF;
-			Transmit();
+                        TransmitADCValue();
 		}
 		if (~(hasReceived && ADCDone))			// Loop again if either flag is set
 			 __bis_SR_register(CPUOFF + GIE);	// LPM0, the ADC interrupt will wake the processor up.
