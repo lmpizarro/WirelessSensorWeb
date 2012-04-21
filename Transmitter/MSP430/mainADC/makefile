@@ -1,6 +1,6 @@
 # makfile configuration
-NAME            = mainADC
-OBJECTS         = mainADC.o
+NAME            = main
+OBJECTS         = main.o
 CPU             = msp430g2231
 
 CFLAGS          = -mmcu=${CPU} -O2 -Wall -g
