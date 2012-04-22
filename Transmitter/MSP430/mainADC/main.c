@@ -16,17 +16,13 @@
 //#include  "msp430g2231.h"
 #include  <signal.h>
 #include "stdbool.h"
-
  
-#define     TXD                   BIT1                      // TXD on P1.1
+#define     TXD            BIT1                      // TXD on P1.1
 #define     Bitime         104 //9600 Baud, SMCLK=1MHz (1MHz/9600)=104
-#define     WAIT_LOOP      65000
+#define     APC220_CTL     BIT0  // P1.0 al Pin 3 Sleep del transceiver APC220
 
- 
 unsigned char BitCnt;  // Bit count, used when transmitting byte
 unsigned int TXByte;  // Value sent over UART when Transmit() is called
- 
-unsigned int uartUpdateTimer;  // Loops until byte is sent
 
 /* Using an 8-value moving average filter on sampled ADC values */
 long tempMeasured[8];
@@ -35,8 +31,6 @@ long tempAverage;
 
 long tempCalibrated;
 
-
-
 // Function Definitions
 void Transmit(void);
 void transChar(unsigned char c);
@@ -44,20 +38,22 @@ void setClockTrans();
 void setVlo ();
 void ConfigureAdcTempSensor(void);
 
-
 #include "transmitADCValue.c"
 
 int main (){
 
   unsigned char i;
 
-  WDTCTL = WDTPW + WDTHOLD;        // Stop WDT
+  WDTCTL = WDTPW + WDTHOLD;              // Stop WDT
   setClockTrans();
+  __bis_SR_register(GIE);                // interrupts enabled 
 
-  __bis_SR_register(GIE);        // interrupts enabled 
+  P1SEL |= TXD + APC220_CTL;             //
+  P1DIR |= TXD + APC220_CTL;             //
+  P1REN |=  APC220_CTL;             //
 
-  P1SEL |= TXD;                              //
-  P1DIR |= TXD;                              //
+  //P1OUT &= ~ BIT0;
+  P1OUT = 0x00;
 
   ConfigureAdcTempSensor();
 
@@ -65,8 +61,7 @@ int main (){
 
   while(1)
   {  
- 
-     ADC10CTL0 |= ENC + ADC10SC;             // Sampling and conversion start
+    ADC10CTL0 |= ENC + ADC10SC;             // Sampling and conversion start
     __bis_SR_register(CPUOFF + GIE);        // LPM0 with interrupts enabled
 
     /* Moving average filter out of 8 values to somewhat stabilize sampled ADC */
@@ -79,24 +74,32 @@ int main (){
     tempAverage >>= 3;
 
     ADCValue = tempAverage;
+    // Habilitacion del APC220 para transmitir
+    //P1OUT |=  BIT0;
+    P1OUT =  0x01;
+    //  Se necesita un tiempo de 50 ms para iniciar transmision luego de poner en 1 EN y SET 
+    //  en APC220
+    for (i = 0; i < 100; i++)
+      __delay_cycles(500);
+
     TransmitADCValue ();    
  
+    // Des-Habilitacion del APC220 para transmitir
+    //P1OUT &= ~ BIT0;
+    P1OUT = 0x00;
+     
     //TXByte = 65;
     //Transmit(); 
     setVlo ();
     _BIS_SR(LPM3_bits + GIE);               // Enter LPM3
   }
 }
-
  
 void setClockTrans()
 {
   BCSCTL1 = CALBC1_1MHZ;           // Set range
   DCOCTL = CALDCO_1MHZ;            // SMCLK = DCO = 1MHz
 }
-
-
-
 
 // Function Transmits Character from TXByte 
 void Transmit()
@@ -123,6 +126,17 @@ void setVlo (){
   IE1 |= WDTIE;                             // Enable WDT interrupt
 }
 
+// This function simply performs a software delay, hard from efficient but it's practical in this case.
+void delay_ms(unsigned int ms ) { 
+
+	unsigned int i;
+	for (i = 0; i <= ms; i++) { 
+// Make sure your < and = has no space in between (the syntax parser seems to be messing things up)
+		__delay_cycles(500); 
+// This should be dependent on clock speed... but what the hell, even the loop itself should be taken into account...
+	}
+}
+
 
 /* Configure ADC Temp Sensor Channel */
 void ConfigureAdcTempSensor(void)
@@ -142,7 +156,7 @@ void ConfigureAdcTempSensor(void)
 
 interrupt (WDT_VECTOR) watchdog_timer (void)
 {
-  setClockTrans();
+   setClockTrans();
   _BIC_SR_IRQ(LPM3_bits);                   // Clear LPM3 bits from 0(SR)
 }
 
@@ -153,9 +167,7 @@ interrupt (WDT_VECTOR) watchdog_timer (void)
 //__interrupt void ADC10_ISR (void)
 interrupt (ADC10_VECTOR) ADC10_ISR(void)
 {
-
   __bic_SR_register_on_exit(CPUOFF);        // Return to active mode
-
 }
 
 // Timer A0 interrupt service routine
