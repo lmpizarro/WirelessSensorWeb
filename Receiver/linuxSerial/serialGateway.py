@@ -1,3 +1,4 @@
+#!/usr/bin/python
 #
 #
 #
@@ -11,6 +12,19 @@
 
 import time
 import serial
+import sys
+import sys
+class Logger(object):
+    def __init__(self, filename="Default.log"):
+        self.terminal = sys.stdout
+        self.log = open(filename, "a")
+
+    def write(self, message):
+        self.terminal.write(message)
+        self.log.write(message)
+
+
+
 
 def adcToDec (mensaje):
   dec = 16*16*16*int(mensaje[5],16) + 16*16*int(mensaje[6],16) +  16*int(mensaje[7],16) + int(mensaje[8],16) 
@@ -58,6 +72,9 @@ ser = serial.Serial(
     #bytesize=serial.SEVENBITS
 )
 
+sys.stdout = Logger("./temp.log")
+print "Hello world !" # this is should be saved in yourlogfilename.txt
+#sys.stdout = open('temp.log', 'w')
 ser.open()
 ser.isOpen()
 
