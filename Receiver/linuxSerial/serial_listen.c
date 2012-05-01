@@ -11,9 +11,10 @@
 #include <unistd.h>
 #include <termios.h>
 #include <time.h>
+#include <sys/time.h>
 
 
-#define BAUDRATE B9600
+#define BAUDRATE B57600
 
 // To compile on Ubuntu or Mac OS X with xcode:
 //   gcc -O3 -Wall -o serial_listen serial_listen.c
@@ -21,6 +22,8 @@
 const char *begin_string="10 second speed test begins";
 const char *end_string="done!\r\n";
 #define END_LEN 7
+
+struct timeval time1;
 
 int errorMensaje (unsigned char countChars){
   printf ("error de mensaje\n"); 
@@ -30,27 +33,54 @@ int errorMensaje (unsigned char countChars){
 void procMensaje (unsigned char countChars, char *bufRecepc){
     struct tm *newtime;
     time_t ltime;
+    struct timeval time2, deltaTime;
+    float  dtime, usec;
  
     /* Get the time in seconds */
     time(&ltime);
     /* Convert it to the structure tm */
     newtime = localtime(&ltime);
-  
-  printf("%d/%d/%d-%d:%d:%d-%s\n",
-                                   newtime->tm_year+1900, 
+    
+    usec = 1000000.0; 
+    gettimeofday(&time2, NULL); 
+    deltaTime.tv_sec = time2.tv_sec - time1.tv_sec;
+    deltaTime.tv_usec = time2.tv_usec - time1.tv_usec;
+    dtime = (float)time2.tv_sec + (float)time2.tv_usec/usec - (float)time1.tv_sec - (float)time1.tv_usec/usec;
+    
+    time1.tv_sec  = time2.tv_sec;
+    time1.tv_usec  = time2.tv_usec;
+    
+   // imprimir Delta
+
+  printf("%d/%d/%d-%d:%d:%d ",  newtime->tm_year+1900, 
                                    newtime->tm_mon+1, 
                                    newtime->tm_mday, 
                                    newtime->tm_hour,  
                                    newtime->tm_min, 
-                                   newtime->tm_sec, 
-                                   bufRecepc);
+                                   newtime->tm_sec); 
+
+       //%s       bufRecepc
+  int i = 1;
+  while (1){
+    if (bufRecepc[i]!='!'){
+     printf ("%c", bufRecepc[i]);
+     i = i + 1;
+    } else {
+      break;
+    }
+  }
+
+
+
+  printf ("  %d %d\n", deltaTime.tv_sec, deltaTime.tv_usec );
+  
 }
 
 int main(int argc, char **argv)
 {
 	char buf[64], bufRecepc[32];
 	int port,k;
-	int n, sum=0, mciclos = 0;
+	int n, sum=0, mciclos = 0, i;
 	struct termios settings;
         char countChars;
 
@@ -70,10 +100,10 @@ int main(int argc, char **argv)
 	// Configure the port
 	tcgetattr(port, &settings);
 	///cfmakeraw(&settings);
-        cfsetispeed(&settings, B9600);
-        cfsetospeed(&settings, B9600);
+        cfsetispeed(&settings, BAUDRATE);
+        cfsetospeed(&settings, BAUDRATE);
 	tcsetattr(port, TCSANOW, &settings);
-
+        gettimeofday(&time1, NULL);
 	// Read data until we get a see the end string or get an error
 	printf("Reading from %s\n", argv[1]);
         countChars = 0;
@@ -88,13 +118,13 @@ int main(int argc, char **argv)
                           countChars = countChars + 1;
                        } else {
                           // fin de mensaje 0x0A, anterior 0x0D
-                          if (buf[k]!= 0x0A){
+                          if (buf[k]!= '!'){
                             bufRecepc[countChars] = buf[k];
                             countChars = countChars + 1;
                           }else {
                              countChars = countChars + 1;
                              bufRecepc[countChars] = buf[k];
-                             if (countChars != 21) {
+                             if (countChars != 12) {
                                errorMensaje(countChars);
                              } else {
                                procMensaje (countChars, bufRecepc);
@@ -106,6 +136,7 @@ int main(int argc, char **argv)
                   mciclos = mciclos + 1;
                   if (mciclos > 50)
                     printf ("Bus sin actividad: \n");
+                  mciclos = 0;
                 }
 	} // fin del while (1)
 
