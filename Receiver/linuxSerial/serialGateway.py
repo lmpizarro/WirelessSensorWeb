@@ -10,6 +10,8 @@
 #
 #
 
+from sma import Simplemovingaverage
+
 import time
 import serial
 import sys
@@ -46,12 +48,12 @@ def timeToTimeAdq ():
   return timeAdq
 
 
-def procMensajeBueno(mensaje):
+def procMensajeBueno(mensaje, elapsed, sma):
   #en las posiciones 5,6,7,8 est el valor buscado
   dec = adcToDec (mensaje)
   devId = deviceIdToDec (mensaje)
   #print "mensaje bueno " ,  mensaje, timeAdq, decToTempCelsiusMSP430g2231(dec), decToTempFarenheitMSP430g2231 (dec)
-  print "%s %d %3.2f %3.2f " % (timeToTimeAdq(), devId, decToTempCelsiusMSP430g2231(dec), decToTempFarenheitMSP430g2231 (dec))
+  print "%s %d %3.2f %3.2f %3.2f %3.2f " % (timeToTimeAdq(), devId, decToTempCelsiusMSP430g2231(dec), decToTempFarenheitMSP430g2231 (dec),elapsed, sma(elapsed))
 
 
 def procMensajeMalo():
@@ -73,11 +75,16 @@ ser = serial.Serial(
 )
 
 sys.stdout = Logger("./temp.log")
-print "Hello world !" # this is should be saved in yourlogfilename.txt
+#print "Hello world !" # this is should be saved in yourlogfilename.txt
 #sys.stdout = open('temp.log', 'w')
 ser.open()
 ser.isOpen()
 
+period = 10
+
+sma = Simplemovingaverage(period)
+
+start = time.time()
 mensaje = [None]*12
 input=1
 i = 0
@@ -95,7 +102,10 @@ while 1 :
             i = i + 1
             mensaje[i] = c
             #print "mensaje bueno " ,  mensaje
-            procMensajeBueno(mensaje)
+            end = time.time()
+            elapsed = end - start
+            start = end
+            procMensajeBueno(mensaje, elapsed,sma)
           else:
             procMensajeMalo()
             i=0

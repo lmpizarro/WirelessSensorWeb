@@ -8,14 +8,48 @@
 #include  <msp430g2231.h>
 #include  <signal.h>
 #include  <stdlib.h>
+#include  <limits.h>
 #include  "defs.h"
 
 #define genRand02()  (rand ()%tSampleMs + (tSampleMs));
-#define genRand03()  (rand ()%tSampleMs) + tSampleMs/2;
+//#define genRand03()  ((rand ()+INT_MAX)%tSampleMs) + tSampleMs/2;
+long int  genRand03(long int tSampleMs)  {
+  //return(  (rand ()+INT_MAX)%tSampleMs + tSampleMs/2);
+  int c;
+  switch (sampleTimeSec){
+    case 5:
+     c = 4;
+    break; 
+    case 10:
+     c = 3;
+    break; 
+    case 20:
+     c = 2;
+    break; 
+    case 30:
+     c = 1;
+    break; 
+    case 60:
+     c = 0;
+    break; 
+    default :
+     c = 0;
+    break; 
+  };
+
+  int x = rand ();
+  int s = (x > 0) ? 1 : ((x < 0) ? -1 : 0);
+
+  return(((long int )(s)*(x>>c) + tSampleMs));
+};
+
+//  32768 16384 8192 4096 2048 1024 512 256 128  +/- de rand
+//    0     1    2    3    4     5               corr
+//   60    30    20   10   5                     seg    
 
 
 void main (){
-  unsigned long int tSampleMs, auxTimeMs;
+  long int tSampleMs, auxTimeMs;
 
   WDTCTL = WDTPW + WDTHOLD;                // Stop watchdog timer
   P1DIR |= 0x40 + TXD + APC220_CTL;                           // Set P1.0  y P1.6 to output direction
@@ -46,11 +80,10 @@ void main (){
   //
   // 12    ciclos 1 mS
   //
-  sampleTimeSec =  5;
+  sampleTimeSec =  10;
   tSampleMs = sampleTimeSec * 1000;
 
-  auxTimeMs = genRand03();
-  int i;
+  auxTimeMs = genRand03(tSampleMs);
   while(1){
     if (auxTimeMs > minTime) {
          P1OUT |= 0x01;                           // 0100|0001 = 0x41 pone en 1 P1.0 y P1.6
@@ -62,7 +95,7 @@ void main (){
          CCTL1 &= ~CCIE;                            // interrupt disabled CC1
          setClockTrans();
 
-         auxTimeMs = genRand03();
+         auxTimeMs = genRand03(tSampleMs);
 
          P1OUT |= 0x41;                           // 0100|0001 = 0x41 pone en 1 P1.0 y P1.6
          //for (i = 0; i < 200; i++) __delay_cycles(500);
