@@ -1,32 +1,39 @@
-Por ahora solo el comienzo de algunas ideas para
-un sistema de redes de sensores inalámbricos
+BE CAREFUL!!!
 
-Sensores inalámbricos en campo basado en microcontroladores
-Cada sensor además del elemento de sensado, tiene un transceiver (transmisor/receptor) de
-rf, en la banda de 433 Mhz.
+I am changing a lot this project, is far from being stable.
+
+The main components
+
+Hardware:
+
+MSP430 Launchpad from Texas Instruments, the transmitter
+
+http://processors.wiki.ti.com/index.php/MSP430_LaunchPad_%28MSP-EXP430G2%29
+
+Arduino, the receiver/gateway
+
+http://www.arduino.cc/
+
+APC220 the transceiver from Appcon 
+
+http://www.appcon.com.cn/en/product/220_pro.html
 
 
-Gateway de datos de sensores a redes TCP/IP en Arduino
-
-Pase de mensajes con http
-
-El Arduino tiene una shield ethernet basado en ENC28J60
-El Arduino tiene un transceiver (transmisor/receptor de rf) en la banda de 433 Mhz 
+Arduino ethernet shield ENC28J60
+http://www.nuelectronics.com/estore/index.php?main_page=project_eth
 
 
-Antecedentes/Inspiraciones
+Linux Debian, the mqtt server and the final application
+http://www.debian.org/
+http://mosquitto.org/documentation/python/
+
+
+References:
+
 
 RemoteSensor - Wireless Data Acquisition
 http://www.obdev.at/products/vusb/remotesensor.html
 
-
-Arduino is an open-source electronics prototyping platform based on flexible, easy-to-use hardware and software.
-http://www.arduino.cc/
-
-
-Arduino Ethernet Shield V1.0 is dedicated for the Arduino boards. 
-It uses the Microchip's ENC28J60 SPI based stand-alone Ethernet controller
-http://www.nuelectronics.com/estore/index.php?main_page=project_eth
 
 
 AVR ethernet / web server
