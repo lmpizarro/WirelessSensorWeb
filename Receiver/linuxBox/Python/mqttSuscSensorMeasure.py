@@ -5,8 +5,8 @@ import time
 
 
 
-def on_message(message):
-  print "Message", message.payload
+def on_message(msg):
+  print "Message", msg.payload, msg.mid, msg.topic,  msg.qos, msg.retain
 
 def on_connect(rc):
     if rc == 0:
@@ -34,7 +34,7 @@ client.connect("127.0.0.1", port=1883, keepalive=60)
 #client.loop(timeout=-1)
 
 #client.subscribe(topic, qos)
-client.subscribe("hola/+", 0)
+client.subscribe("Sensor/", 0)
 
 while client.loop()==0:
   pass
