@@ -1,10 +1,19 @@
 import mosquitto
 import time
+import datetime
 import random
 
 
 def on_publish(mid):
     print "Message ",mid," published."
+
+def on_connect(mosq, rc):
+    if rc == 0:
+        print("Connected successfully.")
+
+def on_disconnect(mosq, obj, rc):
+    print("Disconnected successfully.")
+
 
 #
 #
@@ -12,11 +21,18 @@ def on_publish(mid):
 #client = mosquitto.Mosquitto(client_id, user_obj=None)
 client = mosquitto.Mosquitto("test-client")
 
+client.on_connect = on_connect
+client.on_disconnect = on_disconnect
+client.on_publish = on_publish
+
+
 #client.connect(hostname, port=1883, keepalive=60, clean_session=true)
 client.connect("127.0.0.1")
 
+
+
 #client.loop(timeout=-1)
-client.loop()
+#client.loop()
 
 #
 #   La forma de interrogar a los sensores es la de Maestro-Esclavo
@@ -45,17 +61,33 @@ client.loop()
 #
 #
 
+#
+#  este getMessage viene del cliente mqtt
+# 
+def getMessage (sensorID, codFunction, ipAddress):
+  if (sensorID > 255): 
+    print "Error de sensorID"
+    sensorID = 1
+ 
+  if (codFunction > 255): 
+    print "Error de codFunction"
+    codFunction = 4
+ 
+  codFuncString = str(hex(codFunction)).lstrip('0x')
+  if (codFunction < 16):
+    codFuncString = '0' + codFuncString
+
+  tagTime = datetime.datetime.now()
+  sensorMessage = ":" + str(hex(sensorID)).lstrip('0x') + codFuncString + "AAAADD!"
+  return (str(tagTime) + "%" + ipAddress + "%" + sensorMessage)
 
 
-client.on_publish = on_publish
-
+ipAddress = "192.168.14.11"
 
 while client.loop() == 0:
 
-  now = time.localtime(time.time())
-  timeAdq = time.strftime("%y/%m/%d %H:%M:%S", now) + " "
-  message = timeAdq + " " + ":0204FFFFFF!" 
-  clave = "Sensor/"  
+  message = getMessage(254,4, ipAddress) 
+  clave = "simpleWSN/SMB"  
 
   client.publish(clave, message , 1)
 
