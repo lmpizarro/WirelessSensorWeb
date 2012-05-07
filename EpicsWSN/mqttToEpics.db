@@ -1,0 +1,22 @@
+record(ai, "v1"){
+  field(DESC, "Value 1")
+  field(PREC, "3")
+  field(FLNK,"calib:v1")
+}
+
+record(calc, "calib:v1"){
+  field(PREC, "3")
+  field(INPA,"v1")
+  field(CALC,"A*2 +.5")
+  field(HOPR,2046)
+  field(HIHI,1800)
+  field(HIGH,1500)
+  field(LOW,500)
+  field(LOLO,118)
+  field(LOPR,0)
+  field(HHSV,"MAJOR")
+  field(HSV,"MINOR")
+  field(LSV,"MINOR")
+  field(LLSV,"MAJOR")
+}
+
