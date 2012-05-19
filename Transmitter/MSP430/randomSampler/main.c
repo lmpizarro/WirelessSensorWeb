@@ -54,7 +54,7 @@ void main (){
   WDTCTL = WDTPW + WDTHOLD;                // Stop watchdog timer
   P1SEL |= TXD + APC220_CTL;
   P1DIR |= 0x40 + TXD + APC220_CTL;                           // Set P1.0  y P1.6 to output direction
-  P1REN |= APC220_CTL;
+  P1REN &= ~APC220_CTL;
   
   //P1OUT = 0x00;
 
@@ -101,7 +101,7 @@ void main (){
          ADCValue = adqAdcTempSensor();
          P1OUT = 0x41;                           // 0100|0001 = 0x41 pone en 1 P1.0 y P1.6
          int i;
-         for (i = 0; i < 100; i++) __delay_cycles(500);
+         for (i = 0; i < 1; i++) __delay_cycles(500);
 
          TransmitADCValue (deviceID);
          P1OUT = 0x00;                          // 1011|1110 = 0xFE pone en 0 P1.0 
