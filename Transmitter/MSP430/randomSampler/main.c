@@ -11,6 +11,7 @@
 #include  <limits.h>
 #include  "defs.h"
 
+
 #define genRand02()  (rand ()%tSampleMs + (tSampleMs));
 //#define genRand03()  ((rand ()+INT_MAX)%tSampleMs) + tSampleMs/2;
 long int  genRand03(long int tSampleMs)  {
