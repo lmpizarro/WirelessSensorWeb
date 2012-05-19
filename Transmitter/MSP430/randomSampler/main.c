@@ -6,7 +6,7 @@
 //******************************************************************************
 
 #include  <msp430g2231.h>
-#include  <signal.h>
+#include  <legacymsp430.h>
 #include  <stdlib.h>
 #include  <limits.h>
 #include  "defs.h"
@@ -52,8 +52,9 @@ void main (){
   long int tSampleMs, auxTimeMs;
 
   WDTCTL = WDTPW + WDTHOLD;                // Stop watchdog timer
+  P1SEL |= TXD + APC220_CTL;
   P1DIR |= 0x40 + TXD + APC220_CTL;                           // Set P1.0  y P1.6 to output direction
-  P1SEL |= TXD;// + APC220_CTL;
+  P1REN |= APC220_CTL;
   
   //P1OUT = 0x00;
 
@@ -86,8 +87,8 @@ void main (){
   auxTimeMs = genRand03(tSampleMs);
   while(1){
     if (auxTimeMs > minTime) {
-         P1OUT |= 0x01;                           // 0100|0001 = 0x41 pone en 1 P1.0 y P1.6
-         P1OUT &= ~0x01;                           // 0100|0001 = 0x41 pone en 1 P1.0 y P1.6
+         //P1OUT |= 0x01;                           // 0100|0001 = 0x41 pone en 1 P1.0 y P1.6
+         //P1OUT &= ~0x01;                           // 0100|0001 = 0x41 pone en 1 P1.0 y P1.6
       auxTimeMs = auxTimeMs - minTime;
       _BIS_SR(LPM3_bits + GIE);                // Enter LPM3 w/ interrupt
     }else {
@@ -97,12 +98,13 @@ void main (){
 
          auxTimeMs = genRand03(tSampleMs);
 
-         P1OUT |= 0x41;                           // 0100|0001 = 0x41 pone en 1 P1.0 y P1.6
-         //for (i = 0; i < 200; i++) __delay_cycles(500);
          ADCValue = adqAdcTempSensor();
+         P1OUT = 0x41;                           // 0100|0001 = 0x41 pone en 1 P1.0 y P1.6
+         int i;
+         for (i = 0; i < 100; i++) __delay_cycles(500);
 
          TransmitADCValue (deviceID);
-         P1OUT &= ~0x41;                          // 1011|1110 = 0xFE pone en 0 P1.0 
+         P1OUT = 0x00;                          // 1011|1110 = 0xFE pone en 0 P1.0 
 
          CCTL0 &= ~CCIE;                            // interrupt disabled CC0
          CCR1 = dlyCC1;

@@ -17,117 +17,117 @@ SYMBOL TABLE:
 00000000 l    d  .debug_pubtypes	00000000 .debug_pubtypes
 00000000 l    d  .debug_ranges	00000000 .debug_ranges
 00000000 l    df *ABS*	00000000 main.c
-0000fbaa l     O .text	00000010 asciiCode
-0000f96a l       .text	00000000 __br_unexpected_
+0000fc44 l     O .text	00000010 asciiCode
+0000f93a l       .text	00000000 __br_unexpected_
 00000000 l    df *ABS*	00000000 rand.c
 00000208 l     O .data	00000004 next
 0000007c g       *ABS*	00000000 __USISR
 00000057 g       *ABS*	00000000 __BCSCTL1
 00000174 g       *ABS*	00000000 __TACCR1
 0000000c g       *ABS*	00000000 __data_size
-0000f96a  w      .text	00000000 __isr_14
-0000f998 g     F .text	00000008 ADC10_ISR
+0000f93a  w      .text	00000000 __isr_14
+0000f968 g     F .text	00000008 ADC10_ISR
 0000007a g       *ABS*	00000000 __USICKCTL
 00000128 g       *ABS*	00000000 __FCTL1
 00000024 g       *ABS*	00000000 __P1IES
-0000f96a  w      .text	00000000 __isr_4
+0000f93a  w      .text	00000000 __isr_4
 00000002 g       *ABS*	00000000 __IFG1
-0000fa2e g     F .text	00000122 TransmitADCValue
+0000f9fe g     F .text	00000122 TransmitADCValue
 0000012e g       *ABS*	00000000 __TAIV
 00000000 g       .vectors	00000000 _efartext
 0000002b g       *ABS*	00000000 __P2IFG
-0000fd1a g       *ABS*	00000000 _etext
-0000f9e0 g     F .text	0000004e Timer_A
+0000fb20 g     F .text	000000ca genRand03
+0000fd8a g       *ABS*	00000000 _etext
+0000f9b0 g     F .text	0000004e Timer_A
 00000006 g       *ABS*	00000000 __bss_size
 00000078 g       *ABS*	00000000 __USICTL
-0000f964  w      .text	00000000 __stop_progExec__
+0000f934  w      .text	00000000 __stop_progExec__
 0000002d g       *ABS*	00000000 __P2IE
-0000f96a  w      .text	00000000 __isr_11
+0000f93a  w      .text	00000000 __isr_11
 00000025 g       *ABS*	00000000 __P1IE
 00000049 g       *ABS*	00000000 __ADC10DTC1
-0000f998 g       .text	00000000 __isr_5
-0000fd1a g       *ABS*	00000000 __data_load_start
-0000f96a g       .text	00000000 __dtors_end
+0000f968 g       .text	00000000 __isr_5
+0000fd8a g       *ABS*	00000000 __data_load_start
+0000f93a g       .text	00000000 __dtors_end
 00000053 g       *ABS*	00000000 __BCSCTL3
 000001bc g       *ABS*	00000000 __ADC10SA
 0000007a g       *ABS*	00000000 __USICCTL
-0000f96a  w      .text	00000000 __isr_2
-0000f9a0 g     F .text	00000040 Transmit
+0000f93a  w      .text	00000000 __isr_2
+0000f970 g     F .text	00000040 Transmit
 00000160 g       *ABS*	00000000 __TACTL
 0000012c g       *ABS*	00000000 __FCTL3
-0000f96a  w      .text	00000000 __isr_10
+0000f93a  w      .text	00000000 __isr_10
 0000002e g       *ABS*	00000000 __P2SEL
 00000023 g       *ABS*	00000000 __P1IFG
 0000004a g       *ABS*	00000000 __ADC10AE0
 00000172 g       *ABS*	00000000 __TACCR0
 00000056 g       *ABS*	00000000 __DCOCTL
-0000fba2 g     O .text	00000001 deviceID
-0000f96a  w      .text	00000000 __isr_7
+0000fc3c g     O .text	00000001 deviceID
+0000f93a  w      .text	00000000 __isr_7
 0000ffe0 g     O .vectors	00000020 __ivtbl_16
-0000fbba g     F .text	00000094 rand_r
+0000fc54 g     F .text	00000094 rand_r
 00000028 g       *ABS*	00000000 __P2IN
-0000f96e g     F .text	0000001a ConfigureAdcTempSensor
+0000f93e g     F .text	0000001a ConfigureAdcTempSensor
 000001b4 g       *ABS*	00000000 __ADC10MEM
-0000fb50 g     F .text	00000016 Timer_A1
-0000f96a  w      .text	00000000 __isr_0
+0000fbea g     F .text	00000016 Timer_A1
+0000f93a  w      .text	00000000 __isr_0
 00000029 g       *ABS*	00000000 __P2OUT
 0000012a g       *ABS*	00000000 __FCTL2
 0000f824  w      .text	00000000 __do_clear_bss
 00000021 g       *ABS*	00000000 __P1OUT
-0000fb66 g     F .text	0000002a setVloClk
+0000fc00 g     F .text	0000002a setVloClk
 0000002c g       *ABS*	00000000 __P2IES
 00000026 g       *ABS*	00000000 __P1SEL
 0000020c g     O .bss	00000001 ADCDone
-0000fc4e g     F .text	00000096 rand
+0000fce8 g     F .text	00000096 rand
 00000079 g       *ABS*	00000000 __USICTL1
 00000027 g       *ABS*	00000000 __P1REN
-0000fd18  w      .text	00000000 _unexpected_
-0000fb50 g       .text	00000000 __isr_8
+0000fd88  w      .text	00000000 _unexpected_
+0000fbea g       .text	00000000 __isr_8
 00000200 g     O .data	00000004 sampleTimeSec
-0000f96a  w      .text	00000000 __isr_3
+0000f93a  w      .text	00000000 __isr_3
 0000f800  w      .text	00000000 _reset_vector__
-0000f96a g       .text	00000000 __ctors_start
-0000f96a  w      .text	00000000 __isr_12
+0000f93a g       .text	00000000 __ctors_start
+0000f93a  w      .text	00000000 __isr_12
 0000f80e  w      .text	00000000 __do_copy_data
 00000204 g     O .data	00000004 dlyCC1
 0000020c g       .bss	00000000 __bss_start
 0000020d g     O .bss	00000001 BitCnt
-0000f838 g     F .text	0000012c main
+0000f838 g     F .text	000000fc main
 0000020e g     O .bss	00000002 TXByte
-0000fce4 g     F .text	0000000a srand
-0000f96a  w      .text	00000000 __isr_13
+0000fd7e g     F .text	0000000a srand
+0000f93a  w      .text	00000000 __isr_13
 00000170 g       *ABS*	00000000 __TAR
 00000162 g       *ABS*	00000000 __TACCTL0
 00010000 g       .vectors	00000000 _vectors_end
 0000002a g       *ABS*	00000000 __P2DIR
 0000002f g       *ABS*	00000000 __P2REN
 0000007d g       *ABS*	00000000 __USISRH
-0000f988 g     F .text	00000010 adqAdcTempSensor
+0000f958 g     F .text	00000010 adqAdcTempSensor
 00000210 g     O .bss	00000002 ADCValue
 000001b0 g       *ABS*	00000000 __ADC10CTL0
-0000f9e0 g       .text	00000000 __isr_9
+0000f9b0 g       .text	00000000 __isr_9
 000010fe g       *ABS*	00000000 __CALDCO_1MHZ
 0000f800  w      .text	00000000 __init_stack
-0000f96a g       .text	00000000 __dtors_start
-0000f96a  w      .text	00000000 __isr_6
-0000f96a g       .text	00000000 __ctors_end
+0000f93a g       .text	00000000 __dtors_start
+0000f93a  w      .text	00000000 __isr_6
+0000f93a g       .text	00000000 __ctors_end
 00000280 g       *ABS*	00000000 __stack
-0000f96a  w      .text	00000000 __isr_1
+0000f93a  w      .text	00000000 __isr_1
 0000020c g       .data	00000000 _edata
 00000212 g       .bss	00000000 _end
 0000007b g       *ABS*	00000000 __USICNT
 00000048 g       *ABS*	00000000 __ADC10DTC0
 000001b2 g       *ABS*	00000000 __ADC10CTL1
-0000fcee g       .text	00000000 __udivmodsi4
 00000058 g       *ABS*	00000000 __BCSCTL2
-0000f964  w      .text	00000000 _endless_loop__
+0000f934  w      .text	00000000 _endless_loop__
 00000022 g       *ABS*	00000000 __P1DIR
 00000164 g       *ABS*	00000000 __TACCTL1
-0000fba8 g     O .text	00000002 Bitime
+0000fc42 g     O .text	00000002 Bitime
 000010ff g       *ABS*	00000000 __CALBC1_1MHZ
-0000fba4 g     O .text	00000004 minTime
+0000fc3e g     O .text	00000004 minTime
 0000f804  w      .text	00000000 __low_level_init
-0000fb90 g     F .text	00000012 setClockTrans
+0000fc2a g     F .text	00000012 setClockTrans
 00000200 g       .data	00000000 __data_start
 00000120 g       *ABS*	00000000 __WDTCTL
 00000000 g       *ABS*	00000000 __IE1
@@ -153,7 +153,7 @@ Disassembly of section .text:
     f814:	07 24       	jz	$+16     	;abs 0xf824
     f816:	82 45 20 01 	mov	r5,	&0x0120	
     f81a:	2f 83       	decd	r15		
-    f81c:	9f 4f 1a fd 	mov	-742(r15),512(r15);0xfd1a(r15), 0x0200(r15)
+    f81c:	9f 4f 8a fd 	mov	-630(r15),512(r15);0xfd8a(r15), 0x0200(r15)
     f820:	00 02 
     f822:	f9 23       	jnz	$-12     	;abs 0xf816
 
@@ -170,870 +170,1009 @@ Disassembly of section .text:
 
 
 void main (){
-  unsigned long int tSampleMs, auxTimeMs;
+  long int tSampleMs, auxTimeMs;
 
   WDTCTL = WDTPW + WDTHOLD;                // Stop watchdog timer
     f838:	b2 40 80 5a 	mov	#23168,	&0x0120	;#0x5a80
     f83c:	20 01 
+  P1SEL |= TXD + APC220_CTL;
+    f83e:	f2 d0 03 00 	bis.b	#3,	&0x0026	;#0x0003
+    f842:	26 00 
   P1DIR |= 0x40 + TXD + APC220_CTL;                           // Set P1.0  y P1.6 to output direction
-    f83e:	f2 d0 43 00 	bis.b	#67,	&0x0022	;#0x0043
-    f842:	22 00 
-  P1SEL |= TXD;// + APC220_CTL;
-    f844:	e2 d3 26 00 	bis.b	#2,	&0x0026	;r3 As==10
+    f844:	f2 d0 43 00 	bis.b	#67,	&0x0022	;#0x0043
+    f848:	22 00 
+  P1REN |= APC220_CTL;
+    f84a:	d2 d3 27 00 	bis.b	#1,	&0x0027	;r3 As==01
   
   //P1OUT = 0x00;
 
     ConfigureAdcTempSensor();
-    f848:	b0 12 6e f9 	call	#0xf96e	
+    f84e:	b0 12 3e f9 	call	#0xf93e	
 
     __enable_interrupt();                     // Enable interrupts.
-    f84c:	32 d2       	eint			
+    f852:	32 d2       	eint			
 
     BCSCTL1 |= DIVA_0;                               // ACLK / 8
     BCSCTL2 |= SELM_3 + DIVM_3 + SELS + DIVS_3;               // MCLK = LFXT1/8
-    f84e:	f2 d0 fe ff 	bis.b	#-2,	&0x0058	;#0xfffe
-    f852:	58 00 
+    f854:	f2 d0 fe ff 	bis.b	#-2,	&0x0058	;#0xfffe
+    f858:	58 00 
     BCSCTL3 |= LFXT1S_2;                      // LFXT1 = VLO
-    f854:	f2 d0 20 00 	bis.b	#32,	&0x0053	;#0x0020
-    f858:	53 00 
+    f85a:	f2 d0 20 00 	bis.b	#32,	&0x0053	;#0x0020
+    f85e:	53 00 
     IFG1 &= ~OFIFG;                           // Clear OSCFault flag
-    f85a:	f2 f0 fd ff 	and.b	#-3,	&0x0002	;#0xfffd
-    f85e:	02 00 
+    f860:	f2 f0 fd ff 	and.b	#-3,	&0x0002	;#0xfffd
+    f864:	02 00 
     __bis_SR_register(SCG1 + SCG0);           // Stop DCO
-    f860:	32 d0 c0 00 	bis	#192,	r2	;#0x00c0
+    f866:	32 d0 c0 00 	bis	#192,	r2	;#0x00c0
 
 
     CCTL1 = CCIE;                            // interrupt enabled CC1
-    f864:	b2 40 10 00 	mov	#16,	&0x0164	;#0x0010
-    f868:	64 01 
+    f86a:	b2 40 10 00 	mov	#16,	&0x0164	;#0x0010
+    f86e:	64 01 
     CCR1 = dlyCC1;
-    f86a:	92 42 04 02 	mov	&0x0204,&0x0174	
-    f86e:	74 01 
+    f870:	92 42 04 02 	mov	&0x0204,&0x0174	
+    f874:	74 01 
     TACTL = TASSEL_1 + MC_2;                 // ACLK, upmode
-    f870:	b2 40 20 01 	mov	#288,	&0x0160	;#0x0120
-    f874:	60 01 
+    f876:	b2 40 20 01 	mov	#288,	&0x0160	;#0x0120
+    f87a:	60 01 
    
     srand(deviceID); 
-    f876:	3f 40 23 00 	mov	#35,	r15	;#0x0023
-    f87a:	b0 12 e4 fc 	call	#0xfce4	
+    f87c:	3f 40 23 00 	mov	#35,	r15	;#0x0023
+    f880:	b0 12 7e fd 	call	#0xfd7e	
   // 60000 ciclos 5 segundos
   // 12000 ciclos 1 segundo
   //
   // 12    ciclos 1 mS
   //
-  sampleTimeSec =  5;
-    f87e:	b2 40 05 00 	mov	#5,	&0x0200	;#0x0005
-    f882:	00 02 
-    f884:	82 43 02 02 	mov	#0,	&0x0202	;r3 As==00
+  sampleTimeSec =  10;
+    f884:	b2 40 0a 00 	mov	#10,	&0x0200	;#0x000a
+    f888:	00 02 
+    f88a:	82 43 02 02 	mov	#0,	&0x0202	;r3 As==00
   tSampleMs = sampleTimeSec * 1000;
 
-  auxTimeMs = genRand03();
-    f888:	b0 12 4e fc 	call	#0xfc4e	
-    f88c:	0c 4f       	mov	r15,	r12	
-    f88e:	0d 4f       	mov	r15,	r13	
-    f890:	8d 10       	swpb	r13		
-    f892:	8d 11       	sxt	r13		
-    f894:	8d 10       	swpb	r13		
-    f896:	8d 11       	sxt	r13		
-    f898:	3a 40 88 13 	mov	#5000,	r10	;#0x1388
-    f89c:	0b 43       	clr	r11		
-    f89e:	b0 12 ee fc 	call	#0xfcee	
-    f8a2:	0a 4e       	mov	r14,	r10	
-    f8a4:	0b 4f       	mov	r15,	r11	
-    f8a6:	3a 50 c4 09 	add	#2500,	r10	;#0x09c4
-    f8aa:	0b 63       	adc	r11		
-  int i;
+  auxTimeMs = genRand03(tSampleMs);
+    f88e:	3e 40 10 27 	mov	#10000,	r14	;#0x2710
+    f892:	0f 43       	clr	r15		
+    f894:	b0 12 20 fb 	call	#0xfb20	
+    f898:	0a 4e       	mov	r14,	r10	
+    f89a:	0b 4f       	mov	r15,	r11	
   while(1){
     if (auxTimeMs > minTime) {
-    f8ac:	36 40 88 13 	mov	#5000,	r6	;#0x1388
-    f8b0:	07 43       	clr	r7		
-    f8b2:	0b 93       	tst	r11		
-    f8b4:	02 20       	jnz	$+6      	;abs 0xf8ba
-    f8b6:	06 9a       	cmp	r10,	r6	
-    f8b8:	0e 2c       	jc	$+30     	;abs 0xf8d6
-         P1OUT |= 0x01;                           // 0100|0001 = 0x41 pone en 1 P1.0 y P1.6
-    f8ba:	d2 d3 21 00 	bis.b	#1,	&0x0021	;r3 As==01
-         P1OUT &= ~0x01;                           // 0100|0001 = 0x41 pone en 1 P1.0 y P1.6
-    f8be:	f2 f0 fe ff 	and.b	#-2,	&0x0021	;#0xfffe
-    f8c2:	21 00 
+    f89c:	38 40 88 13 	mov	#5000,	r8	;#0x1388
+    f8a0:	09 43       	clr	r9		
+    f8a2:	0b 93       	tst	r11		
+    f8a4:	02 20       	jnz	$+6      	;abs 0xf8aa
+    f8a6:	08 9a       	cmp	r10,	r8	
+    f8a8:	09 2c       	jc	$+20     	;abs 0xf8bc
+         //P1OUT |= 0x01;                           // 0100|0001 = 0x41 pone en 1 P1.0 y P1.6
+         //P1OUT &= ~0x01;                           // 0100|0001 = 0x41 pone en 1 P1.0 y P1.6
       auxTimeMs = auxTimeMs - minTime;
-    f8c4:	3a 50 78 ec 	add	#-5000,	r10	;#0xec78
-    f8c8:	3b 63       	addc	#-1,	r11	;r3 As==11
+    f8aa:	3a 50 78 ec 	add	#-5000,	r10	;#0xec78
+    f8ae:	3b 63       	addc	#-1,	r11	;r3 As==11
       _BIS_SR(LPM3_bits + GIE);                // Enter LPM3 w/ interrupt
-    f8ca:	32 d0 d8 00 	bis	#216,	r2	;#0x00d8
+    f8b0:	32 d0 d8 00 	bis	#216,	r2	;#0x00d8
+  sampleTimeSec =  10;
   tSampleMs = sampleTimeSec * 1000;
 
-  auxTimeMs = genRand03();
-  int i;
+  auxTimeMs = genRand03(tSampleMs);
   while(1){
     if (auxTimeMs > minTime) {
-    f8ce:	0b 93       	tst	r11		
-    f8d0:	f4 23       	jnz	$-22     	;abs 0xf8ba
-    f8d2:	06 9a       	cmp	r10,	r6	
-    f8d4:	f2 2b       	jnc	$-26     	;abs 0xf8ba
-         P1OUT |= 0x01;                           // 0100|0001 = 0x41 pone en 1 P1.0 y P1.6
-         P1OUT &= ~0x01;                           // 0100|0001 = 0x41 pone en 1 P1.0 y P1.6
+    f8b4:	0b 93       	tst	r11		
+    f8b6:	f9 23       	jnz	$-12     	;abs 0xf8aa
+    f8b8:	08 9a       	cmp	r10,	r8	
+    f8ba:	f7 2b       	jnc	$-16     	;abs 0xf8aa
+         //P1OUT |= 0x01;                           // 0100|0001 = 0x41 pone en 1 P1.0 y P1.6
+         //P1OUT &= ~0x01;                           // 0100|0001 = 0x41 pone en 1 P1.0 y P1.6
       auxTimeMs = auxTimeMs - minTime;
       _BIS_SR(LPM3_bits + GIE);                // Enter LPM3 w/ interrupt
     }else {
       if (auxTimeMs == 0){
-    f8d6:	0a 93       	tst	r10		
-    f8d8:	09 24       	jz	$+20     	;abs 0xf8ec
+    f8bc:	0a 93       	tst	r10		
+    f8be:	09 24       	jz	$+20     	;abs 0xf8d2
          CCTL0 &= ~CCIE;                            // interrupt disabled CC0
          CCR1 = dlyCC1;
          setVloClk();
  
      } else {
        CCR1 = auxTimeMs * 12;
-    f8da:	0f 4a       	mov	r10,	r15	
-    f8dc:	0f 5f       	rla	r15		
-    f8de:	0f 5a       	add	r10,	r15	
-    f8e0:	0f 5f       	rla	r15		
-    f8e2:	0f 5f       	rla	r15		
-    f8e4:	82 4f 74 01 	mov	r15,	&0x0174	
+    f8c0:	0f 4a       	mov	r10,	r15	
+    f8c2:	0f 5f       	rla	r15		
+    f8c4:	0f 5a       	add	r10,	r15	
+    f8c6:	0f 5f       	rla	r15		
+    f8c8:	0f 5f       	rla	r15		
+    f8ca:	82 4f 74 01 	mov	r15,	&0x0174	
        auxTimeMs = 0;
        _BIS_SR(LPM3_bits + GIE);                // Enter LPM3 w/ interrupt
-    f8e8:	32 d0 d8 00 	bis	#216,	r2	;#0x00d8
-         P1OUT &= ~0x01;                           // 0100|0001 = 0x41 pone en 1 P1.0 y P1.6
+    f8ce:	32 d0 d8 00 	bis	#216,	r2	;#0x00d8
+         //P1OUT &= ~0x01;                           // 0100|0001 = 0x41 pone en 1 P1.0 y P1.6
       auxTimeMs = auxTimeMs - minTime;
       _BIS_SR(LPM3_bits + GIE);                // Enter LPM3 w/ interrupt
     }else {
       if (auxTimeMs == 0){
          CCTL1 &= ~CCIE;                            // interrupt disabled CC1
-    f8ec:	b2 f0 ef ff 	and	#-17,	&0x0164	;#0xffef
-    f8f0:	64 01 
+    f8d2:	b2 f0 ef ff 	and	#-17,	&0x0164	;#0xffef
+    f8d6:	64 01 
 
 }
 
 void setClockTrans(){
 
     BCSCTL1 = CALBC1_1MHZ;           // Set range
-    f8f2:	d2 42 ff 10 	mov.b	&0x10ff,&0x0057	
-    f8f6:	57 00 
+    f8d8:	d2 42 ff 10 	mov.b	&0x10ff,&0x0057	
+    f8dc:	57 00 
     DCOCTL = CALDCO_1MHZ;            // SMCLK = DCO = 1MHz
-    f8f8:	d2 42 fe 10 	mov.b	&0x10fe,&0x0056	
-    f8fc:	56 00 
+    f8de:	d2 42 fe 10 	mov.b	&0x10fe,&0x0056	
+    f8e2:	56 00 
     //BCSCTL2 |= SELM_1 + DIVM_0;               // MCLK = LFXT1/8
     BCSCTL2 = 0x00;               // MCLK = LFXT1/8
-    f8fe:	c2 43 58 00 	mov.b	#0,	&0x0058	;r3 As==00
+    f8e4:	c2 43 58 00 	mov.b	#0,	&0x0058	;r3 As==00
     }else {
       if (auxTimeMs == 0){
          CCTL1 &= ~CCIE;                            // interrupt disabled CC1
          setClockTrans();
 
-         auxTimeMs = genRand03();
-    f902:	b0 12 4e fc 	call	#0xfc4e	
-    f906:	0c 4f       	mov	r15,	r12	
-    f908:	0d 4f       	mov	r15,	r13	
-    f90a:	8d 10       	swpb	r13		
-    f90c:	8d 11       	sxt	r13		
-    f90e:	8d 10       	swpb	r13		
-    f910:	8d 11       	sxt	r13		
-    f912:	3a 40 88 13 	mov	#5000,	r10	;#0x1388
-    f916:	0b 43       	clr	r11		
-    f918:	b0 12 ee fc 	call	#0xfcee	
-    f91c:	0a 4e       	mov	r14,	r10	
-    f91e:	0b 4f       	mov	r15,	r11	
-    f920:	3a 50 c4 09 	add	#2500,	r10	;#0x09c4
-    f924:	0b 63       	adc	r11		
+         auxTimeMs = genRand03(tSampleMs);
+    f8e8:	3e 40 10 27 	mov	#10000,	r14	;#0x2710
+    f8ec:	0f 43       	clr	r15		
+    f8ee:	b0 12 20 fb 	call	#0xfb20	
+    f8f2:	0a 4e       	mov	r14,	r10	
+    f8f4:	0b 4f       	mov	r15,	r11	
 
-         P1OUT |= 0x41;                           // 0100|0001 = 0x41 pone en 1 P1.0 y P1.6
-    f926:	f2 d0 41 00 	bis.b	#65,	&0x0021	;#0x0041
-    f92a:	21 00 
-    f92c:	3f 40 c8 00 	mov	#200,	r15	;#0x00c8
-         for (i = 0; i < 200; i++) __delay_cycles(500);
-    f930:	3e 40 a6 00 	mov	#166,	r14	;#0x00a6
-    f934:	1e 83       	dec	r14		
-    f936:	fe 23       	jnz	$-2      	;abs 0xf934
-    f938:	3f 53       	add	#-1,	r15	;r3 As==11
-    f93a:	fa 23       	jnz	$-10     	;abs 0xf930
          ADCValue = adqAdcTempSensor();
-    f93c:	b0 12 88 f9 	call	#0xf988	
-    f940:	82 4f 10 02 	mov	r15,	&0x0210	
+    f8f6:	b0 12 58 f9 	call	#0xf958	
+    f8fa:	82 4f 10 02 	mov	r15,	&0x0210	
+         P1OUT = 0x41;                           // 0100|0001 = 0x41 pone en 1 P1.0 y P1.6
+    f8fe:	f2 40 41 00 	mov.b	#65,	&0x0021	;#0x0041
+    f902:	21 00 
+         int i;
+         for (i = 0; i < 100; i++) __delay_cycles(500);
+    f904:	0f 43       	clr	r15		
+    f906:	3d 40 a6 00 	mov	#166,	r13	;#0x00a6
+    f90a:	1d 83       	dec	r13		
+    f90c:	fe 23       	jnz	$-2      	;abs 0xf90a
+    f90e:	1f 53       	inc	r15		
+    f910:	3f 90 64 00 	cmp	#100,	r15	;#0x0064
+    f914:	f8 23       	jnz	$-14     	;abs 0xf906
 
          TransmitADCValue (deviceID);
-    f944:	3f 40 23 00 	mov	#35,	r15	;#0x0023
-    f948:	b0 12 2e fa 	call	#0xfa2e	
-         P1OUT &= ~0x41;                          // 1011|1110 = 0xFE pone en 0 P1.0 
-    f94c:	f2 f0 be ff 	and.b	#-66,	&0x0021	;#0xffbe
-    f950:	21 00 
+    f916:	3f 50 bf ff 	add	#-65,	r15	;#0xffbf
+    f91a:	b0 12 fe f9 	call	#0xf9fe	
+         P1OUT = 0x00;                          // 1011|1110 = 0xFE pone en 0 P1.0 
+    f91e:	c2 43 21 00 	mov.b	#0,	&0x0021	;r3 As==00
 
          CCTL0 &= ~CCIE;                            // interrupt disabled CC0
-    f952:	b2 f0 ef ff 	and	#-17,	&0x0162	;#0xffef
-    f956:	62 01 
+    f922:	b2 f0 ef ff 	and	#-17,	&0x0162	;#0xffef
+    f926:	62 01 
          CCR1 = dlyCC1;
-    f958:	92 42 04 02 	mov	&0x0204,&0x0174	
-    f95c:	74 01 
+    f928:	92 42 04 02 	mov	&0x0204,&0x0174	
+    f92c:	74 01 
          setVloClk();
-    f95e:	b0 12 66 fb 	call	#0xfb66	
-    f962:	a7 3f       	jmp	$-176    	;abs 0xf8b2
+    f92e:	b0 12 00 fc 	call	#0xfc00	
+    f932:	b7 3f       	jmp	$-144    	;abs 0xf8a2
 
-0000f964 <__stop_progExec__>:
-    f964:	32 d0 f0 00 	bis	#240,	r2	;#0x00f0
-    f968:	fd 3f       	jmp	$-4      	;abs 0xf964
+0000f934 <__stop_progExec__>:
+    f934:	32 d0 f0 00 	bis	#240,	r2	;#0x00f0
+    f938:	fd 3f       	jmp	$-4      	;abs 0xf934
 
-0000f96a <__ctors_end>:
-    f96a:	30 40 18 fd 	br	#0xfd18	
+0000f93a <__ctors_end>:
+    f93a:	30 40 88 fd 	br	#0xfd88	
 
-0000f96e <ConfigureAdcTempSensor>:
+0000f93e <ConfigureAdcTempSensor>:
 /* Configure ADC Temp Sensor Channel */
 void ConfigureAdcTempSensor(void)
 {
 //  unsigned char i;
   ADC10CTL1 = INCH_10 + ADC10DIV_3;         // Temp Sensor ADC10CLK/4
-    f96e:	b2 40 60 a0 	mov	#-24480,&0x01b2	;#0xa060
-    f972:	b2 01 
+    f93e:	b2 40 60 a0 	mov	#-24480,&0x01b2	;#0xa060
+    f942:	b2 01 
   ADC10CTL0 = SREF_1 + ADC10SHT_3 + REFON + ADC10ON + ADC10IE;
-    f974:	b2 40 38 38 	mov	#14392,	&0x01b0	;#0x3838
-    f978:	b0 01 
+    f944:	b2 40 38 38 	mov	#14392,	&0x01b0	;#0x3838
+    f948:	b0 01 
   __delay_cycles(1000);                     // Wait for ADC Ref to settle
-    f97a:	03 43       	nop			
-    f97c:	03 43       	nop			
-    f97e:	3f 40 4c 01 	mov	#332,	r15	;#0x014c
-    f982:	1f 83       	dec	r15		
-    f984:	fe 23       	jnz	$-2      	;abs 0xf982
+    f94a:	03 43       	nop			
+    f94c:	03 43       	nop			
+    f94e:	3f 40 4c 01 	mov	#332,	r15	;#0x014c
+    f952:	1f 83       	dec	r15		
+    f954:	fe 23       	jnz	$-2      	;abs 0xf952
 //  __bis_SR_register(CPUOFF + GIE);          // LPM0 with interrupts enabled
 //  tempCalibrated = ADC10MEM;
 //  for (i=0; i < 8; i++)
 //    tempMeasured[i] = tempCalibrated;
 //  tempAverage = tempCalibrated;
 }
-    f986:	30 41       	ret			
+    f956:	30 41       	ret			
 
-0000f988 <adqAdcTempSensor>:
+0000f958 <adqAdcTempSensor>:
 
 int  adqAdcTempSensor(void)
 {
    ADC10CTL0 |= ENC + ADC10SC;             // Sampling and conversion start
-    f988:	b2 d0 03 00 	bis	#3,	&0x01b0	;#0x0003
-    f98c:	b0 01 
+    f958:	b2 d0 03 00 	bis	#3,	&0x01b0	;#0x0003
+    f95c:	b0 01 
     __bis_SR_register(CPUOFF + GIE);        // LPM0 with interrupts enabled
-    f98e:	32 d0 18 00 	bis	#24,	r2	;#0x0018
+    f95e:	32 d0 18 00 	bis	#24,	r2	;#0x0018
    return (ADC10MEM);
 }
-    f992:	1f 42 b4 01 	mov	&0x01b4,r15	
-    f996:	30 41       	ret			
+    f962:	1f 42 b4 01 	mov	&0x01b4,r15	
+    f966:	30 41       	ret			
 
-0000f998 <ADC10_ISR>:
+0000f968 <ADC10_ISR>:
 
 // ADC10 interrupt service routine
 interrupt (ADC10_VECTOR) ADC10_ISR(void)
 {
   __bic_SR_register_on_exit(CPUOFF);        // Return to active mode
-    f998:	b1 c0 10 00 	bic	#16,	0(r1)	;#0x0010, 0x0000(r1)
-    f99c:	00 00 
+    f968:	b1 c0 10 00 	bic	#16,	0(r1)	;#0x0010, 0x0000(r1)
+    f96c:	00 00 
 }
-    f99e:	00 13       	reti			
+    f96e:	00 13       	reti			
 
-0000f9a0 <Transmit>:
+0000f970 <Transmit>:
 
 
 // Function Transmits Character from TXByte
 void Transmit()
 {
   CCTL0 = OUT;                               // TXD Idle as Mark
-    f9a0:	a2 42 62 01 	mov	#4,	&0x0162	;r2 As==10
+    f970:	a2 42 62 01 	mov	#4,	&0x0162	;r2 As==10
   TACTL = TASSEL_2 + MC_2;               // SMCLK, continuous mode
-    f9a4:	b2 40 20 02 	mov	#544,	&0x0160	;#0x0220
-    f9a8:	60 01 
+    f974:	b2 40 20 02 	mov	#544,	&0x0160	;#0x0220
+    f978:	60 01 
 
   BitCnt = 0xA;                       // Load Bit counter, 8 bits + ST/SP
-    f9aa:	f2 40 0a 00 	mov.b	#10,	&0x020d	;#0x000a
-    f9ae:	0d 02 
+    f97a:	f2 40 0a 00 	mov.b	#10,	&0x020d	;#0x000a
+    f97e:	0d 02 
   CCR0 = TAR;
-    f9b0:	92 42 70 01 	mov	&0x0170,&0x0172	
-    f9b4:	72 01 
+    f980:	92 42 70 01 	mov	&0x0170,&0x0172	
+    f984:	72 01 
 
   CCR0 += Bitime;                  // Set time till first bit
-    f9b6:	b2 50 68 00 	add	#104,	&0x0172	;#0x0068
-    f9ba:	72 01 
+    f986:	b2 50 68 00 	add	#104,	&0x0172	;#0x0068
+    f98a:	72 01 
   TXByte |= 0x100;                 // Add stop bit to TXByte (which is logical 1)
   TXByte = TXByte << 1;            // Add start bit (which is logical 0)
-    f9bc:	1f 42 0e 02 	mov	&0x020e,r15	
-    f9c0:	3f d0 00 01 	bis	#256,	r15	;#0x0100
-    f9c4:	0f 5f       	rla	r15		
-    f9c6:	82 4f 0e 02 	mov	r15,	&0x020e	
+    f98c:	1f 42 0e 02 	mov	&0x020e,r15	
+    f990:	3f d0 00 01 	bis	#256,	r15	;#0x0100
+    f994:	0f 5f       	rla	r15		
+    f996:	82 4f 0e 02 	mov	r15,	&0x020e	
 
 
   CCTL0 =  CCIS0 + OUTMOD0 + CCIE; // Set signal, intial value, enable interrupts
-    f9ca:	b2 40 30 10 	mov	#4144,	&0x0162	;#0x1030
-    f9ce:	62 01 
+    f99a:	b2 40 30 10 	mov	#4144,	&0x0162	;#0x1030
+    f99e:	62 01 
   while ( CCTL0 & CCIE );          // Wait for TX completion
-    f9d0:	b2 b0 10 00 	bit	#16,	&0x0162	;#0x0010
-    f9d4:	62 01 
-    f9d6:	fc 23       	jnz	$-6      	;abs 0xf9d0
+    f9a0:	b2 b0 10 00 	bit	#16,	&0x0162	;#0x0010
+    f9a4:	62 01 
+    f9a6:	fc 23       	jnz	$-6      	;abs 0xf9a0
   TACTL = TASSEL_2;             // SMCLK, timer off (for power consumption)
-    f9d8:	b2 40 00 02 	mov	#512,	&0x0160	;#0x0200
-    f9dc:	60 01 
+    f9a8:	b2 40 00 02 	mov	#512,	&0x0160	;#0x0200
+    f9ac:	60 01 
   
 }
-    f9de:	30 41       	ret			
+    f9ae:	30 41       	ret			
 
-0000f9e0 <Timer_A>:
+0000f9b0 <Timer_A>:
 
 // Timer A0 interrupt service routine
 interrupt (TIMERA0_VECTOR) Timer_A (void)
 { 
-    f9e0:	0f 12       	push	r15		
-    f9e2:	0e 12       	push	r14		
-    f9e4:	0d 12       	push	r13		
+    f9b0:	0f 12       	push	r15		
+    f9b2:	0e 12       	push	r14		
+    f9b4:	0d 12       	push	r13		
 
   CCR0 += Bitime;     // Add Offset to CCR0
-    f9e6:	b2 50 68 00 	add	#104,	&0x0172	;#0x0068
-    f9ea:	72 01 
+    f9b6:	b2 50 68 00 	add	#104,	&0x0172	;#0x0068
+    f9ba:	72 01 
   if ( BitCnt == 0)     // If all bits TXed, disable interrupt
-    f9ec:	5f 42 0d 02 	mov.b	&0x020d,r15	
-    f9f0:	4f 93       	tst.b	r15		
-    f9f2:	16 24       	jz	$+46     	;abs 0xfa20
+    f9bc:	5f 42 0d 02 	mov.b	&0x020d,r15	
+    f9c0:	4f 93       	tst.b	r15		
+    f9c2:	16 24       	jz	$+46     	;abs 0xf9f0
     CCTL0 &= ~ CCIE ;
   else
   {
     CCTL0 |=  OUTMOD2;                    // TX Space
-    f9f4:	b2 d0 80 00 	bis	#128,	&0x0162	;#0x0080
-    f9f8:	62 01 
+    f9c4:	b2 d0 80 00 	bis	#128,	&0x0162	;#0x0080
+    f9c8:	62 01 
     if (TXByte & 0x01)
-    f9fa:	1e 42 0e 02 	mov	&0x020e,r14	
-    f9fe:	1e b3       	bit	#1,	r14	;r3 As==01
-    fa00:	0b 20       	jnz	$+24     	;abs 0xfa18
+    f9ca:	1e 42 0e 02 	mov	&0x020e,r14	
+    f9ce:	1e b3       	bit	#1,	r14	;r3 As==01
+    f9d0:	0b 20       	jnz	$+24     	;abs 0xf9e8
       CCTL0 &= ~ OUTMOD2;                   // TX Mark
     TXByte = TXByte >> 1;
-    fa02:	12 c3       	clrc			
-    fa04:	0e 10       	rrc	r14		
-    fa06:	82 4e 0e 02 	mov	r14,	&0x020e	
+    f9d2:	12 c3       	clrc			
+    f9d4:	0e 10       	rrc	r14		
+    f9d6:	82 4e 0e 02 	mov	r14,	&0x020e	
     BitCnt --;
-    fa0a:	7f 53       	add.b	#-1,	r15	;r3 As==11
-    fa0c:	c2 4f 0d 02 	mov.b	r15,	&0x020d	
+    f9da:	7f 53       	add.b	#-1,	r15	;r3 As==11
+    f9dc:	c2 4f 0d 02 	mov.b	r15,	&0x020d	
   }
 }
-    fa10:	3d 41       	pop	r13		
-    fa12:	3e 41       	pop	r14		
-    fa14:	3f 41       	pop	r15		
-    fa16:	00 13       	reti			
+    f9e0:	3d 41       	pop	r13		
+    f9e2:	3e 41       	pop	r14		
+    f9e4:	3f 41       	pop	r15		
+    f9e6:	00 13       	reti			
     CCTL0 &= ~ CCIE ;
   else
   {
     CCTL0 |=  OUTMOD2;                    // TX Space
     if (TXByte & 0x01)
       CCTL0 &= ~ OUTMOD2;                   // TX Mark
-    fa18:	b2 f0 7f ff 	and	#-129,	&0x0162	;#0xff7f
-    fa1c:	62 01 
-    fa1e:	f1 3f       	jmp	$-28     	;abs 0xfa02
+    f9e8:	b2 f0 7f ff 	and	#-129,	&0x0162	;#0xff7f
+    f9ec:	62 01 
+    f9ee:	f1 3f       	jmp	$-28     	;abs 0xf9d2
 interrupt (TIMERA0_VECTOR) Timer_A (void)
 { 
 
   CCR0 += Bitime;     // Add Offset to CCR0
   if ( BitCnt == 0)     // If all bits TXed, disable interrupt
     CCTL0 &= ~ CCIE ;
-    fa20:	b2 f0 ef ff 	and	#-17,	&0x0162	;#0xffef
-    fa24:	62 01 
+    f9f0:	b2 f0 ef ff 	and	#-17,	&0x0162	;#0xffef
+    f9f4:	62 01 
     if (TXByte & 0x01)
       CCTL0 &= ~ OUTMOD2;                   // TX Mark
     TXByte = TXByte >> 1;
     BitCnt --;
   }
 }
-    fa26:	3d 41       	pop	r13		
-    fa28:	3e 41       	pop	r14		
-    fa2a:	3f 41       	pop	r15		
-    fa2c:	00 13       	reti			
+    f9f6:	3d 41       	pop	r13		
+    f9f8:	3e 41       	pop	r14		
+    f9fa:	3f 41       	pop	r15		
+    f9fc:	00 13       	reti			
 
-0000fa2e <TransmitADCValue>:
+0000f9fe <TransmitADCValue>:
 bool ADCDone;                   // ADC Done flag
 
 #define codFunc       4
 
 
 void TransmitADCValue (unsigned int SensorId){
-    fa2e:	0b 12       	push	r11		
-    fa30:	0a 12       	push	r10		
-    fa32:	09 12       	push	r9		
-    fa34:	08 12       	push	r8		
-    fa36:	07 12       	push	r7		
-    fa38:	0b 4f       	mov	r15,	r11	
+    f9fe:	0b 12       	push	r11		
+    fa00:	0a 12       	push	r10		
+    fa02:	09 12       	push	r9		
+    fa04:	08 12       	push	r8		
+    fa06:	07 12       	push	r7		
+    fa08:	0b 4f       	mov	r15,	r11	
   unsigned int cksum = 0;
 
   /*************************************************************/  
   // Transmitir Comienzo  de Mensaje ':'
   /*************************************************************/  
    TXByte = ':';
-    fa3a:	b2 40 3a 00 	mov	#58,	&0x020e	;#0x003a
-    fa3e:	0e 02 
+    fa0a:	b2 40 3a 00 	mov	#58,	&0x020e	;#0x003a
+    fa0e:	0e 02 
    cksum = cksum + TXByte;
    Transmit();
-    fa40:	b0 12 a0 f9 	call	#0xf9a0	
+    fa10:	b0 12 70 f9 	call	#0xf970	
 
   /*************************************************************/  
   //  Transmitir el SensorId
   /*************************************************************/  
 
    TXByte = (SensorId >> 4) & 0x000F;
-    fa44:	0e 4b       	mov	r11,	r14	
-    fa46:	12 c3       	clrc			
-    fa48:	0e 10       	rrc	r14		
-    fa4a:	0e 11       	rra	r14		
-    fa4c:	0e 11       	rra	r14		
-    fa4e:	0e 11       	rra	r14		
-    fa50:	3e f0 0f 00 	and	#15,	r14	;#0x000f
+    fa14:	0e 4b       	mov	r11,	r14	
+    fa16:	12 c3       	clrc			
+    fa18:	0e 10       	rrc	r14		
+    fa1a:	0e 11       	rra	r14		
+    fa1c:	0e 11       	rra	r14		
+    fa1e:	0e 11       	rra	r14		
+    fa20:	3e f0 0f 00 	and	#15,	r14	;#0x000f
    TXByte  = asciiCode[TXByte];
-    fa54:	5a 4e aa fb 	mov.b	-1110(r14),r10	;0xfbaa(r14)
-    fa58:	8a 11       	sxt	r10		
-    fa5a:	82 4a 0e 02 	mov	r10,	&0x020e	
+    fa24:	5a 4e 44 fc 	mov.b	-956(r14),r10	;0xfc44(r14)
+    fa28:	8a 11       	sxt	r10		
+    fa2a:	82 4a 0e 02 	mov	r10,	&0x020e	
    cksum = cksum + TXByte;
    Transmit();                                           // Send
-    fa5e:	b0 12 a0 f9 	call	#0xf9a0	
+    fa2e:	b0 12 70 f9 	call	#0xf970	
 
 
   TXByte = SensorId & 0x000F;
-    fa62:	3b f0 0f 00 	and	#15,	r11	;#0x000f
+    fa32:	3b f0 0f 00 	and	#15,	r11	;#0x000f
   TXByte  = asciiCode[TXByte];
-    fa66:	59 4b aa fb 	mov.b	-1110(r11),r9	;0xfbaa(r11)
-    fa6a:	89 11       	sxt	r9		
-    fa6c:	82 49 0e 02 	mov	r9,	&0x020e	
+    fa36:	59 4b 44 fc 	mov.b	-956(r11),r9	;0xfc44(r11)
+    fa3a:	89 11       	sxt	r9		
+    fa3c:	82 49 0e 02 	mov	r9,	&0x020e	
   cksum = cksum + TXByte;
   Transmit();                                           // Send
-    fa70:	b0 12 a0 f9 	call	#0xf9a0	
+    fa40:	b0 12 70 f9 	call	#0xf970	
 
   /*************************************************************/  
   // Transmitir el codFunc 
   /*************************************************************/  
   TXByte = (codFunc >> 4) & 0x000F;
   TXByte  = asciiCode[TXByte];
-    fa74:	b2 40 30 00 	mov	#48,	&0x020e	;#0x0030
-    fa78:	0e 02 
+    fa44:	b2 40 30 00 	mov	#48,	&0x020e	;#0x0030
+    fa48:	0e 02 
   cksum = cksum + TXByte;
   Transmit();                                           // Send
-    fa7a:	b0 12 a0 f9 	call	#0xf9a0	
+    fa4a:	b0 12 70 f9 	call	#0xf970	
 
 
   TXByte = codFunc & 0x000F;
   TXByte  = asciiCode[TXByte];
-    fa7e:	b2 40 34 00 	mov	#52,	&0x020e	;#0x0034
-    fa82:	0e 02 
+    fa4e:	b2 40 34 00 	mov	#52,	&0x020e	;#0x0034
+    fa52:	0e 02 
   cksum = cksum + TXByte;
   Transmit();                                           // Send
-    fa84:	b0 12 a0 f9 	call	#0xf9a0	
+    fa54:	b0 12 70 f9 	call	#0xf970	
 
 
   /*************************************************************/  
   // Transmitir el valor del ADC
   /*************************************************************/
   TXByte = (ADCValue>>12) & 0x000F;
-    fa88:	1f 42 10 02 	mov	&0x0210,r15	
-    fa8c:	8f 10       	swpb	r15		
-    fa8e:	3f f0 ff 00 	and	#255,	r15	;#0x00ff
-    fa92:	12 c3       	clrc			
-    fa94:	0f 10       	rrc	r15		
-    fa96:	0f 11       	rra	r15		
-    fa98:	0f 11       	rra	r15		
+    fa58:	1f 42 10 02 	mov	&0x0210,r15	
+    fa5c:	8f 10       	swpb	r15		
+    fa5e:	3f f0 ff 00 	and	#255,	r15	;#0x00ff
+    fa62:	12 c3       	clrc			
+    fa64:	0f 10       	rrc	r15		
+    fa66:	0f 11       	rra	r15		
+    fa68:	0f 11       	rra	r15		
+    fa6a:	0f 11       	rra	r15		
+  TXByte  = asciiCode[TXByte];
+    fa6c:	5b 4f 44 fc 	mov.b	-956(r15),r11	;0xfc44(r15)
+    fa70:	8b 11       	sxt	r11		
+    fa72:	82 4b 0e 02 	mov	r11,	&0x020e	
+  cksum = cksum + TXByte;
+  Transmit();                                           // Send
+    fa76:	b0 12 70 f9 	call	#0xf970	
+
+  TXByte = (ADCValue>>8) & 0x000F;
+    fa7a:	1f 42 10 02 	mov	&0x0210,r15	
+    fa7e:	8f 10       	swpb	r15		
+    fa80:	3f f0 0f 00 	and	#15,	r15	;#0x000f
+  TXByte  = asciiCode[TXByte];
+    fa84:	57 4f 44 fc 	mov.b	-956(r15),r7	;0xfc44(r15)
+    fa88:	87 11       	sxt	r7		
+    fa8a:	82 47 0e 02 	mov	r7,	&0x020e	
+  cksum = cksum + TXByte;
+  Transmit();                                           // Send
+    fa8e:	b0 12 70 f9 	call	#0xf970	
+
+  TXByte = (ADCValue >> 4) & 0x000F;
+    fa92:	1f 42 10 02 	mov	&0x0210,r15	
+    fa96:	12 c3       	clrc			
+    fa98:	0f 10       	rrc	r15		
     fa9a:	0f 11       	rra	r15		
+    fa9c:	0f 11       	rra	r15		
+    fa9e:	0f 11       	rra	r15		
+    faa0:	3f f0 0f 00 	and	#15,	r15	;#0x000f
   TXByte  = asciiCode[TXByte];
-    fa9c:	5b 4f aa fb 	mov.b	-1110(r15),r11	;0xfbaa(r15)
-    faa0:	8b 11       	sxt	r11		
-    faa2:	82 4b 0e 02 	mov	r11,	&0x020e	
+    faa4:	58 4f 44 fc 	mov.b	-956(r15),r8	;0xfc44(r15)
+    faa8:	88 11       	sxt	r8		
+    faaa:	82 48 0e 02 	mov	r8,	&0x020e	
   cksum = cksum + TXByte;
   Transmit();                                           // Send
-    faa6:	b0 12 a0 f9 	call	#0xf9a0	
-
-  TXByte = (ADCValue>>8) & 0x000F;
-    faaa:	1f 42 10 02 	mov	&0x0210,r15	
-    faae:	8f 10       	swpb	r15		
-    fab0:	3f f0 0f 00 	and	#15,	r15	;#0x000f
-  TXByte  = asciiCode[TXByte];
-    fab4:	57 4f aa fb 	mov.b	-1110(r15),r7	;0xfbaa(r15)
-    fab8:	87 11       	sxt	r7		
-    faba:	82 47 0e 02 	mov	r7,	&0x020e	
-  cksum = cksum + TXByte;
-  Transmit();                                           // Send
-    fabe:	b0 12 a0 f9 	call	#0xf9a0	
-
-  TXByte = (ADCValue >> 4) & 0x000F;
-    fac2:	1f 42 10 02 	mov	&0x0210,r15	
-    fac6:	12 c3       	clrc			
-    fac8:	0f 10       	rrc	r15		
-    faca:	0f 11       	rra	r15		
-    facc:	0f 11       	rra	r15		
-    face:	0f 11       	rra	r15		
-    fad0:	3f f0 0f 00 	and	#15,	r15	;#0x000f
-  TXByte  = asciiCode[TXByte];
-    fad4:	58 4f aa fb 	mov.b	-1110(r15),r8	;0xfbaa(r15)
-    fad8:	88 11       	sxt	r8		
-    fada:	82 48 0e 02 	mov	r8,	&0x020e	
-  cksum = cksum + TXByte;
-  Transmit();                                           // Send
-    fade:	b0 12 a0 f9 	call	#0xf9a0	
+    faae:	b0 12 70 f9 	call	#0xf970	
 
   TXByte = ADCValue & 0x000F;
-    fae2:	1f 42 10 02 	mov	&0x0210,r15	
-    fae6:	3f f0 0f 00 	and	#15,	r15	;#0x000f
+    fab2:	1f 42 10 02 	mov	&0x0210,r15	
+    fab6:	3f f0 0f 00 	and	#15,	r15	;#0x000f
   TXByte  = asciiCode[TXByte];
-    faea:	5f 4f aa fb 	mov.b	-1110(r15),r15	;0xfbaa(r15)
-    faee:	8f 11       	sxt	r15		
-    faf0:	82 4f 0e 02 	mov	r15,	&0x020e	
+    faba:	5f 4f 44 fc 	mov.b	-956(r15),r15	;0xfc44(r15)
+    fabe:	8f 11       	sxt	r15		
+    fac0:	82 4f 0e 02 	mov	r15,	&0x020e	
   /*************************************************************/  
   // Transmitir el codFunc 
   /*************************************************************/  
   TXByte = (codFunc >> 4) & 0x000F;
   TXByte  = asciiCode[TXByte];
   cksum = cksum + TXByte;
-    faf4:	0b 5f       	add	r15,	r11	
+    fac4:	0b 5f       	add	r15,	r11	
   Transmit();                                           // Send
 
 
   TXByte = codFunc & 0x000F;
   TXByte  = asciiCode[TXByte];
   cksum = cksum + TXByte;
-    faf6:	3b 50 9e 00 	add	#158,	r11	;#0x009e
+    fac6:	3b 50 9e 00 	add	#158,	r11	;#0x009e
   /*************************************************************/  
   // Transmitir el valor del ADC
   /*************************************************************/
   TXByte = (ADCValue>>12) & 0x000F;
   TXByte  = asciiCode[TXByte];
   cksum = cksum + TXByte;
-    fafa:	0b 57       	add	r7,	r11	
+    faca:	0b 57       	add	r7,	r11	
   Transmit();                                           // Send
 
   TXByte = (ADCValue>>8) & 0x000F;
   TXByte  = asciiCode[TXByte];
   cksum = cksum + TXByte;
-    fafc:	0b 58       	add	r8,	r11	
+    facc:	0b 58       	add	r8,	r11	
   Transmit();                                           // Send
 
   TXByte = (ADCValue >> 4) & 0x000F;
   TXByte  = asciiCode[TXByte];
   cksum = cksum + TXByte;
-    fafe:	0b 59       	add	r9,	r11	
+    face:	0b 59       	add	r9,	r11	
   Transmit();                                           // Send
 
   TXByte = ADCValue & 0x000F;
   TXByte  = asciiCode[TXByte];
   cksum = cksum + TXByte;
-    fb00:	0b 5a       	add	r10,	r11	
+    fad0:	0b 5a       	add	r10,	r11	
   Transmit();                                           // Send
-    fb02:	b0 12 a0 f9 	call	#0xf9a0	
+    fad2:	b0 12 70 f9 	call	#0xf970	
 
   /*************************************************************/  
   // Transmitir el cksum
   /*************************************************************/  
 
   TXByte = (cksum >> 4) & 0x000F;
-    fb06:	0f 4b       	mov	r11,	r15	
-    fb08:	12 c3       	clrc			
-    fb0a:	0f 10       	rrc	r15		
-    fb0c:	0f 11       	rra	r15		
-    fb0e:	0f 11       	rra	r15		
-    fb10:	0f 11       	rra	r15		
-    fb12:	3f f0 0f 00 	and	#15,	r15	;#0x000f
+    fad6:	0f 4b       	mov	r11,	r15	
+    fad8:	12 c3       	clrc			
+    fada:	0f 10       	rrc	r15		
+    fadc:	0f 11       	rra	r15		
+    fade:	0f 11       	rra	r15		
+    fae0:	0f 11       	rra	r15		
+    fae2:	3f f0 0f 00 	and	#15,	r15	;#0x000f
   TXByte  = asciiCode[TXByte];
-    fb16:	3a 40 0e 02 	mov	#526,	r10	;#0x020e
-    fb1a:	da 4f aa fb 	mov.b	-1110(r15),0(r10)	;0xfbaa(r15), 0x0000(r10)
-    fb1e:	00 00 
-    fb20:	92 11 0e 02 	sxt	&0x020e	
+    fae6:	3a 40 0e 02 	mov	#526,	r10	;#0x020e
+    faea:	da 4f 44 fc 	mov.b	-956(r15),0(r10)	;0xfc44(r15), 0x0000(r10)
+    faee:	00 00 
+    faf0:	92 11 0e 02 	sxt	&0x020e	
   Transmit();                                           // Send
-    fb24:	b0 12 a0 f9 	call	#0xf9a0	
+    faf4:	b0 12 70 f9 	call	#0xf970	
 
   TXByte = cksum & 0x000F;
-    fb28:	3b f0 0f 00 	and	#15,	r11	;#0x000f
+    faf8:	3b f0 0f 00 	and	#15,	r11	;#0x000f
   TXByte  = asciiCode[TXByte];
-    fb2c:	da 4b aa fb 	mov.b	-1110(r11),0(r10)	;0xfbaa(r11), 0x0000(r10)
-    fb30:	00 00 
-    fb32:	92 11 0e 02 	sxt	&0x020e	
+    fafc:	da 4b 44 fc 	mov.b	-956(r11),0(r10)	;0xfc44(r11), 0x0000(r10)
+    fb00:	00 00 
+    fb02:	92 11 0e 02 	sxt	&0x020e	
   Transmit();                                           // Send
-    fb36:	b0 12 a0 f9 	call	#0xf9a0	
+    fb06:	b0 12 70 f9 	call	#0xf970	
 
   /*************************************************************/  
    // Transmitir Fin de Mensaje '!'
   /*************************************************************/  
    TXByte = '!';
-    fb3a:	b2 40 21 00 	mov	#33,	&0x020e	;#0x0021
-    fb3e:	0e 02 
+    fb0a:	b2 40 21 00 	mov	#33,	&0x020e	;#0x0021
+    fb0e:	0e 02 
    Transmit();
-    fb40:	b0 12 a0 f9 	call	#0xf9a0	
+    fb10:	b0 12 70 f9 	call	#0xf970	
 }
-    fb44:	37 41       	pop	r7		
-    fb46:	38 41       	pop	r8		
-    fb48:	39 41       	pop	r9		
-    fb4a:	3a 41       	pop	r10		
-    fb4c:	3b 41       	pop	r11		
-    fb4e:	30 41       	ret			
+    fb14:	37 41       	pop	r7		
+    fb16:	38 41       	pop	r8		
+    fb18:	39 41       	pop	r9		
+    fb1a:	3a 41       	pop	r10		
+    fb1c:	3b 41       	pop	r11		
+    fb1e:	30 41       	ret			
 
-0000fb50 <Timer_A1>:
+0000fb20 <genRand03>:
+#include  <limits.h>
+#include  "defs.h"
+
+#define genRand02()  (rand ()%tSampleMs + (tSampleMs));
+//#define genRand03()  ((rand ()+INT_MAX)%tSampleMs) + tSampleMs/2;
+long int  genRand03(long int tSampleMs)  {
+    fb20:	0b 12       	push	r11		
+    fb22:	0a 12       	push	r10		
+    fb24:	09 12       	push	r9		
+    fb26:	0a 4e       	mov	r14,	r10	
+    fb28:	0b 4f       	mov	r15,	r11	
+  //return(  (rand ()+INT_MAX)%tSampleMs + tSampleMs/2);
+  int c;
+  switch (sampleTimeSec){
+    fb2a:	1f 42 00 02 	mov	&0x0200,r15	
+    fb2e:	1e 42 02 02 	mov	&0x0202,r14	
+    fb32:	3f 90 14 00 	cmp	#20,	r15	;#0x0014
+    fb36:	3c 24       	jz	$+122    	;abs 0xfbb0
+    fb38:	0e 93       	tst	r14		
+    fb3a:	21 20       	jnz	$+68     	;abs 0xfb7e
+    fb3c:	3f 90 15 00 	cmp	#21,	r15	;#0x0015
+    fb40:	1e 2c       	jc	$+62     	;abs 0xfb7e
+    fb42:	3f 90 05 00 	cmp	#5,	r15	;#0x0005
+    fb46:	3f 24       	jz	$+128    	;abs 0xfbc6
+    fb48:	3f 90 0a 00 	cmp	#10,	r15	;#0x000a
+    fb4c:	39 24       	jz	$+116    	;abs 0xfbc0
+    break; 
+    case 60:
+     c = 0;
+    break; 
+    default :
+     c = 0;
+    fb4e:	09 43       	clr	r9		
+    break; 
+  };
+
+  int x = rand ();
+    fb50:	b0 12 e8 fc 	call	#0xfce8	
+  int s = (x > 0) ? 1 : ((x < 0) ? -1 : 0);
+    fb54:	1f 93       	cmp	#1,	r15	;r3 As==01
+    fb56:	20 38       	jl	$+66     	;abs 0xfb98
+    fb58:	09 93       	tst	r9		
+    fb5a:	03 24       	jz	$+8      	;abs 0xfb62
+    fb5c:	0f 11       	rra	r15		
+    fb5e:	19 83       	dec	r9		
+    fb60:	fd 23       	jnz	$-4      	;abs 0xfb5c
+    fb62:	0d 4f       	mov	r15,	r13	
+    fb64:	0e 4f       	mov	r15,	r14	
+    fb66:	8e 10       	swpb	r14		
+    fb68:	8e 11       	sxt	r14		
+    fb6a:	8e 10       	swpb	r14		
+    fb6c:	8e 11       	sxt	r14		
+
+  return(((long int )(s)*(x>>c) + tSampleMs));
+};
+    fb6e:	0f 4e       	mov	r14,	r15	
+    fb70:	0e 4d       	mov	r13,	r14	
+    fb72:	0e 5a       	add	r10,	r14	
+    fb74:	0f 6b       	addc	r11,	r15	
+    fb76:	39 41       	pop	r9		
+    fb78:	3a 41       	pop	r10		
+    fb7a:	3b 41       	pop	r11		
+    fb7c:	30 41       	ret			
+#define genRand02()  (rand ()%tSampleMs + (tSampleMs));
+//#define genRand03()  ((rand ()+INT_MAX)%tSampleMs) + tSampleMs/2;
+long int  genRand03(long int tSampleMs)  {
+  //return(  (rand ()+INT_MAX)%tSampleMs + tSampleMs/2);
+  int c;
+  switch (sampleTimeSec){
+    fb7e:	3f 90 1e 00 	cmp	#30,	r15	;#0x001e
+    fb82:	1a 24       	jz	$+54     	;abs 0xfbb8
+    fb84:	3f 90 3c 00 	cmp	#60,	r15	;#0x003c
+    fb88:	e2 23       	jnz	$-58     	;abs 0xfb4e
+    fb8a:	0e 93       	tst	r14		
+    fb8c:	e0 23       	jnz	$-62     	;abs 0xfb4e
+    break; 
+    case 30:
+     c = 1;
+    break; 
+    case 60:
+     c = 0;
+    fb8e:	09 4e       	mov	r14,	r9	
+    default :
+     c = 0;
+    break; 
+  };
+
+  int x = rand ();
+    fb90:	b0 12 e8 fc 	call	#0xfce8	
+  int s = (x > 0) ? 1 : ((x < 0) ? -1 : 0);
+    fb94:	1f 93       	cmp	#1,	r15	;r3 As==01
+    fb96:	e0 37       	jge	$-62     	;abs 0xfb58
+    fb98:	0f 93       	tst	r15		
+    fb9a:	17 20       	jnz	$+48     	;abs 0xfbca
+    fb9c:	0d 43       	clr	r13		
+    fb9e:	0e 43       	clr	r14		
+
+  return(((long int )(s)*(x>>c) + tSampleMs));
+};
+    fba0:	0f 4e       	mov	r14,	r15	
+    fba2:	0e 4d       	mov	r13,	r14	
+    fba4:	0e 5a       	add	r10,	r14	
+    fba6:	0f 6b       	addc	r11,	r15	
+    fba8:	39 41       	pop	r9		
+    fbaa:	3a 41       	pop	r10		
+    fbac:	3b 41       	pop	r11		
+    fbae:	30 41       	ret			
+#define genRand02()  (rand ()%tSampleMs + (tSampleMs));
+//#define genRand03()  ((rand ()+INT_MAX)%tSampleMs) + tSampleMs/2;
+long int  genRand03(long int tSampleMs)  {
+  //return(  (rand ()+INT_MAX)%tSampleMs + tSampleMs/2);
+  int c;
+  switch (sampleTimeSec){
+    fbb0:	0e 93       	tst	r14		
+    fbb2:	c2 23       	jnz	$-122    	;abs 0xfb38
+    break; 
+    case 10:
+     c = 3;
+    break; 
+    case 20:
+     c = 2;
+    fbb4:	29 43       	mov	#2,	r9	;r3 As==10
+    fbb6:	cc 3f       	jmp	$-102    	;abs 0xfb50
+#define genRand02()  (rand ()%tSampleMs + (tSampleMs));
+//#define genRand03()  ((rand ()+INT_MAX)%tSampleMs) + tSampleMs/2;
+long int  genRand03(long int tSampleMs)  {
+  //return(  (rand ()+INT_MAX)%tSampleMs + tSampleMs/2);
+  int c;
+  switch (sampleTimeSec){
+    fbb8:	0e 93       	tst	r14		
+    fbba:	c9 23       	jnz	$-108    	;abs 0xfb4e
+    break; 
+    case 20:
+     c = 2;
+    break; 
+    case 30:
+     c = 1;
+    fbbc:	19 43       	mov	#1,	r9	;r3 As==01
+    fbbe:	c8 3f       	jmp	$-110    	;abs 0xfb50
+  switch (sampleTimeSec){
+    case 5:
+     c = 4;
+    break; 
+    case 10:
+     c = 3;
+    fbc0:	39 40 03 00 	mov	#3,	r9	;#0x0003
+    fbc4:	c5 3f       	jmp	$-116    	;abs 0xfb50
+long int  genRand03(long int tSampleMs)  {
+  //return(  (rand ()+INT_MAX)%tSampleMs + tSampleMs/2);
+  int c;
+  switch (sampleTimeSec){
+    case 5:
+     c = 4;
+    fbc6:	29 42       	mov	#4,	r9	;r2 As==10
+    fbc8:	c3 3f       	jmp	$-120    	;abs 0xfb50
+     c = 0;
+    break; 
+  };
+
+  int x = rand ();
+  int s = (x > 0) ? 1 : ((x < 0) ? -1 : 0);
+    fbca:	09 93       	tst	r9		
+    fbcc:	03 24       	jz	$+8      	;abs 0xfbd4
+    fbce:	0f 11       	rra	r15		
+    fbd0:	19 83       	dec	r9		
+    fbd2:	fd 23       	jnz	$-4      	;abs 0xfbce
+    fbd4:	0d 4f       	mov	r15,	r13	
+    fbd6:	0e 4f       	mov	r15,	r14	
+    fbd8:	8e 10       	swpb	r14		
+    fbda:	8e 11       	sxt	r14		
+    fbdc:	8e 10       	swpb	r14		
+    fbde:	8e 11       	sxt	r14		
+    fbe0:	3d e3       	inv	r13		
+    fbe2:	3e e3       	inv	r14		
+    fbe4:	1d 53       	inc	r13		
+    fbe6:	0e 63       	adc	r14		
+    fbe8:	c2 3f       	jmp	$-122    	;abs 0xfb6e
+
+0000fbea <Timer_A1>:
 
 // Timer A1 interrupt service routine
 interrupt (TIMERA1_VECTOR) Timer_A1 (void)
 {
 //   TACCTL1 &= ~CCIFG;                         /* Capture/compare interrupt flag */
    switch( TAIV )
-    fb50:	a2 93 2e 01 	cmp	#2,	&0x012e	;r3 As==10
-    fb54:	01 24       	jz	$+4      	;abs 0xfb58
+    fbea:	a2 93 2e 01 	cmp	#2,	&0x012e	;r3 As==10
+    fbee:	01 24       	jz	$+4      	;abs 0xfbf2
        _BIC_SR_IRQ(LPM3_bits);                   // Clear LPM3 bits from 0(SR)
        break;
        case  4: 
        break;
    }
 }
-    fb56:	00 13       	reti			
+    fbf0:	00 13       	reti			
    switch( TAIV )
      {
        case 10: 
        break;
        case 2:
        CCR1 += dlyCC1;
-    fb58:	92 52 04 02 	add	&0x0204,&0x0174	
-    fb5c:	74 01 
+    fbf2:	92 52 04 02 	add	&0x0204,&0x0174	
+    fbf6:	74 01 
        // TAR = 0;
        _BIC_SR_IRQ(LPM3_bits);                   // Clear LPM3 bits from 0(SR)
-    fb5e:	b1 c0 d0 00 	bic	#208,	0(r1)	;#0x00d0, 0x0000(r1)
-    fb62:	00 00 
+    fbf8:	b1 c0 d0 00 	bic	#208,	0(r1)	;#0x00d0, 0x0000(r1)
+    fbfc:	00 00 
        break;
        case  4: 
        break;
    }
 }
-    fb64:	00 13       	reti			
+    fbfe:	00 13       	reti			
 
-0000fb66 <setVloClk>:
+0000fc00 <setVloClk>:
 
 
 void setVloClk (void){
 
     BCSCTL1 |= DIVA_0;                               // ACLK / 8
     BCSCTL2 |= SELM_3 + DIVM_3 + SELS + DIVS_3;               // MCLK = LFXT1/8
-    fb66:	f2 d0 fe ff 	bis.b	#-2,	&0x0058	;#0xfffe
-    fb6a:	58 00 
+    fc00:	f2 d0 fe ff 	bis.b	#-2,	&0x0058	;#0xfffe
+    fc04:	58 00 
     BCSCTL3 |= LFXT1S_2;                      // LFXT1 = VLO
-    fb6c:	f2 d0 20 00 	bis.b	#32,	&0x0053	;#0x0020
-    fb70:	53 00 
+    fc06:	f2 d0 20 00 	bis.b	#32,	&0x0053	;#0x0020
+    fc0a:	53 00 
     IFG1 &= ~OFIFG;                           // Clear OSCFault flag
-    fb72:	f2 f0 fd ff 	and.b	#-3,	&0x0002	;#0xfffd
-    fb76:	02 00 
+    fc0c:	f2 f0 fd ff 	and.b	#-3,	&0x0002	;#0xfffd
+    fc10:	02 00 
     __bis_SR_register(SCG1 + SCG0);           // Stop DCO
-    fb78:	32 d0 c0 00 	bis	#192,	r2	;#0x00c0
+    fc12:	32 d0 c0 00 	bis	#192,	r2	;#0x00c0
 
 
     CCTL1 = CCIE;                            // interrupt enabled CC1
-    fb7c:	b2 40 10 00 	mov	#16,	&0x0164	;#0x0010
-    fb80:	64 01 
+    fc16:	b2 40 10 00 	mov	#16,	&0x0164	;#0x0010
+    fc1a:	64 01 
     CCR1 = dlyCC1;
-    fb82:	92 42 04 02 	mov	&0x0204,&0x0174	
-    fb86:	74 01 
+    fc1c:	92 42 04 02 	mov	&0x0204,&0x0174	
+    fc20:	74 01 
     TACTL = TASSEL_1 + MC_2;                 // ACLK, upmode
-    fb88:	b2 40 20 01 	mov	#288,	&0x0160	;#0x0120
-    fb8c:	60 01 
+    fc22:	b2 40 20 01 	mov	#288,	&0x0160	;#0x0120
+    fc26:	60 01 
 
 }
-    fb8e:	30 41       	ret			
+    fc28:	30 41       	ret			
 
-0000fb90 <setClockTrans>:
+0000fc2a <setClockTrans>:
 
 void setClockTrans(){
 
     BCSCTL1 = CALBC1_1MHZ;           // Set range
-    fb90:	d2 42 ff 10 	mov.b	&0x10ff,&0x0057	
-    fb94:	57 00 
+    fc2a:	d2 42 ff 10 	mov.b	&0x10ff,&0x0057	
+    fc2e:	57 00 
     DCOCTL = CALDCO_1MHZ;            // SMCLK = DCO = 1MHz
-    fb96:	d2 42 fe 10 	mov.b	&0x10fe,&0x0056	
-    fb9a:	56 00 
+    fc30:	d2 42 fe 10 	mov.b	&0x10fe,&0x0056	
+    fc34:	56 00 
     //BCSCTL2 |= SELM_1 + DIVM_0;               // MCLK = LFXT1/8
     BCSCTL2 = 0x00;               // MCLK = LFXT1/8
-    fb9c:	c2 43 58 00 	mov.b	#0,	&0x0058	;r3 As==00
+    fc36:	c2 43 58 00 	mov.b	#0,	&0x0058	;r3 As==00
 
     //CCTL0 = CCIE;                            // interrupt enabled CC1
     //CCR0 = dlyCC0;
     //TACTL = TASSEL_2 + MC_2;                 // SMCLK, upmode
 
 }
-    fba0:	30 41       	ret			
+    fc3a:	30 41       	ret			
 
-0000fba2 <deviceID>:
-    fba2:	23 00                                               #.
+0000fc3c <deviceID>:
+    fc3c:	23 00                                               #.
 
-0000fba4 <minTime>:
-    fba4:	88 13 00 00                                         ....
+0000fc3e <minTime>:
+    fc3e:	88 13 00 00                                         ....
 
-0000fba8 <Bitime>:
-    fba8:	68 00                                               h.
+0000fc42 <Bitime>:
+    fc42:	68 00                                               h.
 
-0000fbaa <asciiCode>:
-    fbaa:	30 31 32 33 34 35 36 37 38 39 41 42 43 44 45 46     0123456789ABCDEF
+0000fc44 <asciiCode>:
+    fc44:	30 31 32 33 34 35 36 37 38 39 41 42 43 44 45 46     0123456789ABCDEF
 
-0000fbba <rand_r>:
-    fbba:	0b 12       	push	r11		
-    fbbc:	0a 12       	push	r10		
-    fbbe:	09 12       	push	r9		
-    fbc0:	09 4f       	mov	r15,	r9	
-    fbc2:	2a 4f       	mov	@r15,	r10	
-    fbc4:	0b 43       	clr	r11		
-    fbc6:	0e 4a       	mov	r10,	r14	
-    fbc8:	0f 4b       	mov	r11,	r15	
-    fbca:	4f ee       	xor.b	r14,	r15	
-    fbcc:	0f ee       	xor	r14,	r15	
-    fbce:	8f 10       	swpb	r15		
-    fbd0:	7e f3       	and.b	#-1,	r14	;r3 As==11
-    fbd2:	8e 10       	swpb	r14		
-    fbd4:	0e 5e       	rla	r14		
-    fbd6:	0f 6f       	rlc	r15		
-    fbd8:	0e 8a       	sub	r10,	r14	
-    fbda:	0f 7b       	subc	r11,	r15	
-    fbdc:	0e 5e       	rla	r14		
-    fbde:	0f 6f       	rlc	r15		
-    fbe0:	0e 5e       	rla	r14		
-    fbe2:	0f 6f       	rlc	r15		
-    fbe4:	0e 5a       	add	r10,	r14	
-    fbe6:	0f 6b       	addc	r11,	r15	
-    fbe8:	0c 4e       	mov	r14,	r12	
-    fbea:	0d 4f       	mov	r15,	r13	
-    fbec:	4d ec       	xor.b	r12,	r13	
-    fbee:	0d ec       	xor	r12,	r13	
-    fbf0:	8d 10       	swpb	r13		
-    fbf2:	7c f3       	and.b	#-1,	r12	;r3 As==11
-    fbf4:	8c 10       	swpb	r12		
-    fbf6:	0c 5c       	rla	r12		
-    fbf8:	0d 6d       	rlc	r13		
-    fbfa:	0c 8e       	sub	r14,	r12	
-    fbfc:	0d 7f       	subc	r15,	r13	
-    fbfe:	0c 5c       	rla	r12		
-    fc00:	0d 6d       	rlc	r13		
-    fc02:	0c 5a       	add	r10,	r12	
-    fc04:	0d 6b       	addc	r11,	r13	
-    fc06:	0e 4c       	mov	r12,	r14	
-    fc08:	0f 4d       	mov	r13,	r15	
-    fc0a:	0e 5e       	rla	r14		
-    fc0c:	0f 6f       	rlc	r15		
-    fc0e:	0e 5e       	rla	r14		
-    fc10:	0f 6f       	rlc	r15		
-    fc12:	0e 5e       	rla	r14		
-    fc14:	0f 6f       	rlc	r15		
-    fc16:	0e 5e       	rla	r14		
-    fc18:	0f 6f       	rlc	r15		
-    fc1a:	0e 5e       	rla	r14		
-    fc1c:	0f 6f       	rlc	r15		
-    fc1e:	0e 5c       	add	r12,	r14	
-    fc20:	0f 6d       	addc	r13,	r15	
-    fc22:	0e 5e       	rla	r14		
-    fc24:	0f 6f       	rlc	r15		
-    fc26:	0e 5e       	rla	r14		
-    fc28:	0f 6f       	rlc	r15		
-    fc2a:	0e 8a       	sub	r10,	r14	
-    fc2c:	0f 7b       	subc	r11,	r15	
-    fc2e:	0e 5e       	rla	r14		
-    fc30:	0f 6f       	rlc	r15		
-    fc32:	0e 5e       	rla	r14		
-    fc34:	0f 6f       	rlc	r15		
-    fc36:	0e 5a       	add	r10,	r14	
-    fc38:	0f 6b       	addc	r11,	r15	
-    fc3a:	3e 50 39 30 	add	#12345,	r14	;#0x3039
-    fc3e:	0f 63       	adc	r15		
-    fc40:	89 4e 00 00 	mov	r14,	0(r9)	;0x0000(r9)
-    fc44:	0f 4e       	mov	r14,	r15	
-    fc46:	39 41       	pop	r9		
-    fc48:	3a 41       	pop	r10		
-    fc4a:	3b 41       	pop	r11		
-    fc4c:	30 41       	ret			
+0000fc54 <rand_r>:
+    fc54:	0b 12       	push	r11		
+    fc56:	0a 12       	push	r10		
+    fc58:	09 12       	push	r9		
+    fc5a:	09 4f       	mov	r15,	r9	
+    fc5c:	2a 4f       	mov	@r15,	r10	
+    fc5e:	0b 43       	clr	r11		
+    fc60:	0e 4a       	mov	r10,	r14	
+    fc62:	0f 4b       	mov	r11,	r15	
+    fc64:	4f ee       	xor.b	r14,	r15	
+    fc66:	0f ee       	xor	r14,	r15	
+    fc68:	8f 10       	swpb	r15		
+    fc6a:	7e f3       	and.b	#-1,	r14	;r3 As==11
+    fc6c:	8e 10       	swpb	r14		
+    fc6e:	0e 5e       	rla	r14		
+    fc70:	0f 6f       	rlc	r15		
+    fc72:	0e 8a       	sub	r10,	r14	
+    fc74:	0f 7b       	subc	r11,	r15	
+    fc76:	0e 5e       	rla	r14		
+    fc78:	0f 6f       	rlc	r15		
+    fc7a:	0e 5e       	rla	r14		
+    fc7c:	0f 6f       	rlc	r15		
+    fc7e:	0e 5a       	add	r10,	r14	
+    fc80:	0f 6b       	addc	r11,	r15	
+    fc82:	0c 4e       	mov	r14,	r12	
+    fc84:	0d 4f       	mov	r15,	r13	
+    fc86:	4d ec       	xor.b	r12,	r13	
+    fc88:	0d ec       	xor	r12,	r13	
+    fc8a:	8d 10       	swpb	r13		
+    fc8c:	7c f3       	and.b	#-1,	r12	;r3 As==11
+    fc8e:	8c 10       	swpb	r12		
+    fc90:	0c 5c       	rla	r12		
+    fc92:	0d 6d       	rlc	r13		
+    fc94:	0c 8e       	sub	r14,	r12	
+    fc96:	0d 7f       	subc	r15,	r13	
+    fc98:	0c 5c       	rla	r12		
+    fc9a:	0d 6d       	rlc	r13		
+    fc9c:	0c 5a       	add	r10,	r12	
+    fc9e:	0d 6b       	addc	r11,	r13	
+    fca0:	0e 4c       	mov	r12,	r14	
+    fca2:	0f 4d       	mov	r13,	r15	
+    fca4:	0e 5e       	rla	r14		
+    fca6:	0f 6f       	rlc	r15		
+    fca8:	0e 5e       	rla	r14		
+    fcaa:	0f 6f       	rlc	r15		
+    fcac:	0e 5e       	rla	r14		
+    fcae:	0f 6f       	rlc	r15		
+    fcb0:	0e 5e       	rla	r14		
+    fcb2:	0f 6f       	rlc	r15		
+    fcb4:	0e 5e       	rla	r14		
+    fcb6:	0f 6f       	rlc	r15		
+    fcb8:	0e 5c       	add	r12,	r14	
+    fcba:	0f 6d       	addc	r13,	r15	
+    fcbc:	0e 5e       	rla	r14		
+    fcbe:	0f 6f       	rlc	r15		
+    fcc0:	0e 5e       	rla	r14		
+    fcc2:	0f 6f       	rlc	r15		
+    fcc4:	0e 8a       	sub	r10,	r14	
+    fcc6:	0f 7b       	subc	r11,	r15	
+    fcc8:	0e 5e       	rla	r14		
+    fcca:	0f 6f       	rlc	r15		
+    fccc:	0e 5e       	rla	r14		
+    fcce:	0f 6f       	rlc	r15		
+    fcd0:	0e 5a       	add	r10,	r14	
+    fcd2:	0f 6b       	addc	r11,	r15	
+    fcd4:	3e 50 39 30 	add	#12345,	r14	;#0x3039
+    fcd8:	0f 63       	adc	r15		
+    fcda:	89 4e 00 00 	mov	r14,	0(r9)	;0x0000(r9)
+    fcde:	0f 4e       	mov	r14,	r15	
+    fce0:	39 41       	pop	r9		
+    fce2:	3a 41       	pop	r10		
+    fce4:	3b 41       	pop	r11		
+    fce6:	30 41       	ret			
 
-0000fc4e <rand>:
-    fc4e:	0b 12       	push	r11		
-    fc50:	0a 12       	push	r10		
-    fc52:	1a 42 08 02 	mov	&0x0208,r10	
-    fc56:	1b 42 0a 02 	mov	&0x020a,r11	
-    fc5a:	0e 4a       	mov	r10,	r14	
-    fc5c:	0f 4b       	mov	r11,	r15	
-    fc5e:	4f ee       	xor.b	r14,	r15	
-    fc60:	0f ee       	xor	r14,	r15	
-    fc62:	8f 10       	swpb	r15		
-    fc64:	7e f3       	and.b	#-1,	r14	;r3 As==11
-    fc66:	8e 10       	swpb	r14		
-    fc68:	0e 5e       	rla	r14		
-    fc6a:	0f 6f       	rlc	r15		
-    fc6c:	0e 8a       	sub	r10,	r14	
-    fc6e:	0f 7b       	subc	r11,	r15	
-    fc70:	0e 5e       	rla	r14		
-    fc72:	0f 6f       	rlc	r15		
-    fc74:	0e 5e       	rla	r14		
-    fc76:	0f 6f       	rlc	r15		
-    fc78:	0e 5a       	add	r10,	r14	
-    fc7a:	0f 6b       	addc	r11,	r15	
-    fc7c:	0c 4e       	mov	r14,	r12	
-    fc7e:	0d 4f       	mov	r15,	r13	
-    fc80:	4d ec       	xor.b	r12,	r13	
-    fc82:	0d ec       	xor	r12,	r13	
-    fc84:	8d 10       	swpb	r13		
-    fc86:	7c f3       	and.b	#-1,	r12	;r3 As==11
-    fc88:	8c 10       	swpb	r12		
-    fc8a:	0c 5c       	rla	r12		
-    fc8c:	0d 6d       	rlc	r13		
-    fc8e:	0c 8e       	sub	r14,	r12	
-    fc90:	0d 7f       	subc	r15,	r13	
-    fc92:	0c 5c       	rla	r12		
-    fc94:	0d 6d       	rlc	r13		
-    fc96:	0c 5a       	add	r10,	r12	
-    fc98:	0d 6b       	addc	r11,	r13	
-    fc9a:	0e 4c       	mov	r12,	r14	
-    fc9c:	0f 4d       	mov	r13,	r15	
-    fc9e:	0e 5e       	rla	r14		
-    fca0:	0f 6f       	rlc	r15		
-    fca2:	0e 5e       	rla	r14		
-    fca4:	0f 6f       	rlc	r15		
-    fca6:	0e 5e       	rla	r14		
-    fca8:	0f 6f       	rlc	r15		
-    fcaa:	0e 5e       	rla	r14		
-    fcac:	0f 6f       	rlc	r15		
-    fcae:	0e 5e       	rla	r14		
-    fcb0:	0f 6f       	rlc	r15		
-    fcb2:	0e 5c       	add	r12,	r14	
-    fcb4:	0f 6d       	addc	r13,	r15	
-    fcb6:	0e 5e       	rla	r14		
-    fcb8:	0f 6f       	rlc	r15		
-    fcba:	0e 5e       	rla	r14		
-    fcbc:	0f 6f       	rlc	r15		
-    fcbe:	0e 8a       	sub	r10,	r14	
-    fcc0:	0f 7b       	subc	r11,	r15	
-    fcc2:	0e 5e       	rla	r14		
-    fcc4:	0f 6f       	rlc	r15		
-    fcc6:	0e 5e       	rla	r14		
-    fcc8:	0f 6f       	rlc	r15		
-    fcca:	0e 5a       	add	r10,	r14	
-    fccc:	0f 6b       	addc	r11,	r15	
-    fcce:	3e 50 39 30 	add	#12345,	r14	;#0x3039
-    fcd2:	0f 63       	adc	r15		
-    fcd4:	82 4e 08 02 	mov	r14,	&0x0208	
-    fcd8:	82 4f 0a 02 	mov	r15,	&0x020a	
-    fcdc:	0f 4e       	mov	r14,	r15	
-    fcde:	3a 41       	pop	r10		
-    fce0:	3b 41       	pop	r11		
-    fce2:	30 41       	ret			
+0000fce8 <rand>:
+    fce8:	0b 12       	push	r11		
+    fcea:	0a 12       	push	r10		
+    fcec:	1a 42 08 02 	mov	&0x0208,r10	
+    fcf0:	1b 42 0a 02 	mov	&0x020a,r11	
+    fcf4:	0e 4a       	mov	r10,	r14	
+    fcf6:	0f 4b       	mov	r11,	r15	
+    fcf8:	4f ee       	xor.b	r14,	r15	
+    fcfa:	0f ee       	xor	r14,	r15	
+    fcfc:	8f 10       	swpb	r15		
+    fcfe:	7e f3       	and.b	#-1,	r14	;r3 As==11
+    fd00:	8e 10       	swpb	r14		
+    fd02:	0e 5e       	rla	r14		
+    fd04:	0f 6f       	rlc	r15		
+    fd06:	0e 8a       	sub	r10,	r14	
+    fd08:	0f 7b       	subc	r11,	r15	
+    fd0a:	0e 5e       	rla	r14		
+    fd0c:	0f 6f       	rlc	r15		
+    fd0e:	0e 5e       	rla	r14		
+    fd10:	0f 6f       	rlc	r15		
+    fd12:	0e 5a       	add	r10,	r14	
+    fd14:	0f 6b       	addc	r11,	r15	
+    fd16:	0c 4e       	mov	r14,	r12	
+    fd18:	0d 4f       	mov	r15,	r13	
+    fd1a:	4d ec       	xor.b	r12,	r13	
+    fd1c:	0d ec       	xor	r12,	r13	
+    fd1e:	8d 10       	swpb	r13		
+    fd20:	7c f3       	and.b	#-1,	r12	;r3 As==11
+    fd22:	8c 10       	swpb	r12		
+    fd24:	0c 5c       	rla	r12		
+    fd26:	0d 6d       	rlc	r13		
+    fd28:	0c 8e       	sub	r14,	r12	
+    fd2a:	0d 7f       	subc	r15,	r13	
+    fd2c:	0c 5c       	rla	r12		
+    fd2e:	0d 6d       	rlc	r13		
+    fd30:	0c 5a       	add	r10,	r12	
+    fd32:	0d 6b       	addc	r11,	r13	
+    fd34:	0e 4c       	mov	r12,	r14	
+    fd36:	0f 4d       	mov	r13,	r15	
+    fd38:	0e 5e       	rla	r14		
+    fd3a:	0f 6f       	rlc	r15		
+    fd3c:	0e 5e       	rla	r14		
+    fd3e:	0f 6f       	rlc	r15		
+    fd40:	0e 5e       	rla	r14		
+    fd42:	0f 6f       	rlc	r15		
+    fd44:	0e 5e       	rla	r14		
+    fd46:	0f 6f       	rlc	r15		
+    fd48:	0e 5e       	rla	r14		
+    fd4a:	0f 6f       	rlc	r15		
+    fd4c:	0e 5c       	add	r12,	r14	
+    fd4e:	0f 6d       	addc	r13,	r15	
+    fd50:	0e 5e       	rla	r14		
+    fd52:	0f 6f       	rlc	r15		
+    fd54:	0e 5e       	rla	r14		
+    fd56:	0f 6f       	rlc	r15		
+    fd58:	0e 8a       	sub	r10,	r14	
+    fd5a:	0f 7b       	subc	r11,	r15	
+    fd5c:	0e 5e       	rla	r14		
+    fd5e:	0f 6f       	rlc	r15		
+    fd60:	0e 5e       	rla	r14		
+    fd62:	0f 6f       	rlc	r15		
+    fd64:	0e 5a       	add	r10,	r14	
+    fd66:	0f 6b       	addc	r11,	r15	
+    fd68:	3e 50 39 30 	add	#12345,	r14	;#0x3039
+    fd6c:	0f 63       	adc	r15		
+    fd6e:	82 4e 08 02 	mov	r14,	&0x0208	
+    fd72:	82 4f 0a 02 	mov	r15,	&0x020a	
+    fd76:	0f 4e       	mov	r14,	r15	
+    fd78:	3a 41       	pop	r10		
+    fd7a:	3b 41       	pop	r11		
+    fd7c:	30 41       	ret			
 
-0000fce4 <srand>:
-    fce4:	82 4f 08 02 	mov	r15,	&0x0208	
-    fce8:	82 43 0a 02 	mov	#0,	&0x020a	;r3 As==00
-    fcec:	30 41       	ret			
+0000fd7e <srand>:
+    fd7e:	82 4f 08 02 	mov	r15,	&0x0208	
+    fd82:	82 43 0a 02 	mov	#0,	&0x020a	;r3 As==00
+    fd86:	30 41       	ret			
 
-0000fcee <__udivmodsi4>:
-    fcee:	0f ef       	xor	r15,	r15	
-    fcf0:	0e ee       	xor	r14,	r14	
-    fcf2:	39 40 21 00 	mov	#33,	r9	;#0x0021
-    fcf6:	0a 3c       	jmp	$+22     	;abs 0xfd0c
-    fcf8:	08 10       	rrc	r8		
-    fcfa:	0e 6e       	rlc	r14		
-    fcfc:	0f 6f       	rlc	r15		
-    fcfe:	0f 9b       	cmp	r11,	r15	
-    fd00:	05 28       	jnc	$+12     	;abs 0xfd0c
-    fd02:	02 20       	jnz	$+6      	;abs 0xfd08
-    fd04:	0e 9a       	cmp	r10,	r14	
-    fd06:	02 28       	jnc	$+6      	;abs 0xfd0c
-    fd08:	0e 8a       	sub	r10,	r14	
-    fd0a:	0f 7b       	subc	r11,	r15	
-    fd0c:	0c 6c       	rlc	r12		
-    fd0e:	0d 6d       	rlc	r13		
-    fd10:	08 68       	rlc	r8		
-    fd12:	19 83       	dec	r9		
-    fd14:	f1 23       	jnz	$-28     	;abs 0xfcf8
-    fd16:	30 41       	ret			
-
-0000fd18 <_unexpected_>:
-    fd18:	00 13       	reti			
+0000fd88 <_unexpected_>:
+    fd88:	00 13       	reti			
 
 Disassembly of section .vectors:
 
 0000ffe0 <__ivtbl_16>:
-    ffe0:	6a f9 6a f9 6a f9 6a f9 6a f9 98 f9 6a f9 6a f9     j.j.j.j.j...j.j.
-    fff0:	50 fb e0 f9 6a f9 6a f9 6a f9 6a f9 6a f9 00 f8     P...j.j.j.j.j...
+    ffe0:	3a f9 3a f9 3a f9 3a f9 3a f9 68 f9 3a f9 3a f9     :.:.:.:.:.h.:.:.
+    fff0:	ea fb b0 f9 3a f9 3a f9 3a f9 3a f9 3a f9 00 f8     ....:.:.:.:.:...
